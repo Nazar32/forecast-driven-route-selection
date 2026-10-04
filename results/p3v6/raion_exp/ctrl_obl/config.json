@@ -1,0 +1,17 @@
+{
+ "cfg": {
+  "feats": [
+   "base",
+   "inst",
+   "lags",
+   "regime",
+   "onset"
+  ],
+  "truth": "oblast_any"
+ },
+ "win": {
+  "T_CAL": "2025-12-01 00:00",
+  "T_EVAL": "2026-01-01 00:00",
+  "T_END": "2026-02-28 23:00"
+ }
+}

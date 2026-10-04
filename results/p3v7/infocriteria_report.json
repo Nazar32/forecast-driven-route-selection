@@ -1,0 +1,192 @@
+{
+ "coverage": {
+  "by_corridor": {
+   "dnipro_kyiv": {
+    "matched": 0.978,
+    "surface_tag": 0.879,
+    "maxspeed_tag": 0.831,
+    "ors_surface_unknown": 0.125
+   },
+   "kharkiv_lviv": {
+    "matched": 0.992,
+    "surface_tag": 0.909,
+    "maxspeed_tag": 0.886,
+    "ors_surface_unknown": 0.093
+   },
+   "lviv_kyiv": {
+    "matched": 0.981,
+    "surface_tag": 0.886,
+    "maxspeed_tag": 0.851,
+    "ors_surface_unknown": 0.12
+   },
+   "odesa_kyiv": {
+    "matched": 0.982,
+    "surface_tag": 0.937,
+    "maxspeed_tag": 0.871,
+    "ors_surface_unknown": 0.069
+   }
+  },
+  "all": {
+   "matched": 0.983,
+   "surface_tag": 0.902,
+   "maxspeed_tag": 0.859,
+   "ors_surface_unknown": 0.103
+  }
+ },
+ "coverage_sec": 72.2,
+ "agreement": {
+  "F_ref": [
+   13.1051,
+   13.0131,
+   12.9191,
+   12.8315,
+   13.5955,
+   12.8835,
+   13.1064,
+   12.8469,
+   13.6313,
+   13.5439
+  ],
+  "F_osm4": [
+   12.8927,
+   12.8133,
+   12.8516,
+   12.5675,
+   13.5938,
+   12.783,
+   12.894,
+   12.5867,
+   13.6282,
+   13.4451
+  ],
+  "F_osm5": [
+   12.8689,
+   12.8007,
+   12.8228,
+   12.5281,
+   13.5711,
+   12.7518,
+   12.8703,
+   12.5696,
+   13.6155,
+   13.4064
+  ],
+  "rank_ref": [
+   6,
+   5,
+   4,
+   1,
+   9,
+   3,
+   7,
+   2,
+   10,
+   8
+  ],
+  "rank_osm4": [
+   6,
+   4,
+   5,
+   1,
+   9,
+   3,
+   7,
+   2,
+   10,
+   8
+  ],
+  "rank_osm5": [
+   6,
+   4,
+   5,
+   1,
+   9,
+   3,
+   7,
+   2,
+   10,
+   8
+  ],
+  "optimum_ref": "R4",
+  "optimum_osm4": "R4",
+  "optimum_osm5": "R4",
+  "kendall_osm4": 0.9555555555555554,
+  "kendall_osm5": 0.9555555555555554,
+  "spearman_osm4": 0.9878787878787878,
+  "spearman_osm5": 0.9878787878787878
+ },
+ "criteria_summary": {
+  "rail_min": {
+   "dnipro_kyiv": 2,
+   "kharkiv_lviv": 3,
+   "lviv_kyiv": 1,
+   "odesa_kyiv": 1
+  },
+  "rail_max": {
+   "dnipro_kyiv": 13,
+   "kharkiv_lviv": 12,
+   "lviv_kyiv": 7,
+   "odesa_kyiv": 12
+  },
+  "junction_min": {
+   "dnipro_kyiv": 191,
+   "kharkiv_lviv": 519,
+   "lviv_kyiv": 183,
+   "odesa_kyiv": 130
+  },
+  "junction_max": {
+   "dnipro_kyiv": 297,
+   "kharkiv_lviv": 583,
+   "lviv_kyiv": 350,
+   "odesa_kyiv": 311
+  },
+  "settle_km_min": {
+   "dnipro_kyiv": 65.2,
+   "kharkiv_lviv": 158.5,
+   "lviv_kyiv": 78.1,
+   "odesa_kyiv": 27.5
+  },
+  "settle_km_max": {
+   "dnipro_kyiv": 111.8,
+   "kharkiv_lviv": 202.4,
+   "lviv_kyiv": 141.4,
+   "odesa_kyiv": 134.1
+  },
+  "bridges_min": {
+   "dnipro_kyiv": 32,
+   "kharkiv_lviv": 85,
+   "lviv_kyiv": 51,
+   "odesa_kyiv": 48
+  },
+  "bridges_max": {
+   "dnipro_kyiv": 68,
+   "kharkiv_lviv": 119,
+   "lviv_kyiv": 65,
+   "odesa_kyiv": 63
+  },
+  "poor_km_min": {
+   "dnipro_kyiv": 24.3,
+   "kharkiv_lviv": 34.1,
+   "lviv_kyiv": 3.5,
+   "odesa_kyiv": 4.2
+  },
+  "poor_km_max": {
+   "dnipro_kyiv": 146.2,
+   "kharkiv_lviv": 161.5,
+   "lviv_kyiv": 151.0,
+   "odesa_kyiv": 80.5
+  },
+  "D_km_min": {
+   "dnipro_kyiv": 483.0,
+   "kharkiv_lviv": 1028.0,
+   "lviv_kyiv": 540.1,
+   "odesa_kyiv": 488.2
+  },
+  "D_km_max": {
+   "dnipro_kyiv": 824.4,
+   "kharkiv_lviv": 1160.9,
+   "lviv_kyiv": 625.5,
+   "odesa_kyiv": 774.5
+  }
+ }
+}

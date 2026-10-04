@@ -1,0 +1,5 @@
+# PostgreSQL 16 with pgRouting from the PGDG packages (native arm64 and amd64; the official
+# pgrouting/pgrouting image is amd64-only and runs emulated on Apple silicon).
+FROM postgres:16
+RUN apt-get update && apt-get install -y --no-install-recommends postgresql-16-pgrouting \
+    && rm -rf /var/lib/apt/lists/*

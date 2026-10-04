@@ -1,0 +1,2483 @@
+{
+  "n_hours": 3663,
+  "hours": [
+    "2024-07-31 15:00:00+00:00",
+    "2024-12-31 05:00:00+00:00"
+  ],
+  "corridors": {
+    "lviv_kyiv": {
+      "routes": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R8",
+        "R9",
+        "R10"
+      ],
+      "duplicates_removed": {
+        "R7": "R1"
+      },
+      "oblasts": [
+        "Волинська область",
+        "Вінницька область",
+        "Житомирська область",
+        "Київська область",
+        "Львівська область",
+        "Рівненська область",
+        "Тернопільська область",
+        "Хмельницька область",
+        "м. Київ"
+      ],
+      "static_pretest": "R2",
+      "static_hindsight": "R9",
+      "static_pretest_aes": "R9",
+      "static_hindsight_aes": "R9",
+      "fastest": "R2",
+      "shortest": "R2",
+      "strategies": {
+        "fastest": {
+          "mean_KUA": 72.43681276871271,
+          "mean_share": 0.13410712966773647,
+          "mean_hours_ua": 0.9687931643800523,
+          "impr_hours_ua_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_share_pct": -5.674247955652709,
+          "mean_AES8": 0.3659430463514463,
+          "impr_KUA_vs_static_pretest_pct": 0.0,
+          "impr_KUA_vs_static_hindsight_pct": -3.550052972721134,
+          "impr_AES8_vs_static_pretest_aes_pct": -6.087587361662797,
+          "mean_D_km": 540.1414000000002,
+          "mean_T_h": 8.113833333333332,
+          "dT_vs_static_min": 0.0,
+          "dD_vs_static_km": 2.2737367544323206e-13,
+          "pct_hours_off_static": 0.0,
+          "churn": 0,
+          "block_boot_ci_impr_pct": [
+            0.0,
+            0.0
+          ]
+        },
+        "shortest": {
+          "mean_KUA": 72.43681276871271,
+          "mean_share": 0.13410712966773647,
+          "mean_hours_ua": 0.9687931643800523,
+          "impr_hours_ua_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_share_pct": -5.674247955652709,
+          "mean_AES8": 0.3659430463514463,
+          "impr_KUA_vs_static_pretest_pct": 0.0,
+          "impr_KUA_vs_static_hindsight_pct": -3.550052972721134,
+          "impr_AES8_vs_static_pretest_aes_pct": -6.087587361662797,
+          "mean_D_km": 540.1414000000002,
+          "mean_T_h": 8.113833333333332,
+          "dT_vs_static_min": 0.0,
+          "dD_vs_static_km": 2.2737367544323206e-13,
+          "pct_hours_off_static": 0.0,
+          "churn": 0,
+          "block_boot_ci_impr_pct": [
+            0.0,
+            0.0
+          ]
+        },
+        "static_pretest": {
+          "mean_KUA": 72.43681276871271,
+          "mean_share": 0.13410712966773647,
+          "mean_hours_ua": 0.9687931643800523,
+          "impr_hours_ua_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_share_pct": -5.674247955652709,
+          "mean_AES8": 0.3659430463514463,
+          "impr_KUA_vs_static_pretest_pct": 0.0,
+          "impr_KUA_vs_static_hindsight_pct": -3.550052972721134,
+          "impr_AES8_vs_static_pretest_aes_pct": -6.087587361662797,
+          "mean_D_km": 540.1414000000002,
+          "mean_T_h": 8.113833333333332,
+          "dT_vs_static_min": 0.0,
+          "dD_vs_static_km": 2.2737367544323206e-13,
+          "pct_hours_off_static": 0.0,
+          "churn": 0
+        },
+        "static_hindsight": {
+          "mean_KUA": 69.95342898356142,
+          "mean_share": 0.12690615950635004,
+          "mean_hours_ua": 0.9351883115081339,
+          "impr_hours_ua_vs_static_pretest_pct": 3.468733482798955,
+          "impr_share_vs_static_pretest_pct": 5.369565495307774,
+          "impr_share_vs_static_share_pct": 0.0,
+          "mean_AES8": 0.3449442629927206,
+          "impr_KUA_vs_static_pretest_pct": 3.428344912248715,
+          "impr_KUA_vs_static_hindsight_pct": 0.0,
+          "impr_AES8_vs_static_pretest_aes_pct": 0.0,
+          "mean_D_km": 551.2216999999999,
+          "mean_T_h": 8.446416666666664,
+          "dT_vs_static_min": 19.954999999999927,
+          "dD_vs_static_km": 11.080299999999966,
+          "pct_hours_off_static": 100.0,
+          "churn": 0,
+          "wilcoxon_p_vs_static": 0.000445014206594524,
+          "block_boot_ci_impr_pct": [
+            2.332850030183558,
+            4.53078091414905
+          ]
+        },
+        "reactive": {
+          "mean_KUA": 70.83895653772755,
+          "mean_share": 0.12858652868255335,
+          "mean_hours_ua": 0.952908965072651,
+          "impr_hours_ua_vs_static_pretest_pct": 1.6395862286627338,
+          "impr_share_vs_static_pretest_pct": 4.1165603938142175,
+          "impr_share_vs_static_share_pct": -1.324103717849279,
+          "mean_AES8": 0.3550944877204937,
+          "impr_KUA_vs_static_pretest_pct": 2.205862143723851,
+          "impr_KUA_vs_static_hindsight_pct": -1.2658815543898845,
+          "impr_AES8_vs_static_pretest_aes_pct": -2.9425695153501676,
+          "mean_D_km": 547.4972203112204,
+          "mean_T_h": 8.258621485121484,
+          "dT_vs_static_min": 8.687289107289118,
+          "dD_vs_static_km": 7.355820311220441,
+          "pct_hours_off_static": 25.389025389025388,
+          "churn": 682,
+          "wilcoxon_p_vs_static": 5.047279944880541e-07,
+          "block_boot_ci_impr_pct": [
+            0.9627594914420923,
+            3.478368898300211
+          ]
+        },
+        "climatology": {
+          "mean_KUA": 71.28615094435094,
+          "mean_share": 0.1305839603030647,
+          "mean_hours_ua": 0.9581199019634709,
+          "impr_hours_ua_vs_static_pretest_pct": 1.1017070319041118,
+          "impr_share_vs_static_pretest_pct": 2.6271305436189367,
+          "impr_share_vs_static_share_pct": -2.8980475108701467,
+          "mean_AES8": 0.3584219565785392,
+          "impr_KUA_vs_static_pretest_pct": 1.5885042154405453,
+          "impr_KUA_vs_static_hindsight_pct": -1.9051560161585412,
+          "impr_AES8_vs_static_pretest_aes_pct": -3.907209086154029,
+          "mean_D_km": 545.9537073983075,
+          "mean_T_h": 8.29010813085813,
+          "dT_vs_static_min": 10.576487851487855,
+          "dD_vs_static_km": 5.812307398307553,
+          "pct_hours_off_static": 37.45563745563746,
+          "churn": 1131,
+          "wilcoxon_p_vs_static": 0.036572513924156246,
+          "block_boot_ci_impr_pct": [
+            0.6301804931420988,
+            2.592313615012446
+          ]
+        },
+        "pred_h6_retro": {
+          "mean_KUA": 65.67314336182051,
+          "mean_share": 0.11681789299860873,
+          "mean_hours_ua": 0.8862335369707202,
+          "impr_hours_ua_vs_static_pretest_pct": 8.521904411058005,
+          "impr_share_vs_static_pretest_pct": 12.892108504569082,
+          "impr_share_vs_static_share_pct": 7.949390752177412,
+          "mean_AES8": 0.34397403720460945,
+          "impr_KUA_vs_static_pretest_pct": 9.337337119577969,
+          "impr_KUA_vs_static_hindsight_pct": 6.118764560843406,
+          "impr_AES8_vs_static_pretest_aes_pct": 0.281270307177597,
+          "mean_D_km": 556.0659181545182,
+          "mean_T_h": 8.50340519307186,
+          "dT_vs_static_min": 23.374311584311656,
+          "dD_vs_static_km": 15.924518154518182,
+          "pct_hours_off_static": 95.22249522249521,
+          "churn": 337,
+          "wilcoxon_p_vs_static": 6.891053352056335e-18,
+          "block_boot_ci_impr_pct": [
+            7.590895416921767,
+            11.146767965579759
+          ]
+        },
+        "pred_h6": {
+          "mean_KUA": 70.03160806848172,
+          "mean_share": 0.12708556626841788,
+          "mean_hours_ua": 0.9365401774744915,
+          "impr_hours_ua_vs_static_pretest_pct": 3.3291922457153205,
+          "impr_share_vs_static_pretest_pct": 5.235786804709933,
+          "impr_share_vs_static_share_pct": -0.14136962521418775,
+          "mean_AES8": 0.34525000743112433,
+          "impr_KUA_vs_static_pretest_pct": 3.320417627858227,
+          "impr_KUA_vs_static_hindsight_pct": -0.1117587601583691,
+          "impr_AES8_vs_static_pretest_aes_pct": -0.08863589605785287,
+          "mean_D_km": 550.8973071253071,
+          "mean_T_h": 8.436624670124669,
+          "dT_vs_static_min": 19.3674802074802,
+          "dD_vs_static_km": 10.75590712530709,
+          "pct_hours_off_static": 96.80589680589681,
+          "churn": 18,
+          "wilcoxon_p_vs_static": 0.0005237450513372272,
+          "block_boot_ci_impr_pct": [
+            2.2365184464952472,
+            4.4071213487720415
+          ]
+        },
+        "pred_sched": {
+          "mean_KUA": 70.4028802316188,
+          "mean_share": 0.12757081609012427,
+          "mean_hours_ua": 0.9427517194544873,
+          "impr_hours_ua_vs_static_pretest_pct": 2.6880293836744094,
+          "impr_share_vs_static_pretest_pct": 4.873949352138512,
+          "impr_share_vs_static_share_pct": -0.5237386320409289,
+          "mean_AES8": 0.34466615466479555,
+          "impr_KUA_vs_static_pretest_pct": 2.8078713838337523,
+          "impr_KUA_vs_static_hindsight_pct": -0.6425006673554055,
+          "impr_AES8_vs_static_pretest_aes_pct": 0.08062413489998776,
+          "mean_D_km": 551.5037285831286,
+          "mean_T_h": 8.445449290199289,
+          "dT_vs_static_min": 19.896957411957388,
+          "dD_vs_static_km": 11.362328583128601,
+          "pct_hours_off_static": 96.64209664209665,
+          "churn": 84,
+          "wilcoxon_p_vs_static": 0.003867437589274875,
+          "block_boot_ci_impr_pct": [
+            1.6941670382941418,
+            3.952368714488603
+          ]
+        },
+        "static_share": {
+          "mean_KUA": 69.95342898356142,
+          "mean_share": 0.12690615950635004,
+          "mean_hours_ua": 0.9351883115081339,
+          "impr_hours_ua_vs_static_pretest_pct": 3.468733482798955,
+          "impr_share_vs_static_pretest_pct": 5.369565495307774,
+          "impr_share_vs_static_share_pct": 0.0,
+          "mean_AES8": 0.3449442629927206,
+          "impr_KUA_vs_static_pretest_pct": 3.428344912248715,
+          "impr_KUA_vs_static_hindsight_pct": 0.0,
+          "impr_AES8_vs_static_pretest_aes_pct": 0.0,
+          "mean_D_km": 551.2216999999999,
+          "mean_T_h": 8.446416666666664,
+          "dT_vs_static_min": 19.954999999999927,
+          "dD_vs_static_km": 11.080299999999966,
+          "pct_hours_off_static": 100.0,
+          "churn": 0,
+          "wilcoxon_p_vs_static": 0.000445014206594524,
+          "block_boot_ci_impr_pct": [
+            2.332850030183558,
+            4.53078091414905
+          ]
+        },
+        "pred_share": {
+          "mean_KUA": 71.54180604907368,
+          "mean_share": 0.1271178357291278,
+          "mean_hours_ua": 0.9672579296058247,
+          "impr_hours_ua_vs_static_pretest_pct": 0.15846878680342372,
+          "impr_share_vs_static_pretest_pct": 5.211724354943193,
+          "impr_share_vs_static_share_pct": -0.16679743804489705,
+          "mean_AES8": 0.34634674078825,
+          "impr_KUA_vs_static_pretest_pct": 1.2355688847005757,
+          "impr_KUA_vs_static_hindsight_pct": -2.270620738099228,
+          "impr_AES8_vs_static_pretest_aes_pct": -0.4065809888709556,
+          "mean_D_km": 559.7679145782146,
+          "mean_T_h": 8.563041753875085,
+          "dT_vs_static_min": 26.95250523250518,
+          "dD_vs_static_km": 19.626514578214596,
+          "pct_hours_off_static": 99.89079989079988,
+          "churn": 354,
+          "wilcoxon_p_vs_static": 0.7641881332606195,
+          "block_boot_ci_impr_pct": [
+            -0.4720310736929731,
+            2.8292513657360825
+          ]
+        },
+        "pred_share_leaky": {
+          "mean_KUA": 73.44164184092845,
+          "mean_share": 0.12873176365006886,
+          "mean_hours_ua": 1.0272746363255962,
+          "impr_hours_ua_vs_static_pretest_pct": -6.036528135803612,
+          "impr_share_vs_static_pretest_pct": 4.008262671034422,
+          "impr_share_vs_static_share_pct": -1.4385465219499254,
+          "mean_AES8": 0.354952533030822,
+          "impr_KUA_vs_static_pretest_pct": -1.3871801281816651,
+          "impr_KUA_vs_static_hindsight_pct": -4.986478730280309,
+          "impr_AES8_vs_static_pretest_aes_pct": -2.90141657996285,
+          "mean_D_km": 574.8221445536445,
+          "mean_T_h": 8.81882141232141,
+          "dT_vs_static_min": 42.29928473928471,
+          "dD_vs_static_km": 34.68074455364456,
+          "pct_hours_off_static": 81.2994812994813,
+          "churn": 1937,
+          "wilcoxon_p_vs_static": 0.0005930841339247526,
+          "block_boot_ci_impr_pct": [
+            -3.3222907986307604,
+            0.44025036028917186
+          ]
+        },
+        "pred_sched_leaky": {
+          "mean_KUA": 71.08569914394317,
+          "mean_share": 0.1281008497363637,
+          "mean_hours_ua": 0.9724001328013508,
+          "impr_hours_ua_vs_static_pretest_pct": -0.37231563494843173,
+          "impr_share_vs_static_pretest_pct": 4.478717832716207,
+          "impr_share_vs_static_share_pct": -0.9413965678741496,
+          "mean_AES8": 0.3535260270646509,
+          "impr_KUA_vs_static_pretest_pct": 1.8652306377471084,
+          "impr_KUA_vs_static_hindsight_pct": -1.618605659270579,
+          "impr_AES8_vs_static_pretest_aes_pct": -2.4878697785767914,
+          "mean_D_km": 555.3126477204478,
+          "mean_T_h": 8.498930058846724,
+          "dT_vs_static_min": 23.10580353080354,
+          "dD_vs_static_km": 15.17124772044781,
+          "pct_hours_off_static": 61.23396123396123,
+          "churn": 1616,
+          "wilcoxon_p_vs_static": 0.10111414189254862,
+          "block_boot_ci_impr_pct": [
+            0.44343796115820105,
+            3.135223170301961
+          ]
+        },
+        "reactive_leaky": {
+          "mean_KUA": 70.53268853069584,
+          "mean_share": 0.12734062013275638,
+          "mean_hours_ua": 0.9495353129995149,
+          "impr_hours_ua_vs_static_pretest_pct": 1.9878186684833608,
+          "impr_share_vs_static_pretest_pct": 5.045600149481076,
+          "impr_share_vs_static_share_pct": -0.3423479428392929,
+          "mean_AES8": 0.35039882853882914,
+          "impr_KUA_vs_static_pretest_pct": 2.628669270825947,
+          "impr_KUA_vs_static_hindsight_pct": -0.8280645503032237,
+          "impr_AES8_vs_static_pretest_aes_pct": -1.5812889592031505,
+          "mean_D_km": 549.3018131859133,
+          "mean_T_h": 8.295675129675129,
+          "dT_vs_static_min": 10.910507780507785,
+          "dD_vs_static_km": 9.160413185913285,
+          "pct_hours_off_static": 33.08763308763309,
+          "churn": 742,
+          "wilcoxon_p_vs_static": 2.150036394086493e-08,
+          "block_boot_ci_impr_pct": [
+            1.1069103905504054,
+            4.200239194802713
+          ]
+        },
+        "oracle": {
+          "mean_KUA": 56.25836497843977,
+          "mean_share": 0.09883430109836247,
+          "mean_hours_ua": 0.7823614287378866,
+          "impr_hours_ua_vs_static_pretest_pct": 19.243708822147457,
+          "impr_share_vs_static_pretest_pct": 26.301978617218847,
+          "impr_share_vs_static_share_pct": 22.12017014554989,
+          "mean_AES8": 0.3526308220641316,
+          "impr_KUA_vs_static_pretest_pct": 22.33456604714229,
+          "impr_KUA_vs_static_hindsight_pct": 19.577402000322095,
+          "impr_AES8_vs_static_pretest_aes_pct": -2.228348140862756,
+          "mean_D_km": 570.5435740103741,
+          "mean_T_h": 8.621037871204535,
+          "dT_vs_static_min": 30.4322722722722,
+          "dD_vs_static_km": 30.402174010374097,
+          "pct_hours_off_static": 81.27218127218127,
+          "churn": 1423,
+          "wilcoxon_p_vs_static": 2.400755730686682e-229,
+          "block_boot_ci_impr_pct": [
+            20.282872685423676,
+            24.537213057057567
+          ]
+        }
+      },
+      "epsilon": [
+        {
+          "eps": 0.0,
+          "n_allowed": 1,
+          "static_in_set": "R2",
+          "static_KUA": 72.43681276871271,
+          "pred_KUA": 72.43681276871271,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 8.113833333333332,
+          "mean_D_km": 540.1414000000002
+        },
+        {
+          "eps": 0.02,
+          "n_allowed": 1,
+          "static_in_set": "R2",
+          "static_KUA": 72.43681276871271,
+          "pred_KUA": 72.43681276871271,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 8.113833333333332,
+          "mean_D_km": 540.1414000000002
+        },
+        {
+          "eps": 0.05,
+          "n_allowed": 2,
+          "static_in_set": "R2",
+          "static_KUA": 72.43681276871271,
+          "pred_KUA": 70.00512729302463,
+          "impr_vs_same_set_static_pct": 3.356974696626065,
+          "mean_T_h": 8.434613272363272,
+          "mean_D_km": 550.8284597597598
+        },
+        {
+          "eps": 0.1,
+          "n_allowed": 5,
+          "static_in_set": "R2",
+          "static_KUA": 72.43681276871271,
+          "pred_KUA": 70.19077955881978,
+          "impr_vs_same_set_static_pct": 3.1006792320700325,
+          "mean_T_h": 8.439237919737918,
+          "mean_D_km": 550.9913462735462
+        },
+        {
+          "eps": 0.2,
+          "n_allowed": 9,
+          "static_in_set": "R2",
+          "static_KUA": 72.43681276871271,
+          "pred_KUA": 70.4028802316188,
+          "impr_vs_same_set_static_pct": 2.8078713838337523,
+          "mean_T_h": 8.445449290199289,
+          "mean_D_km": 551.5037285831286
+        },
+        {
+          "eps": 0.5,
+          "n_allowed": 9,
+          "static_in_set": "R2",
+          "static_KUA": 72.43681276871271,
+          "pred_KUA": 70.4028802316188,
+          "impr_vs_same_set_static_pct": 2.8078713838337523,
+          "mean_T_h": 8.445449290199289,
+          "mean_D_km": 551.5037285831286
+        },
+        {
+          "eps": "inf",
+          "n_allowed": 9,
+          "static_in_set": "R2",
+          "static_KUA": 72.43681276871271,
+          "pred_KUA": 70.4028802316188,
+          "impr_vs_same_set_static_pct": 2.8078713838337523,
+          "mean_T_h": 8.445449290199289,
+          "mean_D_km": 551.5037285831286
+        }
+      ],
+      "lambda": [
+        {
+          "lambda": 0,
+          "KUA": 70.4028802316188,
+          "share": 0.12757081609012427,
+          "T_h": 8.445449290199289,
+          "D_km": 551.5037285831286
+        },
+        {
+          "lambda": 0.005,
+          "KUA": 70.4028802316188,
+          "share": 0.12757081609012427,
+          "T_h": 8.44530949130949,
+          "D_km": 551.5036479661479
+        },
+        {
+          "lambda": 0.01,
+          "KUA": 70.35749593505217,
+          "share": 0.12754568991632315,
+          "T_h": 8.434646419146418,
+          "D_km": 551.1279461097462
+        },
+        {
+          "lambda": 0.02,
+          "KUA": 70.42839422922198,
+          "share": 0.12794474989087176,
+          "T_h": 8.385155337155336,
+          "D_km": 549.3902894075894
+        },
+        {
+          "lambda": 0.05,
+          "KUA": 70.35417573899169,
+          "share": 0.12846112357148043,
+          "T_h": 8.30270988412655,
+          "D_km": 546.5962808626808
+        },
+        {
+          "lambda": 0.1,
+          "KUA": 70.46270855724445,
+          "share": 0.1296890921381434,
+          "T_h": 8.181833538083536,
+          "D_km": 542.570966912367
+        },
+        {
+          "lambda": 0.2,
+          "KUA": 71.67574310105259,
+          "share": 0.13227060453882944,
+          "T_h": 8.146676039676038,
+          "D_km": 541.4031183183184
+        },
+        {
+          "lambda": 0.5,
+          "KUA": 72.05709267958368,
+          "share": 0.13317901669701646,
+          "T_h": 8.129882814632815,
+          "D_km": 540.7998751569753
+        },
+        {
+          "lambda": 1.0,
+          "KUA": 72.29858239548147,
+          "share": 0.13375910794579002,
+          "T_h": 8.120495927745926,
+          "D_km": 540.4062145236146
+        },
+        {
+          "lambda": 2.0,
+          "KUA": 72.43681276871271,
+          "share": 0.13410712966773647,
+          "T_h": 8.113833333333332,
+          "D_km": 540.1414000000002
+        },
+        {
+          "lambda": 5.0,
+          "KUA": 72.43681276871271,
+          "share": 0.13410712966773647,
+          "T_h": 8.113833333333332,
+          "D_km": 540.1414000000002
+        }
+      ],
+      "fixed_routes": [
+        {
+          "route": "R1",
+          "KUA": 78.81057899501204,
+          "share": 0.13758323322065483,
+          "AES8": 0.3740755300176288,
+          "KUA_pretest": 46.437783602260595,
+          "share_pretest": 0.08106856329534752,
+          "T_h": 8.571333333333333,
+          "D_km": 572.8211
+        },
+        {
+          "route": "R2",
+          "KUA": 72.43681276871271,
+          "share": 0.13410712966773647,
+          "AES8": 0.3659430463514463,
+          "KUA_pretest": 42.86582052575628,
+          "share_pretest": 0.07936036846232539,
+          "T_h": 8.113833333333332,
+          "D_km": 540.1414
+        },
+        {
+          "route": "R3",
+          "KUA": 83.00788977731392,
+          "share": 0.14141567448407596,
+          "AES8": 0.3847248520781199,
+          "KUA_pretest": 47.90184429830084,
+          "share_pretest": 0.08160756331293649,
+          "T_h": 8.73338888888889,
+          "D_km": 586.978
+        },
+        {
+          "route": "R4",
+          "KUA": 79.144047032586,
+          "share": 0.14104862352313033,
+          "AES8": 0.3785534151309046,
+          "KUA_pretest": 45.210614182119336,
+          "share_pretest": 0.08057327288807567,
+          "T_h": 8.976999999999999,
+          "D_km": 561.1118
+        },
+        {
+          "route": "R5",
+          "KUA": 85.8935977897497,
+          "share": 0.13731083429623223,
+          "AES8": 0.38605737583683936,
+          "KUA_pretest": 52.80888981521386,
+          "share_pretest": 0.08442110827089092,
+          "T_h": 9.42438888888889,
+          "D_km": 625.5413000000001
+        },
+        {
+          "route": "R6",
+          "KUA": 91.97443499134087,
+          "share": 0.1548637796378697,
+          "AES8": 0.4068948358679347,
+          "KUA_pretest": 50.25384916030367,
+          "share_pretest": 0.08461591553184006,
+          "T_h": 9.196694444444447,
+          "D_km": 593.9054
+        },
+        {
+          "route": "R8",
+          "KUA": 77.65305235991462,
+          "share": 0.1381638160963586,
+          "AES8": 0.37376673876356464,
+          "KUA_pretest": 45.48022621702585,
+          "share_pretest": 0.08092047150890458,
+          "T_h": 8.750833333333333,
+          "D_km": 562.0361
+        },
+        {
+          "route": "R9",
+          "KUA": 69.95342898356142,
+          "share": 0.12690615950635004,
+          "AES8": 0.3449442629927206,
+          "KUA_pretest": 43.27401589034212,
+          "share_pretest": 0.0785056464401567,
+          "T_h": 8.446416666666666,
+          "D_km": 551.2216999999999
+        },
+        {
+          "route": "R10",
+          "KUA": 76.66066036112476,
+          "share": 0.1339771387286276,
+          "AES8": 0.35808001427899216,
+          "KUA_pretest": 45.619148800431105,
+          "share_pretest": 0.07972698120164733,
+          "T_h": 9.309583333333334,
+          "D_km": 572.1921
+        }
+      ],
+      "monthly_impr_pred_sched_pct": {
+        "2024-07": 0.0,
+        "2024-08": 2.0757527221369125,
+        "2024-09": 3.2948077925914108,
+        "2024-10": 3.8047456149567824,
+        "2024-11": 3.084982026004017,
+        "2024-12": 1.4314333023386958
+      },
+      "share_hours_static_zero_KUA": 0.49030849030849033,
+      "static_pretest_by_share": "R9"
+    },
+    "odesa_kyiv": {
+      "routes": [
+        "odesa_kyiv_R1",
+        "odesa_kyiv_R2",
+        "odesa_kyiv_R3",
+        "odesa_kyiv_R4",
+        "odesa_kyiv_R5",
+        "odesa_kyiv_R6",
+        "odesa_kyiv_R7",
+        "odesa_kyiv_R8"
+      ],
+      "duplicates_removed": {},
+      "oblasts": [
+        "Вінницька область",
+        "Житомирська область",
+        "Київська область",
+        "Кіровоградська область",
+        "Миколаївська область",
+        "Одеська область",
+        "Полтавська область",
+        "Черкаська область",
+        "м. Київ"
+      ],
+      "static_pretest": "odesa_kyiv_R1",
+      "static_hindsight": "odesa_kyiv_R1",
+      "static_pretest_aes": "odesa_kyiv_R2",
+      "static_hindsight_aes": "odesa_kyiv_R6",
+      "fastest": "odesa_kyiv_R1",
+      "shortest": "odesa_kyiv_R1",
+      "strategies": {
+        "fastest": {
+          "mean_KUA": 129.45551361580465,
+          "mean_share": 0.26517748952200165,
+          "mean_hours_ua": 1.522596937639239,
+          "impr_hours_ua_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_share_pct": -18.93870067469315,
+          "mean_AES8": 0.6778111106175501,
+          "impr_KUA_vs_static_pretest_pct": 0.0,
+          "impr_KUA_vs_static_hindsight_pct": 0.0,
+          "impr_AES8_vs_static_pretest_aes_pct": -13.414964997794835,
+          "mean_D_km": 488.18440000000004,
+          "mean_T_h": 5.695805555555556,
+          "dT_vs_static_min": 0.0,
+          "dD_vs_static_km": 0.0,
+          "pct_hours_off_static": 0.0,
+          "churn": 0,
+          "block_boot_ci_impr_pct": [
+            0.0,
+            0.0
+          ]
+        },
+        "shortest": {
+          "mean_KUA": 129.45551361580465,
+          "mean_share": 0.26517748952200165,
+          "mean_hours_ua": 1.522596937639239,
+          "impr_hours_ua_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_share_pct": -18.93870067469315,
+          "mean_AES8": 0.6778111106175501,
+          "impr_KUA_vs_static_pretest_pct": 0.0,
+          "impr_KUA_vs_static_hindsight_pct": 0.0,
+          "impr_AES8_vs_static_pretest_aes_pct": -13.414964997794835,
+          "mean_D_km": 488.18440000000004,
+          "mean_T_h": 5.695805555555556,
+          "dT_vs_static_min": 0.0,
+          "dD_vs_static_km": 0.0,
+          "pct_hours_off_static": 0.0,
+          "churn": 0,
+          "block_boot_ci_impr_pct": [
+            0.0,
+            0.0
+          ]
+        },
+        "static_pretest": {
+          "mean_KUA": 129.45551361580465,
+          "mean_share": 0.26517748952200165,
+          "mean_hours_ua": 1.522596937639239,
+          "impr_hours_ua_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_share_pct": -18.93870067469315,
+          "mean_AES8": 0.6778111106175501,
+          "impr_KUA_vs_static_pretest_pct": 0.0,
+          "impr_KUA_vs_static_hindsight_pct": 0.0,
+          "impr_AES8_vs_static_pretest_aes_pct": -13.414964997794835,
+          "mean_D_km": 488.18440000000004,
+          "mean_T_h": 5.695805555555556,
+          "dT_vs_static_min": 0.0,
+          "dD_vs_static_km": 0.0,
+          "pct_hours_off_static": 0.0,
+          "churn": 0
+        },
+        "static_hindsight": {
+          "mean_KUA": 129.45551361580465,
+          "mean_share": 0.26517748952200165,
+          "mean_hours_ua": 1.522596937639239,
+          "impr_hours_ua_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_share_pct": -18.93870067469315,
+          "mean_AES8": 0.6778111106175501,
+          "impr_KUA_vs_static_pretest_pct": 0.0,
+          "impr_KUA_vs_static_hindsight_pct": 0.0,
+          "impr_AES8_vs_static_pretest_aes_pct": -13.414964997794835,
+          "mean_D_km": 488.18440000000004,
+          "mean_T_h": 5.695805555555556,
+          "dT_vs_static_min": 0.0,
+          "dD_vs_static_km": 0.0,
+          "pct_hours_off_static": 0.0,
+          "churn": 0,
+          "block_boot_ci_impr_pct": [
+            0.0,
+            0.0
+          ]
+        },
+        "reactive": {
+          "mean_KUA": 134.27576024555586,
+          "mean_share": 0.2377691995037945,
+          "mean_hours_ua": 1.7318065402834804,
+          "impr_hours_ua_vs_static_pretest_pct": -13.740314161449541,
+          "impr_share_vs_static_pretest_pct": 10.335828304134052,
+          "impr_share_vs_static_share_pct": -6.645400785788936,
+          "mean_AES8": 0.6555523090574344,
+          "impr_KUA_vs_static_pretest_pct": -3.723477274252402,
+          "impr_KUA_vs_static_hindsight_pct": -3.723477274252402,
+          "impr_AES8_vs_static_pretest_aes_pct": -9.690503772110096,
+          "mean_D_km": 553.7554070707071,
+          "mean_T_h": 7.054513126763126,
+          "dT_vs_static_min": 81.5224542724542,
+          "dD_vs_static_km": 65.57100707070703,
+          "pct_hours_off_static": 30.794430794430795,
+          "churn": 1139,
+          "wilcoxon_p_vs_static": 5.870731578065486e-05,
+          "block_boot_ci_impr_pct": [
+            -5.963794536353206,
+            -1.5841124118042913
+          ]
+        },
+        "climatology": {
+          "mean_KUA": 129.45551361580465,
+          "mean_share": 0.26517748952200165,
+          "mean_hours_ua": 1.522596937639239,
+          "impr_hours_ua_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_share_pct": -18.93870067469315,
+          "mean_AES8": 0.6778111106175501,
+          "impr_KUA_vs_static_pretest_pct": 0.0,
+          "impr_KUA_vs_static_hindsight_pct": 0.0,
+          "impr_AES8_vs_static_pretest_aes_pct": -13.414964997794835,
+          "mean_D_km": 488.18440000000004,
+          "mean_T_h": 5.695805555555556,
+          "dT_vs_static_min": 0.0,
+          "dD_vs_static_km": 0.0,
+          "pct_hours_off_static": 0.0,
+          "churn": 0,
+          "block_boot_ci_impr_pct": [
+            0.0,
+            0.0
+          ]
+        },
+        "pred_h6_retro": {
+          "mean_KUA": 129.28291251165666,
+          "mean_share": 0.23105573421757525,
+          "mean_hours_ua": 1.648807332153088,
+          "impr_hours_ua_vs_static_pretest_pct": -8.289153313912228,
+          "impr_share_vs_static_pretest_pct": 12.867515778180461,
+          "impr_share_vs_static_share_pct": -3.634244599014177,
+          "mean_AES8": 0.6459917547021957,
+          "impr_KUA_vs_static_pretest_pct": 0.13332850747495267,
+          "impr_KUA_vs_static_hindsight_pct": 0.13332850747495267,
+          "impr_AES8_vs_static_pretest_aes_pct": -8.090780898622516,
+          "mean_D_km": 550.932125006825,
+          "mean_T_h": 7.004726468893136,
+          "dT_vs_static_min": 78.53525480025476,
+          "dD_vs_static_km": 62.747725006824965,
+          "pct_hours_off_static": 29.32022932022932,
+          "churn": 969,
+          "wilcoxon_p_vs_static": 0.3281786690447345,
+          "block_boot_ci_impr_pct": [
+            -1.687146965153973,
+            2.147912936616929
+          ]
+        },
+        "pred_h6": {
+          "mean_KUA": 129.45551361580465,
+          "mean_share": 0.26517748952200165,
+          "mean_hours_ua": 1.522596937639239,
+          "impr_hours_ua_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_share_pct": -18.93870067469315,
+          "mean_AES8": 0.6778111106175501,
+          "impr_KUA_vs_static_pretest_pct": 0.0,
+          "impr_KUA_vs_static_hindsight_pct": 0.0,
+          "impr_AES8_vs_static_pretest_aes_pct": -13.414964997794835,
+          "mean_D_km": 488.18440000000004,
+          "mean_T_h": 5.695805555555556,
+          "dT_vs_static_min": 0.0,
+          "dD_vs_static_km": 0.0,
+          "pct_hours_off_static": 0.0,
+          "churn": 0,
+          "block_boot_ci_impr_pct": [
+            0.0,
+            0.0
+          ]
+        },
+        "pred_sched": {
+          "mean_KUA": 127.75019108714959,
+          "mean_share": 0.25474192737338835,
+          "mean_hours_ua": 1.5435796893046463,
+          "impr_hours_ua_vs_static_pretest_pct": -1.378089706258093,
+          "impr_share_vs_static_pretest_pct": 3.935312219534179,
+          "impr_share_vs_static_share_pct": -14.25809145328677,
+          "mean_AES8": 0.6742292025352725,
+          "impr_KUA_vs_static_pretest_pct": 1.317303899249962,
+          "impr_KUA_vs_static_hindsight_pct": 1.317303899249962,
+          "impr_AES8_vs_static_pretest_aes_pct": -12.81562106050425,
+          "mean_D_km": 498.5356191919192,
+          "mean_T_h": 5.923580663997332,
+          "dT_vs_static_min": 13.66650650650655,
+          "dD_vs_static_km": 10.351219191919142,
+          "pct_hours_off_static": 4.286104286104287,
+          "churn": 175,
+          "wilcoxon_p_vs_static": 9.622790230731328e-05,
+          "block_boot_ci_impr_pct": [
+            0.43513175463533105,
+            2.3183225034045423
+          ]
+        },
+        "static_share": {
+          "mean_KUA": 150.69197624810658,
+          "mean_share": 0.222953074161524,
+          "mean_hours_ua": 2.11163479690792,
+          "impr_hours_ua_vs_static_pretest_pct": -38.686394587261844,
+          "impr_share_vs_static_pretest_pct": 15.923076817941713,
+          "impr_share_vs_static_share_pct": 0.0,
+          "mean_AES8": 0.5976381605643744,
+          "impr_KUA_vs_static_pretest_pct": -16.40444816844732,
+          "impr_KUA_vs_static_hindsight_pct": -16.40444816844732,
+          "impr_AES8_vs_static_pretest_aes_pct": 0.0,
+          "mean_D_km": 675.891,
+          "mean_T_h": 9.41916666666667,
+          "dT_vs_static_min": 223.40166666666678,
+          "dD_vs_static_km": 187.70659999999992,
+          "pct_hours_off_static": 100.0,
+          "churn": 0,
+          "wilcoxon_p_vs_static": 3.4666213247353545e-46,
+          "block_boot_ci_impr_pct": [
+            -19.66058098236918,
+            -13.359491789913003
+          ]
+        },
+        "pred_share": {
+          "mean_KUA": 146.9620680521345,
+          "mean_share": 0.2067198802278895,
+          "mean_hours_ua": 2.1520774309131143,
+          "impr_hours_ua_vs_static_pretest_pct": -41.34255611008087,
+          "impr_share_vs_static_pretest_pct": 22.04471028045612,
+          "impr_share_vs_static_share_pct": 7.280991300381862,
+          "mean_AES8": 0.5938254317877517,
+          "impr_KUA_vs_static_pretest_pct": -13.523220407811625,
+          "impr_KUA_vs_static_hindsight_pct": -13.523220407811625,
+          "impr_AES8_vs_static_pretest_aes_pct": 0.6379660852014747,
+          "mean_D_km": 705.2370554190553,
+          "mean_T_h": 10.135373608456945,
+          "dT_vs_static_min": 266.3740831740833,
+          "dD_vs_static_km": 217.05265541905527,
+          "pct_hours_off_static": 99.59049959049959,
+          "churn": 725,
+          "wilcoxon_p_vs_static": 1.7757540283495246e-24,
+          "block_boot_ci_impr_pct": [
+            -17.242269234886788,
+            -10.14732318565778
+          ]
+        },
+        "pred_share_leaky": {
+          "mean_KUA": 137.81081010331127,
+          "mean_share": 0.20302318712227238,
+          "mean_hours_ua": 2.005121382293928,
+          "impr_hours_ua_vs_static_pretest_pct": -31.690885008795245,
+          "impr_share_vs_static_pretest_pct": 23.438755118983188,
+          "impr_share_vs_static_share_pct": 8.939050118148582,
+          "mean_AES8": 0.6164202911222371,
+          "impr_KUA_vs_static_pretest_pct": -6.454183567880542,
+          "impr_KUA_vs_static_hindsight_pct": -6.454183567880542,
+          "impr_AES8_vs_static_pretest_aes_pct": -3.14272611710838,
+          "mean_D_km": 657.8320429702429,
+          "mean_T_h": 9.184740558740558,
+          "dT_vs_static_min": 209.3361001911001,
+          "dD_vs_static_km": 169.64764297024288,
+          "pct_hours_off_static": 76.60387660387661,
+          "churn": 1261,
+          "wilcoxon_p_vs_static": 4.063828478857254e-06,
+          "block_boot_ci_impr_pct": [
+            -10.022121826684204,
+            -3.168284398805877
+          ]
+        },
+        "pred_sched_leaky": {
+          "mean_KUA": 127.9447309277205,
+          "mean_share": 0.23800441892597585,
+          "mean_hours_ua": 1.6410949006457631,
+          "impr_hours_ua_vs_static_pretest_pct": -7.782621918986206,
+          "impr_share_vs_static_pretest_pct": 10.247125668550108,
+          "impr_share_vs_static_share_pct": -6.750902548016687,
+          "mean_AES8": 0.6624522847375034,
+          "impr_KUA_vs_static_pretest_pct": 1.167028460887203,
+          "impr_KUA_vs_static_hindsight_pct": 1.167028460887203,
+          "impr_AES8_vs_static_pretest_aes_pct": -10.845044451633141,
+          "mean_D_km": 528.8729463281464,
+          "mean_T_h": 6.564177374344042,
+          "dT_vs_static_min": 52.10230912730914,
+          "dD_vs_static_km": 40.6885463281464,
+          "pct_hours_off_static": 19.24651924651925,
+          "churn": 710,
+          "wilcoxon_p_vs_static": 0.022072130416758554,
+          "block_boot_ci_impr_pct": [
+            -0.7417499016150276,
+            3.1452162963746595
+          ]
+        },
+        "reactive_leaky": {
+          "mean_KUA": 138.765208007281,
+          "mean_share": 0.2384560953632448,
+          "mean_hours_ua": 1.8166634114649685,
+          "impr_hours_ua_vs_static_pretest_pct": -19.313481234349165,
+          "impr_share_vs_static_pretest_pct": 10.076795812089392,
+          "impr_share_vs_static_share_pct": -6.953490666152132,
+          "mean_AES8": 0.6409779290062174,
+          "impr_KUA_vs_static_pretest_pct": -7.191423626115653,
+          "impr_KUA_vs_static_hindsight_pct": -7.191423626115653,
+          "impr_AES8_vs_static_pretest_aes_pct": -7.251840879925662,
+          "mean_D_km": 571.1755619710619,
+          "mean_T_h": 7.4109863424030085,
+          "dT_vs_static_min": 102.91084721084714,
+          "dD_vs_static_km": 82.9911619710619,
+          "pct_hours_off_static": 39.66693966693967,
+          "churn": 1284,
+          "wilcoxon_p_vs_static": 1.744336104446791e-13,
+          "block_boot_ci_impr_pct": [
+            -9.573749537268412,
+            -4.733004769837598
+          ]
+        },
+        "oracle": {
+          "mean_KUA": 90.63419233297178,
+          "mean_share": 0.1525497193400713,
+          "mean_hours_ua": 1.2343634017350773,
+          "impr_hours_ua_vs_static_pretest_pct": 18.930389834558774,
+          "impr_share_vs_static_pretest_pct": 42.47259840378935,
+          "impr_share_vs_static_share_pct": 31.577656009554367,
+          "mean_AES8": 0.6473919952012492,
+          "impr_KUA_vs_static_pretest_pct": 29.98815592980147,
+          "impr_KUA_vs_static_hindsight_pct": 29.98815592980147,
+          "impr_AES8_vs_static_pretest_aes_pct": -8.325076596496162,
+          "mean_D_km": 590.4255375648376,
+          "mean_T_h": 7.8218863257196585,
+          "dT_vs_static_min": 127.56484620984614,
+          "dD_vs_static_km": 102.24113756483752,
+          "pct_hours_off_static": 47.2017472017472,
+          "churn": 1291,
+          "wilcoxon_p_vs_static": 4.747563192233162e-284,
+          "block_boot_ci_impr_pct": [
+            27.77335552494964,
+            32.44288691152039
+          ]
+        }
+      },
+      "epsilon": [
+        {
+          "eps": 0.0,
+          "n_allowed": 1,
+          "static_in_set": "odesa_kyiv_R1",
+          "static_KUA": 129.45551361580465,
+          "pred_KUA": 129.45551361580465,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 5.695805555555556,
+          "mean_D_km": 488.18440000000004
+        },
+        {
+          "eps": 0.02,
+          "n_allowed": 1,
+          "static_in_set": "odesa_kyiv_R1",
+          "static_KUA": 129.45551361580465,
+          "pred_KUA": 129.45551361580465,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 5.695805555555556,
+          "mean_D_km": 488.18440000000004
+        },
+        {
+          "eps": 0.05,
+          "n_allowed": 1,
+          "static_in_set": "odesa_kyiv_R1",
+          "static_KUA": 129.45551361580465,
+          "pred_KUA": 129.45551361580465,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 5.695805555555556,
+          "mean_D_km": 488.18440000000004
+        },
+        {
+          "eps": 0.1,
+          "n_allowed": 1,
+          "static_in_set": "odesa_kyiv_R1",
+          "static_KUA": 129.45551361580465,
+          "pred_KUA": 129.45551361580465,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 5.695805555555556,
+          "mean_D_km": 488.18440000000004
+        },
+        {
+          "eps": 0.2,
+          "n_allowed": 1,
+          "static_in_set": "odesa_kyiv_R1",
+          "static_KUA": 129.45551361580465,
+          "pred_KUA": 129.45551361580465,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 5.695805555555556,
+          "mean_D_km": 488.18440000000004
+        },
+        {
+          "eps": 0.5,
+          "n_allowed": 1,
+          "static_in_set": "odesa_kyiv_R1",
+          "static_KUA": 129.45551361580465,
+          "pred_KUA": 129.45551361580465,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 5.695805555555556,
+          "mean_D_km": 488.18440000000004
+        },
+        {
+          "eps": "inf",
+          "n_allowed": 8,
+          "static_in_set": "odesa_kyiv_R1",
+          "static_KUA": 129.45551361580465,
+          "pred_KUA": 127.75019108714959,
+          "impr_vs_same_set_static_pct": 1.317303899249962,
+          "mean_T_h": 5.923580663997332,
+          "mean_D_km": 498.5356191919192
+        }
+      ],
+      "lambda": [
+        {
+          "lambda": 0,
+          "KUA": 127.75019108714959,
+          "share": 0.25474192737338835,
+          "T_h": 5.923580663997332,
+          "D_km": 498.5356191919192
+        },
+        {
+          "lambda": 0.005,
+          "KUA": 128.1642300612502,
+          "share": 0.25718147050334844,
+          "T_h": 5.875889108805777,
+          "D_km": 496.29027439257436
+        },
+        {
+          "lambda": 0.01,
+          "KUA": 128.1521573995131,
+          "share": 0.2584173399612166,
+          "T_h": 5.841474550307885,
+          "D_km": 494.67957073437077
+        },
+        {
+          "lambda": 0.02,
+          "KUA": 128.79128813127554,
+          "share": 0.26098230192943167,
+          "T_h": 5.791162806746141,
+          "D_km": 492.3204188097188
+        },
+        {
+          "lambda": 0.05,
+          "KUA": 129.14206875407126,
+          "share": 0.2638699899071542,
+          "T_h": 5.721567302150636,
+          "D_km": 489.15845746655754
+        },
+        {
+          "lambda": 0.1,
+          "KUA": 129.41887291328882,
+          "share": 0.26507603609962654,
+          "T_h": 5.69683602541936,
+          "D_km": 488.2233622986624
+        },
+        {
+          "lambda": 0.2,
+          "KUA": 129.45551361580465,
+          "share": 0.26517748952200165,
+          "T_h": 5.695805555555556,
+          "D_km": 488.18440000000004
+        },
+        {
+          "lambda": 0.5,
+          "KUA": 129.45551361580465,
+          "share": 0.26517748952200165,
+          "T_h": 5.695805555555556,
+          "D_km": 488.18440000000004
+        },
+        {
+          "lambda": 1.0,
+          "KUA": 129.45551361580465,
+          "share": 0.26517748952200165,
+          "T_h": 5.695805555555556,
+          "D_km": 488.18440000000004
+        },
+        {
+          "lambda": 2.0,
+          "KUA": 129.45551361580465,
+          "share": 0.26517748952200165,
+          "T_h": 5.695805555555556,
+          "D_km": 488.18440000000004
+        },
+        {
+          "lambda": 5.0,
+          "KUA": 129.45551361580465,
+          "share": 0.26517748952200165,
+          "T_h": 5.695805555555556,
+          "D_km": 488.18440000000004
+        }
+      ],
+      "fixed_routes": [
+        {
+          "route": "odesa_kyiv_R1",
+          "KUA": 129.45551361580465,
+          "share": 0.26517748952200165,
+          "AES8": 0.6778111106175501,
+          "KUA_pretest": 68.85985735670675,
+          "share_pretest": 0.14105296555298927,
+          "T_h": 5.695805555555556,
+          "D_km": 488.18440000000004
+        },
+        {
+          "route": "odesa_kyiv_R2",
+          "KUA": 150.69197624810658,
+          "share": 0.222953074161524,
+          "AES8": 0.5976381605643744,
+          "KUA_pretest": 86.69853982627933,
+          "share_pretest": 0.1282729609157088,
+          "T_h": 9.41916666666667,
+          "D_km": 675.891
+        },
+        {
+          "route": "odesa_kyiv_R3",
+          "KUA": 195.25086675240416,
+          "share": 0.2836190453917799,
+          "AES8": 0.7257933072847569,
+          "KUA_pretest": 117.41010853889081,
+          "share_pretest": 0.17054850232942928,
+          "T_h": 9.565527777777778,
+          "D_km": 688.4265
+        },
+        {
+          "route": "odesa_kyiv_R4",
+          "KUA": 180.52403685444096,
+          "share": 0.2861358259727615,
+          "AES8": 0.7285341248381532,
+          "KUA_pretest": 111.36497781548528,
+          "share_pretest": 0.17651671470966354,
+          "T_h": 9.470416666666667,
+          "D_km": 630.9033000000001
+        },
+        {
+          "route": "odesa_kyiv_R5",
+          "KUA": 230.52314262441107,
+          "share": 0.2976286767807364,
+          "AES8": 0.7451474078770474,
+          "KUA_pretest": 140.29526482843738,
+          "share_pretest": 0.18113536694891955,
+          "T_h": 11.85813888888889,
+          "D_km": 774.5327
+        },
+        {
+          "route": "odesa_kyiv_R6",
+          "KUA": 167.10932075768207,
+          "share": 0.21920547465987275,
+          "AES8": 0.594626679666694,
+          "KUA_pretest": 108.89684329434922,
+          "share_pretest": 0.1428453189509015,
+          "T_h": 11.518944444444443,
+          "D_km": 762.341
+        },
+        {
+          "route": "odesa_kyiv_R7",
+          "KUA": 180.68678718724124,
+          "share": 0.2806262370507478,
+          "AES8": 0.697570022516715,
+          "KUA_pretest": 92.68153492133,
+          "share_pretest": 0.14394450636895745,
+          "T_h": 8.704,
+          "D_km": 643.8699
+        },
+        {
+          "route": "odesa_kyiv_R8",
+          "KUA": 204.55506024534546,
+          "share": 0.2805098670320753,
+          "AES8": 0.7096522097558401,
+          "KUA_pretest": 114.59514905750588,
+          "share_pretest": 0.1571462958974796,
+          "T_h": 10.087277777777778,
+          "D_km": 729.2259
+        }
+      ],
+      "monthly_impr_pred_sched_pct": {
+        "2024-07": 0.0,
+        "2024-08": 1.4430343196243183,
+        "2024-09": 1.9959740357073252,
+        "2024-10": 0.43912681331291764,
+        "2024-11": 1.0320990816343636,
+        "2024-12": 1.879741246326674
+      },
+      "share_hours_static_zero_KUA": 0.30494130494130495,
+      "static_pretest_by_share": "odesa_kyiv_R2"
+    },
+    "kharkiv_lviv": {
+      "routes": [
+        "kharkiv_lviv_R1",
+        "kharkiv_lviv_R2",
+        "kharkiv_lviv_R3",
+        "kharkiv_lviv_R4",
+        "kharkiv_lviv_R5",
+        "kharkiv_lviv_R6",
+        "kharkiv_lviv_R7",
+        "kharkiv_lviv_R8"
+      ],
+      "duplicates_removed": {},
+      "oblasts": [
+        "Вінницька область",
+        "Дніпропетровська область",
+        "Житомирська область",
+        "Київська область",
+        "Кіровоградська область",
+        "Львівська область",
+        "Полтавська область",
+        "Рівненська область",
+        "Тернопільська область",
+        "Харківська область",
+        "Хмельницька область",
+        "Черкаська область",
+        "м. Київ"
+      ],
+      "static_pretest": "kharkiv_lviv_R1",
+      "static_hindsight": "kharkiv_lviv_R7",
+      "static_pretest_aes": "kharkiv_lviv_R5",
+      "static_hindsight_aes": "kharkiv_lviv_R5",
+      "fastest": "kharkiv_lviv_R1",
+      "shortest": "kharkiv_lviv_R6",
+      "strategies": {
+        "fastest": {
+          "mean_KUA": 306.6653164098528,
+          "mean_share": 0.29770426905904107,
+          "mean_hours_ua": 3.9612984157418376,
+          "impr_hours_ua_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_share_pct": -1.2324136156854295,
+          "mean_AES8": 0.6055622923424369,
+          "impr_KUA_vs_static_pretest_pct": 0.0,
+          "impr_KUA_vs_static_hindsight_pct": -2.5784581570623164,
+          "impr_AES8_vs_static_pretest_aes_pct": -0.14245594707591172,
+          "mean_D_km": 1030.1005000000002,
+          "mean_T_h": 14.434055555555553,
+          "dT_vs_static_min": -3.197442310920451e-13,
+          "dD_vs_static_km": 2.2737367544323206e-13,
+          "pct_hours_off_static": 0.0,
+          "churn": 0,
+          "block_boot_ci_impr_pct": [
+            0.0,
+            0.0
+          ]
+        },
+        "shortest": {
+          "mean_KUA": 307.5142475711057,
+          "mean_share": 0.2991327280118504,
+          "mean_hours_ua": 4.033310309434365,
+          "impr_hours_ua_vs_static_pretest_pct": -1.8178861104318504,
+          "impr_share_vs_static_pretest_pct": -0.4798248131692257,
+          "impr_share_vs_static_share_pct": -1.71815185518359,
+          "mean_AES8": 0.6074719083435538,
+          "impr_KUA_vs_static_pretest_pct": -0.27682659754009076,
+          "impr_KUA_vs_static_hindsight_pct": -2.8624226125875976,
+          "impr_AES8_vs_static_pretest_aes_pct": -0.4582510992607588,
+          "mean_D_km": 1028.0194000000006,
+          "mean_T_h": 14.513138888888886,
+          "dT_vs_static_min": 4.744999999999671,
+          "dD_vs_static_km": -2.0810999999994237,
+          "pct_hours_off_static": 100.0,
+          "churn": 0,
+          "wilcoxon_p_vs_static": 0.032464007310084864,
+          "block_boot_ci_impr_pct": [
+            -0.36124482269244557,
+            -0.19769550444462944
+          ]
+        },
+        "static_pretest": {
+          "mean_KUA": 306.6653164098528,
+          "mean_share": 0.29770426905904107,
+          "mean_hours_ua": 3.9612984157418376,
+          "impr_hours_ua_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_share_pct": -1.2324136156854295,
+          "mean_AES8": 0.6055622923424369,
+          "impr_KUA_vs_static_pretest_pct": 0.0,
+          "impr_KUA_vs_static_hindsight_pct": -2.5784581570623164,
+          "impr_AES8_vs_static_pretest_aes_pct": -0.14245594707591172,
+          "mean_D_km": 1030.1005000000002,
+          "mean_T_h": 14.434055555555553,
+          "dT_vs_static_min": -3.197442310920451e-13,
+          "dD_vs_static_km": 2.2737367544323206e-13,
+          "pct_hours_off_static": 0.0,
+          "churn": 0
+        },
+        "static_hindsight": {
+          "mean_KUA": 298.95683939829183,
+          "mean_share": 0.2761738755359534,
+          "mean_hours_ua": 4.4725642997738255,
+          "impr_hours_ua_vs_static_pretest_pct": -12.906522820908016,
+          "impr_share_vs_static_pretest_pct": 7.232141343199124,
+          "impr_share_vs_static_share_pct": 6.088857622132895,
+          "mean_AES8": 0.6169892947052628,
+          "impr_KUA_vs_static_pretest_pct": 2.513644875724616,
+          "impr_KUA_vs_static_hindsight_pct": 0.0,
+          "impr_AES8_vs_static_pretest_aes_pct": -2.0321510208889353,
+          "mean_D_km": 1082.4949999999994,
+          "mean_T_h": 16.66030555555556,
+          "dT_vs_static_min": 133.57500000000013,
+          "dD_vs_static_km": 52.394499999999425,
+          "pct_hours_off_static": 100.0,
+          "churn": 0,
+          "wilcoxon_p_vs_static": 3.8784510327807255e-05,
+          "block_boot_ci_impr_pct": [
+            -0.4843578540567244,
+            5.344119664719026
+          ]
+        },
+        "reactive": {
+          "mean_KUA": 298.2215519615617,
+          "mean_share": 0.2774612077412146,
+          "mean_hours_ua": 4.086913470143703,
+          "impr_hours_ua_vs_static_pretest_pct": -3.1710575982531966,
+          "impr_share_vs_static_pretest_pct": 6.799721543063216,
+          "impr_share_vs_static_share_pct": 5.651108621503193,
+          "mean_AES8": 0.5959053637419465,
+          "impr_KUA_vs_static_pretest_pct": 2.7534135738409105,
+          "impr_KUA_vs_static_hindsight_pct": 0.24595103367095592,
+          "impr_AES8_vs_static_pretest_aes_pct": 1.454520217370937,
+          "mean_D_km": 1072.4547922740926,
+          "mean_T_h": 15.623108472108473,
+          "dT_vs_static_min": 71.34317499317493,
+          "dD_vs_static_km": 42.354292274092586,
+          "pct_hours_off_static": 56.53835653835654,
+          "churn": 1756,
+          "wilcoxon_p_vs_static": 4.813740201572565e-09,
+          "block_boot_ci_impr_pct": [
+            0.9523396687809189,
+            4.638233591853469
+          ]
+        },
+        "climatology": {
+          "mean_KUA": 305.1946959316033,
+          "mean_share": 0.29563972163664803,
+          "mean_hours_ua": 3.999812967005899,
+          "impr_hours_ua_vs_static_pretest_pct": -0.9722708875203121,
+          "impr_share_vs_static_pretest_pct": 0.6934893573808959,
+          "impr_share_vs_static_share_pct": -0.5303776010408421,
+          "mean_AES8": 0.6067864443226014,
+          "impr_KUA_vs_static_pretest_pct": 0.47955226742499574,
+          "impr_KUA_vs_static_hindsight_pct": -2.0865408350805237,
+          "impr_AES8_vs_static_pretest_aes_pct": -0.34489521269127016,
+          "mean_D_km": 1033.6177788970792,
+          "mean_T_h": 14.678173901173901,
+          "dT_vs_static_min": 14.647100737100587,
+          "dD_vs_static_km": 3.5172788970792226,
+          "pct_hours_off_static": 45.20884520884521,
+          "churn": 1592,
+          "wilcoxon_p_vs_static": 5.426353864542195e-08,
+          "block_boot_ci_impr_pct": [
+            0.16278669803533888,
+            0.8353358052712286
+          ]
+        },
+        "pred_h6_retro": {
+          "mean_KUA": 279.99256584922466,
+          "mean_share": 0.26163911929482087,
+          "mean_hours_ua": 3.850459841825674,
+          "impr_hours_ua_vs_static_pretest_pct": 2.7980364588464566,
+          "impr_share_vs_static_pretest_pct": 12.11442142842356,
+          "impr_share_vs_static_share_pct": 11.031307591883538,
+          "mean_AES8": 0.5940893919225353,
+          "impr_KUA_vs_static_pretest_pct": 8.697674348337605,
+          "impr_KUA_vs_static_hindsight_pct": 6.343482084984716,
+          "impr_AES8_vs_static_pretest_aes_pct": 1.7548293354024775,
+          "mean_D_km": 1069.9810943488944,
+          "mean_T_h": 15.611995867079202,
+          "dT_vs_static_min": 70.67641869141863,
+          "dD_vs_static_km": 39.88059434889442,
+          "pct_hours_off_static": 56.31995631995632,
+          "churn": 1332,
+          "wilcoxon_p_vs_static": 4.173512219219916e-52,
+          "block_boot_ci_impr_pct": [
+            6.713908427786118,
+            10.907632231137327
+          ]
+        },
+        "pred_h6": {
+          "mean_KUA": 295.2145621779137,
+          "mean_share": 0.28062017708763765,
+          "mean_hours_ua": 4.056605777718452,
+          "impr_hours_ua_vs_static_pretest_pct": -2.4059626913708723,
+          "impr_share_vs_static_pretest_pct": 5.738611685146942,
+          "impr_share_vs_static_share_pct": 4.576921501220579,
+          "mean_AES8": 0.5962984609797415,
+          "impr_KUA_vs_static_pretest_pct": 3.7339580380310573,
+          "impr_KUA_vs_static_hindsight_pct": 1.2517784265816365,
+          "impr_AES8_vs_static_pretest_aes_pct": 1.3895133249065303,
+          "mean_D_km": 1052.824911739012,
+          "mean_T_h": 15.351883959717291,
+          "dT_vs_static_min": 55.06970424970401,
+          "dD_vs_static_km": 22.724411739011884,
+          "pct_hours_off_static": 41.08654108654108,
+          "churn": 183,
+          "wilcoxon_p_vs_static": 4.972153495394314e-16,
+          "block_boot_ci_impr_pct": [
+            2.027085092535459,
+            5.559333369945301
+          ]
+        },
+        "pred_sched": {
+          "mean_KUA": 293.14519930539257,
+          "mean_share": 0.27709751680723393,
+          "mean_hours_ua": 4.011289126117933,
+          "impr_hours_ua_vs_static_pretest_pct": -1.261977895364725,
+          "impr_share_vs_static_pretest_pct": 6.921886715611856,
+          "impr_share_vs_static_share_pct": 5.774779374271946,
+          "mean_AES8": 0.5951294982783683,
+          "impr_KUA_vs_static_pretest_pct": 4.408753250201537,
+          "impr_KUA_vs_static_hindsight_pct": 1.9439729509437922,
+          "impr_AES8_vs_static_pretest_aes_pct": 1.5828258830138413,
+          "mean_D_km": 1060.7318557193557,
+          "mean_T_h": 15.42358281008281,
+          "dT_vs_static_min": 59.37163527163509,
+          "dD_vs_static_km": 30.631355719355724,
+          "pct_hours_off_static": 46.41004641004641,
+          "churn": 517,
+          "wilcoxon_p_vs_static": 1.282936019429026e-17,
+          "block_boot_ci_impr_pct": [
+            2.591767167823046,
+            6.358281895694424
+          ]
+        },
+        "static_share": {
+          "mean_KUA": 317.1315940960882,
+          "mean_share": 0.2940799872551032,
+          "mean_hours_ua": 4.157277435287411,
+          "impr_hours_ua_vs_static_pretest_pct": -4.947342991549711,
+          "impr_share_vs_static_pretest_pct": 1.217410088002163,
+          "impr_share_vs_static_share_pct": 0.0,
+          "mean_AES8": 0.6047008600053401,
+          "impr_KUA_vs_static_pretest_pct": -3.412931663992744,
+          "impr_KUA_vs_static_hindsight_pct": -6.079390835940243,
+          "impr_AES8_vs_static_pretest_aes_pct": 0.0,
+          "mean_D_km": 1078.3855,
+          "mean_T_h": 15.17683333333333,
+          "dT_vs_static_min": 44.56666666666628,
+          "dD_vs_static_km": 48.28500000000008,
+          "pct_hours_off_static": 100.0,
+          "churn": 0,
+          "wilcoxon_p_vs_static": 5.683113422714856e-06,
+          "block_boot_ci_impr_pct": [
+            -4.212642159538378,
+            -2.716501438239917
+          ]
+        },
+        "pred_share": {
+          "mean_KUA": 299.14466124970454,
+          "mean_share": 0.26831312416450326,
+          "mean_hours_ua": 4.0761870087345295,
+          "impr_hours_ua_vs_static_pretest_pct": -2.9002761452188297,
+          "impr_share_vs_static_pretest_pct": 9.87259772506283,
+          "impr_share_vs_static_share_pct": 8.761855347962923,
+          "mean_AES8": 0.599543415318701,
+          "impr_KUA_vs_static_pretest_pct": 2.452398350160021,
+          "impr_KUA_vs_static_hindsight_pct": -0.06282574159893269,
+          "impr_AES8_vs_static_pretest_aes_pct": 0.8528919053618494,
+          "mean_D_km": 1116.9523622440624,
+          "mean_T_h": 16.172958867958865,
+          "dT_vs_static_min": 104.33419874419843,
+          "dD_vs_static_km": 86.85186224406243,
+          "pct_hours_off_static": 100.0,
+          "churn": 620,
+          "wilcoxon_p_vs_static": 8.901590884818558e-05,
+          "block_boot_ci_impr_pct": [
+            -0.3269674720798135,
+            5.257897663079739
+          ]
+        },
+        "pred_share_leaky": {
+          "mean_KUA": 293.16814322641056,
+          "mean_share": 0.26665128370590274,
+          "mean_hours_ua": 4.060322639173008,
+          "impr_hours_ua_vs_static_pretest_pct": -2.4997920640782136,
+          "impr_share_vs_static_pretest_pct": 10.430816276598257,
+          "impr_share_vs_static_share_pct": 9.326953460932758,
+          "mean_AES8": 0.5974863391336421,
+          "impr_KUA_vs_static_pretest_pct": 4.401271503883889,
+          "impr_KUA_vs_static_hindsight_pct": 1.9362982909279263,
+          "impr_AES8_vs_static_pretest_aes_pct": 1.1930726990588747,
+          "mean_D_km": 1100.7848419874422,
+          "mean_T_h": 16.06835507477174,
+          "dT_vs_static_min": 98.05797115297099,
+          "dD_vs_static_km": 70.68434198744217,
+          "pct_hours_off_static": 90.88179088179088,
+          "churn": 1469,
+          "wilcoxon_p_vs_static": 1.959856456388293e-12,
+          "block_boot_ci_impr_pct": [
+            2.024165663603396,
+            6.860070037406739
+          ]
+        },
+        "pred_sched_leaky": {
+          "mean_KUA": 292.2979384494786,
+          "mean_share": 0.2757650863104769,
+          "mean_hours_ua": 4.015093839655424,
+          "impr_hours_ua_vs_static_pretest_pct": -1.3580250278496555,
+          "impr_share_vs_static_pretest_pct": 7.3694552039538115,
+          "impr_share_vs_static_share_pct": 6.227863757603746,
+          "mean_AES8": 0.5955651890861053,
+          "impr_KUA_vs_static_pretest_pct": 4.685035180559008,
+          "impr_KUA_vs_static_hindsight_pct": 2.2273786952710544,
+          "impr_AES8_vs_static_pretest_aes_pct": 1.510775248302781,
+          "mean_D_km": 1064.2806017199018,
+          "mean_T_h": 15.48040071890072,
+          "dT_vs_static_min": 62.780709800709715,
+          "dD_vs_static_km": 34.18010171990181,
+          "pct_hours_off_static": 62.81736281736282,
+          "churn": 1559,
+          "wilcoxon_p_vs_static": 9.973227717616451e-19,
+          "block_boot_ci_impr_pct": [
+            2.957245705245061,
+            6.5185345882589205
+          ]
+        },
+        "reactive_leaky": {
+          "mean_KUA": 299.53911395165426,
+          "mean_share": 0.27650369409393866,
+          "mean_hours_ua": 4.1533135185396866,
+          "impr_hours_ua_vs_static_pretest_pct": -4.847276893727534,
+          "impr_share_vs_static_pretest_pct": 7.121354031002455,
+          "impr_share_vs_static_share_pct": 5.976704952016262,
+          "mean_AES8": 0.5902362809576466,
+          "impr_KUA_vs_static_pretest_pct": 2.323771902745753,
+          "impr_KUA_vs_static_hindsight_pct": -0.19476876813869315,
+          "impr_AES8_vs_static_pretest_aes_pct": 2.392022238494213,
+          "mean_D_km": 1080.5628993447995,
+          "mean_T_h": 15.8596707313374,
+          "dT_vs_static_min": 85.53691054691058,
+          "dD_vs_static_km": 50.46239934479945,
+          "pct_hours_off_static": 72.8910728910729,
+          "churn": 1789,
+          "wilcoxon_p_vs_static": 1.462891514208872e-06,
+          "block_boot_ci_impr_pct": [
+            0.22120544490607288,
+            4.497170525177753
+          ]
+        },
+        "oracle": {
+          "mean_KUA": 233.46137552113038,
+          "mean_share": 0.21446901730903084,
+          "mean_hours_ua": 3.2867911237994187,
+          "impr_hours_ua_vs_static_pretest_pct": 17.027429422181086,
+          "impr_share_vs_static_pretest_pct": 27.95903868395751,
+          "impr_share_vs_static_share_pct": 27.071196067827923,
+          "mean_AES8": 0.5864123282228556,
+          "impr_KUA_vs_static_pretest_pct": 23.87095539388831,
+          "impr_KUA_vs_static_hindsight_pct": 21.907999833348413,
+          "impr_AES8_vs_static_pretest_aes_pct": 3.024393215237524,
+          "mean_D_km": 1088.5065991536994,
+          "mean_T_h": 16.066635711469047,
+          "dT_vs_static_min": 97.95480935480936,
+          "dD_vs_static_km": 58.406099153699415,
+          "pct_hours_off_static": 84.22058422058421,
+          "churn": 1738,
+          "wilcoxon_p_vs_static": 0.0,
+          "block_boot_ci_impr_pct": [
+            21.917617095120868,
+            25.9595806901234
+          ]
+        }
+      },
+      "epsilon": [
+        {
+          "eps": 0.0,
+          "n_allowed": 1,
+          "static_in_set": "kharkiv_lviv_R1",
+          "static_KUA": 306.6653164098528,
+          "pred_KUA": 306.6653164098528,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 14.434055555555553,
+          "mean_D_km": 1030.1005000000002
+        },
+        {
+          "eps": 0.02,
+          "n_allowed": 2,
+          "static_in_set": "kharkiv_lviv_R1",
+          "static_KUA": 306.6653164098528,
+          "pred_KUA": 306.2339966604204,
+          "impr_vs_same_set_static_pct": 0.14064836365645944,
+          "mean_T_h": 14.450938756938756,
+          "mean_D_km": 1029.656213841114
+        },
+        {
+          "eps": 0.05,
+          "n_allowed": 2,
+          "static_in_set": "kharkiv_lviv_R1",
+          "static_KUA": 306.6653164098528,
+          "pred_KUA": 306.2339966604204,
+          "impr_vs_same_set_static_pct": 0.14064836365645944,
+          "mean_T_h": 14.450938756938756,
+          "mean_D_km": 1029.656213841114
+        },
+        {
+          "eps": 0.1,
+          "n_allowed": 3,
+          "static_in_set": "kharkiv_lviv_R1",
+          "static_KUA": 306.6653164098528,
+          "pred_KUA": 306.2339966604204,
+          "impr_vs_same_set_static_pct": 0.14064836365645944,
+          "mean_T_h": 14.450938756938756,
+          "mean_D_km": 1029.656213841114
+        },
+        {
+          "eps": 0.2,
+          "n_allowed": 8,
+          "static_in_set": "kharkiv_lviv_R1",
+          "static_KUA": 306.6653164098528,
+          "pred_KUA": 293.14519930539257,
+          "impr_vs_same_set_static_pct": 4.408753250201537,
+          "mean_T_h": 15.42358281008281,
+          "mean_D_km": 1060.7318557193557
+        },
+        {
+          "eps": 0.5,
+          "n_allowed": 8,
+          "static_in_set": "kharkiv_lviv_R1",
+          "static_KUA": 306.6653164098528,
+          "pred_KUA": 293.14519930539257,
+          "impr_vs_same_set_static_pct": 4.408753250201537,
+          "mean_T_h": 15.42358281008281,
+          "mean_D_km": 1060.7318557193557
+        },
+        {
+          "eps": "inf",
+          "n_allowed": 8,
+          "static_in_set": "kharkiv_lviv_R1",
+          "static_KUA": 306.6653164098528,
+          "pred_KUA": 293.14519930539257,
+          "impr_vs_same_set_static_pct": 4.408753250201537,
+          "mean_T_h": 15.42358281008281,
+          "mean_D_km": 1060.7318557193557
+        }
+      ],
+      "lambda": [
+        {
+          "lambda": 0,
+          "KUA": 293.14519930539257,
+          "share": 0.27709751680723393,
+          "T_h": 15.42358281008281,
+          "D_km": 1060.7318557193557
+        },
+        {
+          "lambda": 0.005,
+          "KUA": 293.38377147995794,
+          "share": 0.2774187084595695,
+          "T_h": 15.408965351715354,
+          "D_km": 1060.2812831012832
+        },
+        {
+          "lambda": 0.01,
+          "KUA": 294.0249715951702,
+          "share": 0.2781810281084224,
+          "T_h": 15.384379925379925,
+          "D_km": 1059.6240994539996
+        },
+        {
+          "lambda": 0.02,
+          "KUA": 293.8528421663246,
+          "share": 0.27820816183015995,
+          "T_h": 15.359732687232686,
+          "D_km": 1058.92240974611
+        },
+        {
+          "lambda": 0.05,
+          "KUA": 294.87267802925425,
+          "share": 0.2796744047570836,
+          "T_h": 15.308010101010101,
+          "D_km": 1057.4156049959051
+        },
+        {
+          "lambda": 0.1,
+          "KUA": 295.2608445608441,
+          "share": 0.28093273977906774,
+          "T_h": 15.130464100464101,
+          "D_km": 1052.7624400491402
+        },
+        {
+          "lambda": 0.2,
+          "KUA": 298.2318808970636,
+          "share": 0.2859072582058827,
+          "T_h": 14.801410546910546,
+          "D_km": 1044.135651678952
+        },
+        {
+          "lambda": 0.5,
+          "KUA": 306.643845292803,
+          "share": 0.2975687787958733,
+          "T_h": 14.448818818818818,
+          "D_km": 1030.8859996997
+        },
+        {
+          "lambda": 1.0,
+          "KUA": 306.6653164098528,
+          "share": 0.29770426905904107,
+          "T_h": 14.434055555555553,
+          "D_km": 1030.1005000000002
+        },
+        {
+          "lambda": 2.0,
+          "KUA": 306.6653164098528,
+          "share": 0.29770426905904107,
+          "T_h": 14.434055555555553,
+          "D_km": 1030.1005000000002
+        },
+        {
+          "lambda": 5.0,
+          "KUA": 306.6653164098528,
+          "share": 0.29770426905904107,
+          "T_h": 14.434055555555553,
+          "D_km": 1030.1005000000002
+        }
+      ],
+      "fixed_routes": [
+        {
+          "route": "kharkiv_lviv_R1",
+          "KUA": 306.6653164098528,
+          "share": 0.29770426905904107,
+          "AES8": 0.6055622923424369,
+          "KUA_pretest": 154.0052686924963,
+          "share_pretest": 0.1495050907095922,
+          "T_h": 14.434055555555558,
+          "D_km": 1030.1005
+        },
+        {
+          "route": "kharkiv_lviv_R2",
+          "KUA": 302.4481161994715,
+          "share": 0.2776508418619398,
+          "AES8": 0.6189144677402791,
+          "KUA_pretest": 178.36290219822936,
+          "share_pretest": 0.163739191285344,
+          "T_h": 16.765694444444446,
+          "D_km": 1089.311
+        },
+        {
+          "route": "kharkiv_lviv_R3",
+          "KUA": 315.57606651802496,
+          "share": 0.27184065631758303,
+          "AES8": 0.62827047303322,
+          "KUA_pretest": 224.81426774098864,
+          "share_pretest": 0.19365745560674996,
+          "T_h": 16.892138888888887,
+          "D_km": 1160.8862
+        },
+        {
+          "route": "kharkiv_lviv_R4",
+          "KUA": 318.4708241538619,
+          "share": 0.29123470057357176,
+          "AES8": 0.6174622992908365,
+          "KUA_pretest": 167.98753306970593,
+          "share_pretest": 0.15362097618716988,
+          "T_h": 17.07338888888889,
+          "D_km": 1093.5195
+        },
+        {
+          "route": "kharkiv_lviv_R5",
+          "KUA": 317.1315940960882,
+          "share": 0.2940799872551032,
+          "AES8": 0.6047008600053401,
+          "KUA_pretest": 159.10153269021595,
+          "share_pretest": 0.1475367878093835,
+          "T_h": 15.176833333333335,
+          "D_km": 1078.3855
+        },
+        {
+          "route": "kharkiv_lviv_R6",
+          "KUA": 307.5142475711057,
+          "share": 0.2991327280118504,
+          "AES8": 0.6074719083435538,
+          "KUA_pretest": 154.31320871152244,
+          "share_pretest": 0.15010729244168194,
+          "T_h": 14.51313888888889,
+          "D_km": 1028.0194000000001
+        },
+        {
+          "route": "kharkiv_lviv_R7",
+          "KUA": 298.95683939829183,
+          "share": 0.2761738755359534,
+          "AES8": 0.6169892947052628,
+          "KUA_pretest": 176.8447546923255,
+          "share_pretest": 0.16336773351592895,
+          "T_h": 16.660305555555556,
+          "D_km": 1082.495
+        },
+        {
+          "route": "kharkiv_lviv_R8",
+          "KUA": 315.2567028900903,
+          "share": 0.2924209920231201,
+          "AES8": 0.6185844360785537,
+          "KUA_pretest": 166.21678120134197,
+          "share_pretest": 0.15417682036321953,
+          "T_h": 16.975777777777775,
+          "D_km": 1078.0919
+        }
+      ],
+      "monthly_impr_pred_sched_pct": {
+        "2024-07": 0.1183023650483539,
+        "2024-08": 0.031058227523962742,
+        "2024-09": 0.445575692270504,
+        "2024-10": 2.7368876399300626,
+        "2024-11": 11.089738422828448,
+        "2024-12": 6.843854315266668
+      },
+      "share_hours_static_zero_KUA": 0.07971607971607972,
+      "static_pretest_by_share": "kharkiv_lviv_R5"
+    },
+    "dnipro_kyiv": {
+      "routes": [
+        "dnipro_kyiv_R1",
+        "dnipro_kyiv_R2",
+        "dnipro_kyiv_R3",
+        "dnipro_kyiv_R4",
+        "dnipro_kyiv_R5",
+        "dnipro_kyiv_R6",
+        "dnipro_kyiv_R7",
+        "dnipro_kyiv_R8"
+      ],
+      "duplicates_removed": {},
+      "oblasts": [
+        "Вінницька область",
+        "Дніпропетровська область",
+        "Київська область",
+        "Кіровоградська область",
+        "Полтавська область",
+        "Харківська область",
+        "Черкаська область",
+        "м. Київ"
+      ],
+      "static_pretest": "dnipro_kyiv_R1",
+      "static_hindsight": "dnipro_kyiv_R1",
+      "static_pretest_aes": "dnipro_kyiv_R6",
+      "static_hindsight_aes": "dnipro_kyiv_R6",
+      "fastest": "dnipro_kyiv_R2",
+      "shortest": "dnipro_kyiv_R1",
+      "strategies": {
+        "fastest": {
+          "mean_KUA": 248.57465352247522,
+          "mean_share": 0.45891922460677304,
+          "mean_hours_ua": 3.1482045536512824,
+          "impr_hours_ua_vs_static_pretest_pct": -22.118705119139992,
+          "impr_share_vs_static_pretest_pct": -32.5430502550365,
+          "impr_share_vs_static_share_pct": -64.35983773898354,
+          "mean_AES8": 0.8689288045118473,
+          "impr_KUA_vs_static_pretest_pct": -48.62819379577175,
+          "impr_KUA_vs_static_hindsight_pct": -48.62819379577175,
+          "impr_AES8_vs_static_pretest_aes_pct": -24.956284731733838,
+          "mean_D_km": 541.6523,
+          "mean_T_h": 6.932555555555554,
+          "dT_vs_static_min": -33.23333333333341,
+          "dD_vs_static_km": 58.61979999999994,
+          "pct_hours_off_static": 100.0,
+          "churn": 0,
+          "wilcoxon_p_vs_static": 0.0,
+          "block_boot_ci_impr_pct": [
+            -53.46002731146537,
+            -44.24168023743496
+          ]
+        },
+        "shortest": {
+          "mean_KUA": 167.24596267652873,
+          "mean_share": 0.3462416352451,
+          "mean_hours_ua": 2.5779871728740233,
+          "impr_hours_ua_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_share_pct": -24.004870434719788,
+          "mean_AES8": 0.7877127707556819,
+          "impr_KUA_vs_static_pretest_pct": 0.0,
+          "impr_KUA_vs_static_hindsight_pct": 0.0,
+          "impr_AES8_vs_static_pretest_aes_pct": -13.277015053801163,
+          "mean_D_km": 483.03250000000014,
+          "mean_T_h": 7.486444444444444,
+          "dT_vs_static_min": -5.3290705182007514e-14,
+          "dD_vs_static_km": 1.1368683772161603e-13,
+          "pct_hours_off_static": 0.0,
+          "churn": 0,
+          "block_boot_ci_impr_pct": [
+            0.0,
+            0.0
+          ]
+        },
+        "static_pretest": {
+          "mean_KUA": 167.24596267652873,
+          "mean_share": 0.3462416352451,
+          "mean_hours_ua": 2.5779871728740233,
+          "impr_hours_ua_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_share_pct": -24.004870434719788,
+          "mean_AES8": 0.7877127707556819,
+          "impr_KUA_vs_static_pretest_pct": 0.0,
+          "impr_KUA_vs_static_hindsight_pct": 0.0,
+          "impr_AES8_vs_static_pretest_aes_pct": -13.277015053801163,
+          "mean_D_km": 483.03250000000014,
+          "mean_T_h": 7.486444444444444,
+          "dT_vs_static_min": -5.3290705182007514e-14,
+          "dD_vs_static_km": 1.1368683772161603e-13,
+          "pct_hours_off_static": 0.0,
+          "churn": 0
+        },
+        "static_hindsight": {
+          "mean_KUA": 167.24596267652873,
+          "mean_share": 0.3462416352451,
+          "mean_hours_ua": 2.5779871728740233,
+          "impr_hours_ua_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_share_pct": -24.004870434719788,
+          "mean_AES8": 0.7877127707556819,
+          "impr_KUA_vs_static_pretest_pct": 0.0,
+          "impr_KUA_vs_static_hindsight_pct": 0.0,
+          "impr_AES8_vs_static_pretest_aes_pct": -13.277015053801163,
+          "mean_D_km": 483.03250000000014,
+          "mean_T_h": 7.486444444444444,
+          "dT_vs_static_min": -5.3290705182007514e-14,
+          "dD_vs_static_km": 1.1368683772161603e-13,
+          "pct_hours_off_static": 0.0,
+          "churn": 0,
+          "block_boot_ci_impr_pct": [
+            0.0,
+            0.0
+          ]
+        },
+        "reactive": {
+          "mean_KUA": 179.6928710190502,
+          "mean_share": 0.33470945776865374,
+          "mean_hours_ua": 2.676579177460624,
+          "impr_hours_ua_vs_static_pretest_pct": -3.8243791755056287,
+          "impr_share_vs_static_pretest_pct": 3.330673235840851,
+          "impr_share_vs_static_share_pct": -19.874673404011453,
+          "mean_AES8": 0.7759033133558133,
+          "impr_KUA_vs_static_pretest_pct": -7.442277316191531,
+          "impr_KUA_vs_static_hindsight_pct": -7.442277316191531,
+          "impr_AES8_vs_static_pretest_aes_pct": -11.578756331426005,
+          "mean_D_km": 534.7693015834018,
+          "mean_T_h": 8.057068030151363,
+          "dT_vs_static_min": 34.23741514241513,
+          "dD_vs_static_km": 51.73680158340176,
+          "pct_hours_off_static": 27.136227136227138,
+          "churn": 1220,
+          "wilcoxon_p_vs_static": 6.3837190610602716e-52,
+          "block_boot_ci_impr_pct": [
+            -8.611359824344166,
+            -6.312979465749122
+          ]
+        },
+        "climatology": {
+          "mean_KUA": 167.252990651029,
+          "mean_share": 0.34624179656012255,
+          "mean_hours_ua": 2.578411646714448,
+          "impr_hours_ua_vs_static_pretest_pct": -0.016465320110620095,
+          "impr_share_vs_static_pretest_pct": -4.659030172611137e-05,
+          "impr_share_vs_static_share_pct": -24.00492820896308,
+          "mean_AES8": 0.7877106327482988,
+          "impr_KUA_vs_static_pretest_pct": -0.004202178867452643,
+          "impr_KUA_vs_static_hindsight_pct": -0.004202178867452643,
+          "impr_AES8_vs_static_pretest_aes_pct": -13.276707597703565,
+          "mean_D_km": 483.05178244608254,
+          "mean_T_h": 7.487732535565869,
+          "dT_vs_static_min": 0.07728546728548835,
+          "dD_vs_static_km": 0.019282446082513616,
+          "pct_hours_off_static": 16.680316680316682,
+          "churn": 1094,
+          "wilcoxon_p_vs_static": 6.1562126500094305e-46,
+          "block_boot_ci_impr_pct": [
+            -0.005686387623526968,
+            -0.0027555606205531195
+          ]
+        },
+        "pred_h6_retro": {
+          "mean_KUA": 167.7973379380978,
+          "mean_share": 0.3270827701544824,
+          "mean_hours_ua": 2.54767912158493,
+          "impr_hours_ua_vs_static_pretest_pct": 1.1756478700902457,
+          "impr_share_vs_static_pretest_pct": 5.533379911706829,
+          "impr_share_vs_static_share_pct": -17.14320984454692,
+          "mean_AES8": 0.7763282380919988,
+          "impr_KUA_vs_static_pretest_pct": -0.3296792656427116,
+          "impr_KUA_vs_static_hindsight_pct": -0.3296792656427116,
+          "impr_AES8_vs_static_pretest_aes_pct": -11.639862622354157,
+          "mean_D_km": 510.39612317772327,
+          "mean_T_h": 7.79684331300998,
+          "dT_vs_static_min": 18.623932113932113,
+          "dD_vs_static_km": 27.36362317772324,
+          "pct_hours_off_static": 12.366912366912366,
+          "churn": 532,
+          "wilcoxon_p_vs_static": 0.24965065769361716,
+          "block_boot_ci_impr_pct": [
+            -1.1856790564278001,
+            0.6464525220590801
+          ]
+        },
+        "pred_h6": {
+          "mean_KUA": 167.24596267652873,
+          "mean_share": 0.3462416352451,
+          "mean_hours_ua": 2.5779871728740233,
+          "impr_hours_ua_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_share_pct": -24.004870434719788,
+          "mean_AES8": 0.7877127707556819,
+          "impr_KUA_vs_static_pretest_pct": 0.0,
+          "impr_KUA_vs_static_hindsight_pct": 0.0,
+          "impr_AES8_vs_static_pretest_aes_pct": -13.277015053801163,
+          "mean_D_km": 483.03250000000014,
+          "mean_T_h": 7.486444444444444,
+          "dT_vs_static_min": -5.3290705182007514e-14,
+          "dD_vs_static_km": 1.1368683772161603e-13,
+          "pct_hours_off_static": 0.0,
+          "churn": 0,
+          "block_boot_ci_impr_pct": [
+            0.0,
+            0.0
+          ]
+        },
+        "pred_sched": {
+          "mean_KUA": 167.24596267652873,
+          "mean_share": 0.3462416352451,
+          "mean_hours_ua": 2.5779871728740233,
+          "impr_hours_ua_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_pretest_pct": 0.0,
+          "impr_share_vs_static_share_pct": -24.004870434719788,
+          "mean_AES8": 0.7877127707556819,
+          "impr_KUA_vs_static_pretest_pct": 0.0,
+          "impr_KUA_vs_static_hindsight_pct": 0.0,
+          "impr_AES8_vs_static_pretest_aes_pct": -13.277015053801163,
+          "mean_D_km": 483.03250000000014,
+          "mean_T_h": 7.486444444444444,
+          "dT_vs_static_min": -5.3290705182007514e-14,
+          "dD_vs_static_km": 1.1368683772161603e-13,
+          "pct_hours_off_static": 0.0,
+          "churn": 0,
+          "block_boot_ci_impr_pct": [
+            0.0,
+            0.0
+          ]
+        },
+        "static_share": {
+          "mean_KUA": 230.1795464023267,
+          "mean_share": 0.2792161582293438,
+          "mean_hours_ua": 3.387113574809596,
+          "impr_hours_ua_vs_static_pretest_pct": -31.385974703416874,
+          "impr_share_vs_static_pretest_pct": 19.358006141667424,
+          "impr_share_vs_static_share_pct": 0.0,
+          "mean_AES8": 0.6953862355761723,
+          "impr_KUA_vs_static_pretest_pct": -37.62935901030875,
+          "impr_KUA_vs_static_hindsight_pct": -37.62935901030875,
+          "impr_AES8_vs_static_pretest_aes_pct": 0.0,
+          "mean_D_km": 824.3775999999999,
+          "mean_T_h": 12.31430555555556,
+          "dT_vs_static_min": 289.6716666666669,
+          "dD_vs_static_km": 341.3450999999999,
+          "pct_hours_off_static": 100.0,
+          "churn": 0,
+          "wilcoxon_p_vs_static": 2.008568208576256e-226,
+          "block_boot_ci_impr_pct": [
+            -41.28553005694717,
+            -34.19586733317166
+          ]
+        },
+        "pred_share": {
+          "mean_KUA": 230.1795464023267,
+          "mean_share": 0.2792161582293438,
+          "mean_hours_ua": 3.387113574809596,
+          "impr_hours_ua_vs_static_pretest_pct": -31.385974703416874,
+          "impr_share_vs_static_pretest_pct": 19.358006141667424,
+          "impr_share_vs_static_share_pct": 0.0,
+          "mean_AES8": 0.6953862355761723,
+          "impr_KUA_vs_static_pretest_pct": -37.62935901030875,
+          "impr_KUA_vs_static_hindsight_pct": -37.62935901030875,
+          "impr_AES8_vs_static_pretest_aes_pct": 0.0,
+          "mean_D_km": 824.3775999999999,
+          "mean_T_h": 12.31430555555556,
+          "dT_vs_static_min": 289.6716666666669,
+          "dD_vs_static_km": 341.3450999999999,
+          "pct_hours_off_static": 100.0,
+          "churn": 0,
+          "wilcoxon_p_vs_static": 2.008568208576256e-226,
+          "block_boot_ci_impr_pct": [
+            -41.28553005694717,
+            -34.19586733317166
+          ]
+        },
+        "pred_share_leaky": {
+          "mean_KUA": 218.78648390208858,
+          "mean_share": 0.281013941896519,
+          "mean_hours_ua": 3.2095314208165,
+          "impr_hours_ua_vs_static_pretest_pct": -24.49757138389524,
+          "impr_share_vs_static_pretest_pct": 18.838778098540093,
+          "impr_share_vs_static_share_pct": -0.6438680621407769,
+          "mean_AES8": 0.7160078652689534,
+          "impr_KUA_vs_static_pretest_pct": -30.817199052657926,
+          "impr_KUA_vs_static_hindsight_pct": -30.817199052657926,
+          "impr_AES8_vs_static_pretest_aes_pct": -2.9654929358351176,
+          "mean_D_km": 763.4705141141139,
+          "mean_T_h": 11.392644371644373,
+          "dT_vs_static_min": 234.3719956319957,
+          "dD_vs_static_km": 280.4380141141139,
+          "pct_hours_off_static": 89.35298935298935,
+          "churn": 773,
+          "wilcoxon_p_vs_static": 9.545843679229318e-192,
+          "block_boot_ci_impr_pct": [
+            -33.90580513967717,
+            -27.98057336579104
+          ]
+        },
+        "pred_sched_leaky": {
+          "mean_KUA": 167.63126744428448,
+          "mean_share": 0.3462129181303505,
+          "mean_hours_ua": 2.5802349031215916,
+          "impr_hours_ua_vs_static_pretest_pct": -0.08718934955221132,
+          "impr_share_vs_static_pretest_pct": 0.008293951918627765,
+          "impr_share_vs_static_share_pct": -23.994585530389173,
+          "mean_AES8": 0.7870740712772452,
+          "impr_KUA_vs_static_pretest_pct": -0.23038210405172005,
+          "impr_KUA_vs_static_hindsight_pct": -0.23038210405172005,
+          "impr_AES8_vs_static_pretest_aes_pct": -13.185166891476301,
+          "mean_D_km": 484.5525623532625,
+          "mean_T_h": 7.496087731671065,
+          "dT_vs_static_min": 0.5785972335972467,
+          "dD_vs_static_km": 1.5200623532624604,
+          "pct_hours_off_static": 16.325416325416324,
+          "churn": 679,
+          "wilcoxon_p_vs_static": 2.1856526368484657e-38,
+          "block_boot_ci_impr_pct": [
+            -0.38443706151663964,
+            -0.07146446999794433
+          ]
+        },
+        "reactive_leaky": {
+          "mean_KUA": 181.93702694306697,
+          "mean_share": 0.3322892389482516,
+          "mean_hours_ua": 2.7095714420161463,
+          "impr_hours_ua_vs_static_pretest_pct": -5.104147550719912,
+          "impr_share_vs_static_pretest_pct": 4.02967028704439,
+          "impr_share_vs_static_share_pct": -19.00788301632399,
+          "mean_AES8": 0.767829683243425,
+          "impr_KUA_vs_static_pretest_pct": -8.784106971211195,
+          "impr_KUA_vs_static_hindsight_pct": -8.784106971211195,
+          "impr_AES8_vs_static_pretest_aes_pct": -10.417728157536608,
+          "mean_D_km": 551.4957717171718,
+          "mean_T_h": 8.281014833014833,
+          "dT_vs_static_min": 47.67422331422331,
+          "dD_vs_static_km": 68.46327171717178,
+          "pct_hours_off_static": 34.64373464373464,
+          "churn": 1347,
+          "wilcoxon_p_vs_static": 3.3564553372947743e-57,
+          "block_boot_ci_impr_pct": [
+            -10.116954822483047,
+            -7.582805181440038
+          ]
+        },
+        "oracle": {
+          "mean_KUA": 147.01939541759222,
+          "mean_share": 0.2662818685422713,
+          "mean_hours_ua": 2.212669467759871,
+          "impr_hours_ua_vs_static_pretest_pct": 14.170656431423767,
+          "impr_share_vs_static_pretest_pct": 23.09363131508612,
+          "impr_share_vs_static_share_pct": 4.632357156224631,
+          "mean_AES8": 0.7600519497004057,
+          "impr_KUA_vs_static_pretest_pct": 12.093904651113652,
+          "impr_KUA_vs_static_hindsight_pct": 12.093904651113652,
+          "impr_AES8_vs_static_pretest_aes_pct": -9.299251382313265,
+          "mean_D_km": 570.3673990444992,
+          "mean_T_h": 8.548869983619984,
+          "dT_vs_static_min": 63.74553235053234,
+          "dD_vs_static_km": 87.33489904449914,
+          "pct_hours_off_static": 55.41905541905542,
+          "churn": 1505,
+          "wilcoxon_p_vs_static": 0.0,
+          "block_boot_ci_impr_pct": [
+            10.744590416104291,
+            13.619481059420368
+          ]
+        }
+      },
+      "epsilon": [
+        {
+          "eps": 0.0,
+          "n_allowed": 1,
+          "static_in_set": "dnipro_kyiv_R2",
+          "static_KUA": 248.57465352247522,
+          "pred_KUA": 248.57465352247522,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 6.932555555555554,
+          "mean_D_km": 541.6523
+        },
+        {
+          "eps": 0.02,
+          "n_allowed": 2,
+          "static_in_set": "dnipro_kyiv_R2",
+          "static_KUA": 248.57465352247522,
+          "pred_KUA": 248.57465352247522,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 6.932555555555554,
+          "mean_D_km": 541.6523
+        },
+        {
+          "eps": 0.05,
+          "n_allowed": 2,
+          "static_in_set": "dnipro_kyiv_R2",
+          "static_KUA": 248.57465352247522,
+          "pred_KUA": 248.57465352247522,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 6.932555555555554,
+          "mean_D_km": 541.6523
+        },
+        {
+          "eps": 0.1,
+          "n_allowed": 4,
+          "static_in_set": "dnipro_kyiv_R1",
+          "static_KUA": 167.24596267652873,
+          "pred_KUA": 167.24596267652873,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 7.486444444444444,
+          "mean_D_km": 483.03250000000014
+        },
+        {
+          "eps": 0.2,
+          "n_allowed": 4,
+          "static_in_set": "dnipro_kyiv_R1",
+          "static_KUA": 167.24596267652873,
+          "pred_KUA": 167.24596267652873,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 7.486444444444444,
+          "mean_D_km": 483.03250000000014
+        },
+        {
+          "eps": 0.5,
+          "n_allowed": 7,
+          "static_in_set": "dnipro_kyiv_R1",
+          "static_KUA": 167.24596267652873,
+          "pred_KUA": 167.24596267652873,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 7.486444444444444,
+          "mean_D_km": 483.03250000000014
+        },
+        {
+          "eps": "inf",
+          "n_allowed": 8,
+          "static_in_set": "dnipro_kyiv_R1",
+          "static_KUA": 167.24596267652873,
+          "pred_KUA": 167.24596267652873,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 7.486444444444444,
+          "mean_D_km": 483.03250000000014
+        }
+      ],
+      "lambda": [
+        {
+          "lambda": 0,
+          "KUA": 167.24596267652873,
+          "share": 0.3462416352451,
+          "T_h": 7.486444444444444,
+          "D_km": 483.03250000000014
+        },
+        {
+          "lambda": 0.005,
+          "KUA": 167.24596267652873,
+          "share": 0.3462416352451,
+          "T_h": 7.486444444444444,
+          "D_km": 483.03250000000014
+        },
+        {
+          "lambda": 0.01,
+          "KUA": 167.24596267652873,
+          "share": 0.3462416352451,
+          "T_h": 7.486444444444444,
+          "D_km": 483.03250000000014
+        },
+        {
+          "lambda": 0.02,
+          "KUA": 167.24596267652873,
+          "share": 0.3462416352451,
+          "T_h": 7.486444444444444,
+          "D_km": 483.03250000000014
+        },
+        {
+          "lambda": 0.05,
+          "KUA": 167.24596267652873,
+          "share": 0.3462416352451,
+          "T_h": 7.486444444444444,
+          "D_km": 483.03250000000014
+        },
+        {
+          "lambda": 0.1,
+          "KUA": 167.24596267652873,
+          "share": 0.3462416352451,
+          "T_h": 7.486444444444444,
+          "D_km": 483.03250000000014
+        },
+        {
+          "lambda": 0.2,
+          "KUA": 167.24596267652873,
+          "share": 0.3462416352451,
+          "T_h": 7.486444444444444,
+          "D_km": 483.03250000000014
+        },
+        {
+          "lambda": 0.5,
+          "KUA": 167.24596267652873,
+          "share": 0.3462416352451,
+          "T_h": 7.486293232626567,
+          "D_km": 483.0485032214034
+        },
+        {
+          "lambda": 1.0,
+          "KUA": 167.4956414874412,
+          "share": 0.3465857427770979,
+          "T_h": 7.48387384354051,
+          "D_km": 483.3045547638549
+        },
+        {
+          "lambda": 2.0,
+          "KUA": 198.93020654428005,
+          "share": 0.38976866461528475,
+          "T_h": 7.244051900385234,
+          "D_km": 508.68566390936405
+        },
+        {
+          "lambda": 5.0,
+          "KUA": 248.57465352247522,
+          "share": 0.45891922460677304,
+          "T_h": 6.932555555555554,
+          "D_km": 541.6523
+        }
+      ],
+      "fixed_routes": [
+        {
+          "route": "dnipro_kyiv_R1",
+          "KUA": 167.24596267652873,
+          "share": 0.3462416352451,
+          "AES8": 0.7877127707556819,
+          "KUA_pretest": 92.60197163203088,
+          "share_pretest": 0.1917096088400488,
+          "T_h": 7.4864444444444445,
+          "D_km": 483.0325
+        },
+        {
+          "route": "dnipro_kyiv_R2",
+          "KUA": 248.57465352247522,
+          "share": 0.45891922460677304,
+          "AES8": 0.8689288045118473,
+          "KUA_pretest": 123.5265193952974,
+          "share_pretest": 0.2280550076041353,
+          "T_h": 6.932555555555556,
+          "D_km": 541.6523000000001
+        },
+        {
+          "route": "dnipro_kyiv_R3",
+          "KUA": 196.82635001876503,
+          "share": 0.3480659461630426,
+          "AES8": 0.7852984467659201,
+          "KUA_pretest": 102.93586725964616,
+          "share_pretest": 0.18203086135787347,
+          "T_h": 8.918722222222222,
+          "D_km": 565.4858
+        },
+        {
+          "route": "dnipro_kyiv_R4",
+          "KUA": 208.9806374756401,
+          "share": 0.3282396048754225,
+          "AES8": 0.785681931667668,
+          "KUA_pretest": 124.11737208055588,
+          "share_pretest": 0.19494742509169705,
+          "T_h": 8.590944444444444,
+          "D_km": 636.671
+        },
+        {
+          "route": "dnipro_kyiv_R5",
+          "KUA": 167.28531668308216,
+          "share": 0.34624024534730075,
+          "AES8": 0.7877011861431069,
+          "KUA_pretest": 92.61523440050888,
+          "share_pretest": 0.19169119034206877,
+          "T_h": 7.494166666666667,
+          "D_km": 483.1481
+        },
+        {
+          "route": "dnipro_kyiv_R6",
+          "KUA": 230.1795464023267,
+          "share": 0.2792161582293438,
+          "AES8": 0.6953862355761723,
+          "KUA_pretest": 141.93421544168223,
+          "share_pretest": 0.1721713635131307,
+          "T_h": 12.314305555555556,
+          "D_km": 824.3776
+        },
+        {
+          "route": "dnipro_kyiv_R7",
+          "KUA": 248.61405620986432,
+          "share": 0.4588939476120116,
+          "AES8": 0.8689011475713894,
+          "KUA_pretest": 123.5397821180998,
+          "share_pretest": 0.22803078461278592,
+          "T_h": 6.940250000000001,
+          "D_km": 541.768
+        },
+        {
+          "route": "dnipro_kyiv_R8",
+          "KUA": 208.15932577487126,
+          "share": 0.3385459193827946,
+          "AES8": 0.7901490814587518,
+          "KUA_pretest": 119.43020506731631,
+          "share_pretest": 0.19423875642410093,
+          "T_h": 9.300416666666667,
+          "D_km": 614.8629
+        }
+      ],
+      "monthly_impr_pred_sched_pct": {
+        "2024-07": 0.0,
+        "2024-08": 0.0,
+        "2024-09": 0.0,
+        "2024-10": 0.0,
+        "2024-11": 0.0,
+        "2024-12": 0.0
+      },
+      "share_hours_static_zero_KUA": 0.17226317226317225,
+      "static_pretest_by_share": "dnipro_kyiv_R6"
+    }
+  },
+  "holm_adjusted_p": {
+    "kharkiv_lviv:pred_sched": 1.0263488155432208e-16,
+    "kharkiv_lviv:pred_h6": 3.48050744677602e-15,
+    "odesa_kyiv:pred_sched": 0.0005773674138438797,
+    "lviv_kyiv:pred_h6": 0.0026187252566861356,
+    "lviv_kyiv:pred_sched": 0.0154697503570995,
+    "odesa_kyiv:pred_h6": 1.0,
+    "dnipro_kyiv:pred_h6": 1.0,
+    "dnipro_kyiv:pred_sched": 1.0
+  }
+}

@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+# caches and inputs recreated by the scripts
+results/p3/features.parquet
+data/transfer/*
+!data/transfer/.gitkeep
+# generated tables and figures
+paper/*.tex
+paper/*.json
+paper/images/*
+!paper/images/.gitkeep

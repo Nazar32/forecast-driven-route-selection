@@ -1,0 +1,27 @@
+{
+  "backend": "memory",
+  "graph": {
+    "nodes": 86,
+    "edges": 126
+  },
+  "n_od": 79,
+  "K": 10,
+  "mu": 4.0,
+  "n_hours_W2": 24,
+  "W1_yen": {
+    "n": 79,
+    "median_ms": 5.232459006947465,
+    "p95_ms": 8.723371196538208,
+    "mean_ms": 5.032023241267469,
+    "total_s": 0.39752983606013004
+  },
+  "W2_dynamic_reweight_dijkstra": {
+    "n": 1896,
+    "median_ms": 0.19102049554931,
+    "p95_ms": 0.207582997973077,
+    "mean_ms": 0.19144422172443235,
+    "total_s": 0.36297824438952375
+  },
+  "W1_mismatches": 0,
+  "W2_path_mismatches": 0
+}

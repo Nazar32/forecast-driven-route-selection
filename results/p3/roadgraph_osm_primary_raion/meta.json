@@ -1,0 +1,58 @@
+{
+  "ways": 49569,
+  "subsegments": 369045,
+  "nodes_before_contraction": 40328,
+  "level": "primary",
+  "time_factor": 1.11702096421758,
+  "ors_over_graph_before_calibration": {
+    "lviv_kyiv": 1.191392075045711,
+    "odesa_kyiv": 1.0445698066533997,
+    "kharkiv_lviv": 1.1397957748393652,
+    "dnipro_kyiv": 1.0942461535957946
+  },
+  "region_units": "oblast|raion (OSM admin_level 6, 2026-10-01)",
+  "nodes": 11852,
+  "edges": 17100,
+  "total_km": 26380.115968523878,
+  "cities": {
+    "Lviv": 2052,
+    "Kyiv": 6742,
+    "Odesa": 10885,
+    "Kharkiv": 1554,
+    "Dnipro": 9799,
+    "Ternopil": 6268,
+    "Rivne": 2202,
+    "Zhytomyr": 9294,
+    "Vinnytsia": 2738,
+    "Khmelnytskyi": 1774,
+    "Uman": 4086,
+    "Bila Tserkva": 2096,
+    "Cherkasy": 1910,
+    "Kropyvnytskyi": 11434,
+    "Kremenchuk": 7133,
+    "Poltava": 2702,
+    "Lubny": 8904,
+    "Boryspil": 1704,
+    "Mykolaiv": 5698,
+    "Voznesensk": 2858,
+    "Lutsk": 5015,
+    "Berdychiv": 7613
+  },
+  "missing_cities": [],
+  "excluded_oblasts": [
+    "Автономна Республіка Крим",
+    "Донецька область",
+    "Луганська область",
+    "Севастополь"
+  ],
+  "speeds_kmh": {
+    "motorway": 110,
+    "motorway_link": 60,
+    "trunk": 90,
+    "trunk_link": 50,
+    "primary": 75,
+    "primary_link": 40,
+    "secondary": 60,
+    "secondary_link": 35
+  }
+}

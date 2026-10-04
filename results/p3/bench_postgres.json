@@ -1,0 +1,27 @@
+{
+  "backend": "postgres",
+  "graph": {
+    "nodes": 86,
+    "edges": 126
+  },
+  "n_od": 79,
+  "K": 10,
+  "mu": 4.0,
+  "n_hours_W2": 24,
+  "W1_yen": {
+    "n": 79,
+    "median_ms": 1.9331670046085492,
+    "p95_ms": 4.896387495682574,
+    "mean_ms": 2.2789161015726345,
+    "total_s": 0.1800343720242381
+  },
+  "W2_dynamic_reweight_dijkstra": {
+    "n": 1896,
+    "median_ms": 8.672645497426856,
+    "p95_ms": 11.020958500012057,
+    "mean_ms": 8.894961981106754,
+    "total_s": 16.864847916178405
+  },
+  "W1_mismatches": 0,
+  "W2_path_mismatches": 0
+}

@@ -1,0 +1,27 @@
+{
+  "backend": "neo4j",
+  "graph": {
+    "nodes": 86,
+    "edges": 126
+  },
+  "n_od": 79,
+  "K": 10,
+  "mu": 4.0,
+  "n_hours_W2": 24,
+  "W1_yen": {
+    "n": 79,
+    "median_ms": 6.459458003519103,
+    "p95_ms": 112.74186250084313,
+    "mean_ms": 19.048839166857704,
+    "total_s": 1.5048582941817585
+  },
+  "W2_dynamic_reweight_dijkstra": {
+    "n": 1896,
+    "median_ms": 20.602416509063914,
+    "p95_ms": 32.87558325246209,
+    "mean_ms": 22.073454707708365,
+    "total_s": 41.85127012581506
+  },
+  "W1_mismatches": 0,
+  "W2_path_mismatches": 0
+}

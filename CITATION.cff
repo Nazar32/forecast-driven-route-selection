@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper."
+title: "Forecast-driven route selection under time-varying regional risk: code and data"
+authors:
+  - family-names: Melnyk
+    given-names: Nazar
+  - family-names: Pysarchuk
+    given-names: Oleksii
+repository-code: "https://github.com/Nazar32/forecast-driven-route-selection"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Forecast-Driven Multi-Criteria Route Selection Technology on a Graph Database Under Time-Varying Regional Risk"
+  authors:
+    - family-names: Melnyk
+      given-names: Nazar
+    - family-names: Pysarchuk
+      given-names: Oleksii
+  journal: "IEEE Access"
+  year: 2026
+  notes: "Submitted"

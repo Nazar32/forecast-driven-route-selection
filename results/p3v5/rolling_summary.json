@@ -1,0 +1,274 @@
+{
+  "W0": {
+    "n_hours": 4374,
+    "auc_k1": 0.8770051356393732,
+    "auc_k6": 0.7413949246119459,
+    "auc_k7": 0.7371654566022429,
+    "corridors": {
+      "lviv_kyiv": {
+        "static": "R2",
+        "static_KUA": 33.90400052147643,
+        "reactive_impr_pct": 0.24408370619793085,
+        "pred_sched_impr_pct": -1.3889041315625026,
+        "pred_ci": [
+          -2.1068847588001876,
+          -0.6970010269642054
+        ],
+        "pred_p": 2.5870472114271615e-06,
+        "pred_dT_min": 4.62840687395218,
+        "oracle_impr_pct": 13.961121288513603
+      },
+      "odesa_kyiv": {
+        "static": "odesa_kyiv_R1",
+        "static_KUA": 50.77160546054817,
+        "reactive_impr_pct": -1.149256104142893,
+        "pred_sched_impr_pct": 1.781904981004692,
+        "pred_ci": [
+          0.16290857610973938,
+          3.340410015259786
+        ],
+        "pred_p": 9.530735210071014e-06,
+        "pred_dT_min": 12.705931641518138,
+        "oracle_impr_pct": 29.23899500015991
+      },
+      "kharkiv_lviv": {
+        "static": "kharkiv_lviv_R1",
+        "static_KUA": 125.60472923061225,
+        "reactive_impr_pct": -0.8395830271261625,
+        "pred_sched_impr_pct": -1.410251056295169,
+        "pred_ci": [
+          -2.342035300446416,
+          -0.38552797203511063
+        ],
+        "pred_p": 0.1211497830498676,
+        "pred_dT_min": 29.258099375095128,
+        "oracle_impr_pct": 17.128490018424444
+      },
+      "dnipro_kyiv": {
+        "static": "dnipro_kyiv_R1",
+        "static_KUA": 72.63118485955022,
+        "reactive_impr_pct": -3.3498555352720443,
+        "pred_sched_impr_pct": -0.04594240555199541,
+        "pred_ci": [
+          -0.16500337393082992,
+          0.06621683018447994
+        ],
+        "pred_p": 2.0482463102165065e-20,
+        "pred_dT_min": -0.21182670324636277,
+        "oracle_impr_pct": 13.427708825739751
+      }
+    },
+    "osm": {
+      "n_od": 78,
+      "pred_pooled_pct": 1.9212640452786143,
+      "reactive_pooled_pct": -0.4041299678535316,
+      "oracle_pooled_pct": 27.287746674707837,
+      "share_od_better": 0.5384615384615384,
+      "share_od_sig": 0.38461538461538464
+    }
+  },
+  "W1": {
+    "n_hours": 4374,
+    "auc_k1": 0.8909331514554917,
+    "auc_k6": 0.7652078037970554,
+    "auc_k7": 0.7630365377380484,
+    "corridors": {
+      "lviv_kyiv": {
+        "static": "R2",
+        "static_KUA": 36.43304047931381,
+        "reactive_impr_pct": 0.07622482619455163,
+        "pred_sched_impr_pct": -3.6020387326446635,
+        "pred_ci": [
+          -5.213383655725452,
+          -2.2520042686647446
+        ],
+        "pred_p": 0.026265260760005318,
+        "pred_dT_min": 19.647349870446682,
+        "oracle_impr_pct": 14.308186026607657
+      },
+      "odesa_kyiv": {
+        "static": "odesa_kyiv_R1",
+        "static_KUA": 72.92722749864284,
+        "reactive_impr_pct": -6.657588300414773,
+        "pred_sched_impr_pct": -2.1095886025636625,
+        "pred_ci": [
+          -3.5158392632094806,
+          -0.6988045134894825
+        ],
+        "pred_p": 0.01708901143722473,
+        "pred_dT_min": 26.12519623533002,
+        "oracle_impr_pct": 23.310340802984797
+      },
+      "kharkiv_lviv": {
+        "static": "kharkiv_lviv_R1",
+        "static_KUA": 147.4376628062571,
+        "reactive_impr_pct": -4.992506960093222,
+        "pred_sched_impr_pct": -3.1777171467563403,
+        "pred_ci": [
+          -4.439843329533918,
+          -2.0274259990994286
+        ],
+        "pred_p": 0.3102107584974896,
+        "pred_dT_min": 42.53690976985194,
+        "oracle_impr_pct": 13.226854000768096
+      },
+      "dnipro_kyiv": {
+        "static": "dnipro_kyiv_R1",
+        "static_KUA": 100.96627274978485,
+        "reactive_impr_pct": -3.262967874883859,
+        "pred_sched_impr_pct": 0.3667899878293809,
+        "pred_ci": [
+          -0.45508580163340534,
+          1.360463671833677
+        ],
+        "pred_p": 1.9571045825181824e-26,
+        "pred_dT_min": -1.025567748818812,
+        "oracle_impr_pct": 17.39275624438248
+      }
+    },
+    "osm": {
+      "n_od": 78,
+      "pred_pooled_pct": 3.112289723497336,
+      "reactive_pooled_pct": -1.0048011749670678,
+      "oracle_pooled_pct": 29.439961357443885,
+      "share_od_better": 0.5897435897435898,
+      "share_od_sig": 0.5128205128205128
+    }
+  },
+  "W2": {
+    "n_hours": 4374,
+    "auc_k1": 0.8945680769189441,
+    "auc_k6": 0.8102965912761335,
+    "auc_k7": 0.8098962139584442,
+    "corridors": {
+      "lviv_kyiv": {
+        "static": "R2",
+        "static_KUA": 46.33247805536934,
+        "reactive_impr_pct": 1.4870970739411413,
+        "pred_sched_impr_pct": 0.21434095741478149,
+        "pred_ci": [
+          -1.0526313322784222,
+          1.4693776945248966
+        ],
+        "pred_p": 0.5943561195572344,
+        "pred_dT_min": 16.288772290809455,
+        "oracle_impr_pct": 17.552944621564983
+      },
+      "odesa_kyiv": {
+        "static": "odesa_kyiv_R1",
+        "static_KUA": 100.42260195070601,
+        "reactive_impr_pct": -4.448429736252394,
+        "pred_sched_impr_pct": 0.9122956015249394,
+        "pred_ci": [
+          -0.033937088511699916,
+          1.892991503091041
+        ],
+        "pred_p": 0.0003148028288952004,
+        "pred_dT_min": 16.484279073312056,
+        "oracle_impr_pct": 25.355600598028293
+      },
+      "kharkiv_lviv": {
+        "static": "kharkiv_lviv_R1",
+        "static_KUA": 239.09312045609886,
+        "reactive_impr_pct": -5.723100720847933,
+        "pred_sched_impr_pct": -0.23429226351193042,
+        "pred_ci": [
+          -1.1163894006818667,
+          0.644536360423869
+        ],
+        "pred_p": 0.0001024937387204532,
+        "pred_dT_min": 28.51193263222065,
+        "oracle_impr_pct": 14.260448191369774
+      },
+      "dnipro_kyiv": {
+        "static": "dnipro_kyiv_R1",
+        "static_KUA": 139.2393601105958,
+        "reactive_impr_pct": -7.087332074150686,
+        "pred_sched_impr_pct": -0.11801255665695834,
+        "pred_ci": [
+          -0.25031620607042915,
+          -0.0233192106735698
+        ],
+        "pred_p": 2.6410489692150706e-57,
+        "pred_dT_min": 0.30803993293700316,
+        "oracle_impr_pct": 10.094941637938035
+      }
+    },
+    "osm": {
+      "n_od": 78,
+      "pred_pooled_pct": 1.7746276586402583,
+      "reactive_pooled_pct": -0.8160633704045372,
+      "oracle_pooled_pct": 24.33616706566448,
+      "share_od_better": 0.5512820512820513,
+      "share_od_sig": 0.41025641025641024
+    }
+  },
+  "W3c": {
+    "n_hours": 2190,
+    "auc_k1": 0.9110748258772078,
+    "auc_k6": 0.7665737185484728,
+    "auc_k7": 0.7638292975102003,
+    "corridors": {
+      "lviv_kyiv": {
+        "static": "R2",
+        "static_KUA": 85.34376109137021,
+        "reactive_impr_pct": 1.7852367511755305,
+        "pred_sched_impr_pct": 2.524126487105411,
+        "pred_ci": [
+          0.9501110800635656,
+          4.192652876831136
+        ],
+        "pred_p": 0.006508400795090439,
+        "pred_dT_min": 20.13465753424658,
+        "oracle_impr_pct": 22.84053988705074
+      },
+      "odesa_kyiv": {
+        "static": "odesa_kyiv_R1",
+        "static_KUA": 137.57701425971118,
+        "reactive_impr_pct": -3.979251416969567,
+        "pred_sched_impr_pct": 0.21130353826487194,
+        "pred_ci": [
+          -1.715168748466986,
+          2.389610718804294
+        ],
+        "pred_p": 0.9726757494577807,
+        "pred_dT_min": 46.73858295281592,
+        "oracle_impr_pct": 29.712471702739755
+      },
+      "kharkiv_lviv": {
+        "static": "kharkiv_lviv_R1",
+        "static_KUA": 319.4817119610687,
+        "reactive_impr_pct": 5.472794995331679,
+        "pred_sched_impr_pct": 4.2207175395497885,
+        "pred_ci": [
+          2.1465969371900178,
+          6.428121696806802
+        ],
+        "pred_p": 1.261072363151331e-11,
+        "pred_dT_min": 66.50658371385084,
+        "oracle_impr_pct": 26.589256766554403
+      },
+      "dnipro_kyiv": {
+        "static": "dnipro_kyiv_R1",
+        "static_KUA": 170.81460942054161,
+        "reactive_impr_pct": -7.487856705353475,
+        "pred_sched_impr_pct": -0.13707929351278764,
+        "pred_ci": [
+          -0.2747936839219397,
+          0.0017917528921592351
+        ],
+        "pred_p": 1.992689394987399e-32,
+        "pred_dT_min": 0.6079261796042168,
+        "oracle_impr_pct": 12.282549130920804
+      }
+    },
+    "osm": {
+      "n_od": 78,
+      "pred_pooled_pct": 2.355338735819258,
+      "reactive_pooled_pct": 1.4534985991121327,
+      "oracle_pooled_pct": 26.159642541804793,
+      "share_od_better": 0.47435897435897434,
+      "share_od_sig": 0.38461538461538464
+    }
+  }
+}

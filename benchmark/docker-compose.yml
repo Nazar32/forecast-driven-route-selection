@@ -1,0 +1,23 @@
+# Database backends of the benchmark (Section VI-K of the paper).
+#   docker compose -f benchmark/docker-compose.yml up -d
+# then see the commands in README.md ("Storage backends").
+services:
+  postgres:
+    build:
+      context: .
+      dockerfile: Dockerfile.pgrouting
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: p3
+    ports:
+      - "5433:5432"
+  neo4j:
+    image: neo4j:5.26
+    environment:
+      NEO4J_AUTH: neo4j/password
+      NEO4J_PLUGINS: '["graph-data-science"]'
+      NEO4J_dbms_security_procedures_unrestricted: "gds.*"
+      NEO4J_dbms_security_procedures_allowlist: "gds.*"
+    ports:
+      - "7475:7474"
+      - "7688:7687"

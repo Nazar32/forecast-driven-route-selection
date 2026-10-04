@@ -1,0 +1,1286 @@
+{
+ "lviv_kyiv": {
+  "routes": [
+   "R1",
+   "R2",
+   "R3",
+   "R4",
+   "R5",
+   "R6",
+   "R8",
+   "R9",
+   "R10"
+  ],
+  "static_criteria": [
+   [
+    6.0,
+    218.0,
+    78.105,
+    65.0,
+    92.04519892552726
+   ],
+   [
+    1.0,
+    293.0,
+    96.58,
+    65.0,
+    3.47041034023992
+   ],
+   [
+    3.0,
+    288.0,
+    87.68,
+    64.0,
+    129.6940485466546
+   ],
+   [
+    2.0,
+    268.0,
+    81.89,
+    60.0,
+    35.617707250489495
+   ],
+   [
+    3.0,
+    349.0,
+    123.51,
+    61.0,
+    104.65436894227186
+   ],
+   [
+    7.0,
+    241.0,
+    87.26,
+    59.0,
+    150.96261045410245
+   ],
+   [
+    5.0,
+    183.0,
+    89.515,
+    51.0,
+    94.69812518111458
+   ],
+   [
+    5.0,
+    350.0,
+    141.41,
+    58.0,
+    7.393021174574345
+   ],
+   [
+    6.0,
+    324.0,
+    126.675,
+    53.0,
+    39.54031808482392
+   ]
+  ],
+  "static_km": "R2",
+  "gS0.0": {
+   "static_mc_route": "R2",
+   "static_mc": {
+    "KUA": 72.43681276871271,
+    "T_h": 8.113833333333332,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "R2"
+    ],
+    "rail": 1.0,
+    "junction": 293.0,
+    "settle_km": 96.58,
+    "bridges": 65.0,
+    "poor_km": 3.470410340239921
+   },
+   "dynamic_mc": {
+    "KUA": 69.23846813577588,
+    "T_h": 8.336868656535323,
+    "impr_vs_base_pct": 4.415358035076722,
+    "ci": [
+     3.2613487239621857,
+     5.510600960638245
+    ],
+    "churn": 735,
+    "routes_used": [
+     "R1",
+     "R10",
+     "R2",
+     "R5",
+     "R8",
+     "R9"
+    ],
+    "rail": 3.553917553917554,
+    "junction": 327.23942123942123,
+    "settle_km": 124.39901173901174,
+    "bridges": 60.482391482391485,
+    "poor_km": 7.814354273921564
+   },
+   "dynamic_mc_vs_static_km": 4.415358035076722
+  },
+  "gS0.1": {
+   "static_mc_route": "R2",
+   "static_mc": {
+    "KUA": 72.43681276871271,
+    "T_h": 8.113833333333332,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "R2"
+    ],
+    "rail": 1.0,
+    "junction": 293.0,
+    "settle_km": 96.58,
+    "bridges": 65.0,
+    "poor_km": 3.470410340239921
+   },
+   "dynamic_mc": {
+    "KUA": 70.86550948615812,
+    "T_h": 8.185940349440349,
+    "impr_vs_base_pct": 2.1692054391897275,
+    "ci": [
+     1.4537078041532674,
+     2.9151165347070793
+    ],
+    "churn": 539,
+    "routes_used": [
+     "R2",
+     "R5",
+     "R8",
+     "R9"
+    ],
+    "rail": 1.8037128037128036,
+    "junction": 302.62871962871964,
+    "settle_km": 105.0141455091455,
+    "bridges": 63.514332514332516,
+    "poor_km": 5.398307352920094
+   },
+   "dynamic_mc_vs_static_km": 2.1692054391897275
+  },
+  "gS0.2": {
+   "static_mc_route": "R2",
+   "static_mc": {
+    "KUA": 72.43681276871271,
+    "T_h": 8.113833333333332,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "R2"
+    ],
+    "rail": 1.0,
+    "junction": 293.0,
+    "settle_km": 96.58,
+    "bridges": 65.0,
+    "poor_km": 3.470410340239921
+   },
+   "dynamic_mc": {
+    "KUA": 71.84848036329161,
+    "T_h": 8.132118686868687,
+    "impr_vs_base_pct": 0.8122008450311253,
+    "ci": [
+     0.3772991655407211,
+     1.287724522069505
+    ],
+    "churn": 194,
+    "routes_used": [
+     "R2",
+     "R8",
+     "R9"
+    ],
+    "rail": 1.200928200928201,
+    "junction": 294.996996996997,
+    "settle_km": 98.56272317772319,
+    "bridges": 64.61206661206661,
+    "poor_km": 4.120303152044944
+   },
+   "dynamic_mc_vs_static_km": 0.8122008450311253
+  },
+  "gS0.3": {
+   "static_mc_route": "R2",
+   "static_mc": {
+    "KUA": 72.43681276871271,
+    "T_h": 8.113833333333332,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "R2"
+    ],
+    "rail": 1.0,
+    "junction": 293.0,
+    "settle_km": 96.58,
+    "bridges": 65.0,
+    "poor_km": 3.470410340239921
+   },
+   "dynamic_mc": {
+    "KUA": 72.4565446878283,
+    "T_h": 8.115769314769313,
+    "impr_vs_base_pct": -0.027240181285431014,
+    "ci": [
+     -0.15828251925530654,
+     0.06771076006065306
+    ],
+    "churn": 20,
+    "routes_used": [
+     "R2",
+     "R8",
+     "R9"
+    ],
+    "rail": 1.0152880152880153,
+    "junction": 292.85312585312585,
+    "settle_km": 96.63800163800164,
+    "bridges": 64.95795795795796,
+    "poor_km": 3.676077111665802
+   },
+   "dynamic_mc_vs_static_km": -0.027240181285431014
+  },
+  "gS0.4": {
+   "static_mc_route": "R2",
+   "static_mc": {
+    "KUA": 72.43681276871271,
+    "T_h": 8.113833333333332,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "R2"
+    ],
+    "rail": 1.0,
+    "junction": 293.0,
+    "settle_km": 96.58,
+    "bridges": 65.0,
+    "poor_km": 3.470410340239921
+   },
+   "dynamic_mc": {
+    "KUA": 72.43681276871271,
+    "T_h": 8.114355036855036,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 4,
+    "routes_used": [
+     "R2",
+     "R8"
+    ],
+    "rail": 1.0032760032760033,
+    "junction": 292.9099099099099,
+    "settle_km": 96.57421375921375,
+    "bridges": 64.98853398853399,
+    "poor_km": 3.5451259134101702
+   },
+   "dynamic_mc_vs_static_km": 0.0
+  },
+  "exposure_only": {
+   "KUA": 69.56599581442953,
+   "T_h": 8.383076424909756,
+   "impr_vs_base_pct": 3.963201643685742,
+   "ci": [
+    2.7200311775585035,
+    5.110922520106116
+   ],
+   "churn": 708,
+   "routes_used": [
+    "R1",
+    "R10",
+    "R2",
+    "R4",
+    "R5",
+    "R8",
+    "R9"
+   ],
+   "rail": 3.9418509418509418,
+   "junction": 332.74692874692875,
+   "settle_km": 128.70993857493858,
+   "bridges": 59.76221676221676,
+   "poor_km": 9.365396351780598
+  },
+  "static_km_baseline": {
+   "KUA": 72.43681276871271,
+   "T_h": 8.113833333333332,
+   "impr_vs_base_pct": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "churn": 0,
+   "routes_used": [
+    "R2"
+   ],
+   "rail": 1.0,
+   "junction": 293.0,
+   "settle_km": 96.58,
+   "bridges": 65.0,
+   "poor_km": 3.470410340239921
+  }
+ },
+ "odesa_kyiv": {
+  "routes": [
+   "odesa_kyiv_R1",
+   "odesa_kyiv_R2",
+   "odesa_kyiv_R3",
+   "odesa_kyiv_R4",
+   "odesa_kyiv_R5",
+   "odesa_kyiv_R6",
+   "odesa_kyiv_R7",
+   "odesa_kyiv_R8"
+  ],
+  "static_criteria": [
+   [
+    1.0,
+    130.0,
+    27.54,
+    51.0,
+    72.63897459681054
+   ],
+   [
+    8.0,
+    235.0,
+    74.14,
+    54.0,
+    80.51773208845431
+   ],
+   [
+    4.0,
+    175.0,
+    56.985,
+    48.0,
+    80.4515337832812
+   ],
+   [
+    4.0,
+    268.0,
+    102.89,
+    48.0,
+    4.209662508903828
+   ],
+   [
+    8.0,
+    307.0,
+    119.33,
+    51.0,
+    28.100158531631227
+   ],
+   [
+    12.0,
+    311.0,
+    134.12,
+    55.0,
+    31.91313956442775
+   ],
+   [
+    3.0,
+    166.0,
+    61.07,
+    63.0,
+    11.52886187614555
+   ],
+   [
+    3.0,
+    197.0,
+    69.18,
+    57.0,
+    68.77756281848029
+   ]
+  ],
+  "static_km": "odesa_kyiv_R1",
+  "gS0.0": {
+   "static_mc_route": "odesa_kyiv_R1",
+   "static_mc": {
+    "KUA": 129.45551361580465,
+    "T_h": 5.695805555555556,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "odesa_kyiv_R1"
+    ],
+    "rail": 1.0,
+    "junction": 130.0,
+    "settle_km": 27.540000000000006,
+    "bridges": 51.0,
+    "poor_km": 72.63897459681053
+   },
+   "dynamic_mc": {
+    "KUA": 129.42341181615592,
+    "T_h": 5.713411570661572,
+    "impr_vs_base_pct": 0.024797553037408316,
+    "ci": [
+     -0.14817051410883084,
+     0.21135922934764925
+    ],
+    "churn": 23,
+    "routes_used": [
+     "odesa_kyiv_R1",
+     "odesa_kyiv_R4",
+     "odesa_kyiv_R6"
+    ],
+    "rail": 1.0174720174720175,
+    "junction": 130.62626262626262,
+    "settle_km": 27.88618072618073,
+    "bridges": 50.99071799071799,
+    "poor_km": 72.35520117630945
+   },
+   "dynamic_mc_vs_static_km": 0.024797553037408316
+  },
+  "gS0.1": {
+   "static_mc_route": "odesa_kyiv_R1",
+   "static_mc": {
+    "KUA": 129.45551361580465,
+    "T_h": 5.695805555555556,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "odesa_kyiv_R1"
+    ],
+    "rail": 1.0,
+    "junction": 130.0,
+    "settle_km": 27.540000000000006,
+    "bridges": 51.0,
+    "poor_km": 72.63897459681053
+   },
+   "dynamic_mc": {
+    "KUA": 129.47083692696503,
+    "T_h": 5.700957904874572,
+    "impr_vs_base_pct": -0.011836738917017444,
+    "ci": [
+     -0.08628553399083191,
+     0.05567997533513702
+    ],
+    "churn": 10,
+    "routes_used": [
+     "odesa_kyiv_R1",
+     "odesa_kyiv_R4"
+    ],
+    "rail": 1.004095004095004,
+    "junction": 130.1883701883702,
+    "settle_km": 27.642852852852858,
+    "bridges": 50.99590499590499,
+    "poor_km": 72.54556849240441
+   },
+   "dynamic_mc_vs_static_km": -0.011836738917017444
+  },
+  "gS0.2": {
+   "static_mc_route": "odesa_kyiv_R1",
+   "static_mc": {
+    "KUA": 129.45551361580465,
+    "T_h": 5.695805555555556,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "odesa_kyiv_R1"
+    ],
+    "rail": 1.0,
+    "junction": 130.0,
+    "settle_km": 27.540000000000006,
+    "bridges": 51.0,
+    "poor_km": 72.63897459681053
+   },
+   "dynamic_mc": {
+    "KUA": 129.48425108919184,
+    "T_h": 5.698896965146965,
+    "impr_vs_base_pct": -0.022198724939968294,
+    "ci": [
+     -0.08599765264226564,
+     0.03424884726031454
+    ],
+    "churn": 6,
+    "routes_used": [
+     "odesa_kyiv_R1",
+     "odesa_kyiv_R4"
+    ],
+    "rail": 1.0024570024570025,
+    "junction": 130.1130221130221,
+    "settle_km": 27.601711711711715,
+    "bridges": 50.997542997543,
+    "poor_km": 72.58293093416687
+   },
+   "dynamic_mc_vs_static_km": -0.022198724939968294
+  },
+  "gS0.3": {
+   "static_mc_route": "odesa_kyiv_R1",
+   "static_mc": {
+    "KUA": 129.45551361580465,
+    "T_h": 5.695805555555556,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "odesa_kyiv_R1"
+    ],
+    "rail": 1.0,
+    "junction": 130.0,
+    "settle_km": 27.540000000000006,
+    "bridges": 51.0,
+    "poor_km": 72.63897459681053
+   },
+   "dynamic_mc": {
+    "KUA": 129.45551361580465,
+    "T_h": 5.695805555555556,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "odesa_kyiv_R1"
+    ],
+    "rail": 1.0,
+    "junction": 130.0,
+    "settle_km": 27.540000000000006,
+    "bridges": 51.0,
+    "poor_km": 72.63897459681053
+   },
+   "dynamic_mc_vs_static_km": 0.0
+  },
+  "gS0.4": {
+   "static_mc_route": "odesa_kyiv_R1",
+   "static_mc": {
+    "KUA": 129.45551361580465,
+    "T_h": 5.695805555555556,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "odesa_kyiv_R1"
+    ],
+    "rail": 1.0,
+    "junction": 130.0,
+    "settle_km": 27.540000000000006,
+    "bridges": 51.0,
+    "poor_km": 72.63897459681053
+   },
+   "dynamic_mc": {
+    "KUA": 129.45551361580465,
+    "T_h": 5.695805555555556,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "odesa_kyiv_R1"
+    ],
+    "rail": 1.0,
+    "junction": 130.0,
+    "settle_km": 27.540000000000006,
+    "bridges": 51.0,
+    "poor_km": 72.63897459681053
+   },
+   "dynamic_mc_vs_static_km": 0.0
+  },
+  "exposure_only": {
+   "KUA": 126.23719845632169,
+   "T_h": 6.189965920465921,
+   "impr_vs_base_pct": 2.486039466062607,
+   "ci": [
+    1.3121586927719615,
+    3.840948709597461
+   ],
+   "churn": 369,
+   "routes_used": [
+    "odesa_kyiv_R1",
+    "odesa_kyiv_R2",
+    "odesa_kyiv_R3",
+    "odesa_kyiv_R4",
+    "odesa_kyiv_R6"
+   ],
+   "rail": 1.8817908817908817,
+   "junction": 145.3005733005733,
+   "settle_km": 36.07198607698608,
+   "bridges": 51.28255528255528,
+   "poor_km": 69.59504426358853
+  },
+  "static_km_baseline": {
+   "KUA": 129.45551361580465,
+   "T_h": 5.695805555555556,
+   "impr_vs_base_pct": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "churn": 0,
+   "routes_used": [
+    "odesa_kyiv_R1"
+   ],
+   "rail": 1.0,
+   "junction": 130.0,
+   "settle_km": 27.540000000000006,
+   "bridges": 51.0,
+   "poor_km": 72.63897459681053
+  }
+ },
+ "kharkiv_lviv": {
+  "routes": [
+   "kharkiv_lviv_R1",
+   "kharkiv_lviv_R2",
+   "kharkiv_lviv_R3",
+   "kharkiv_lviv_R4",
+   "kharkiv_lviv_R5",
+   "kharkiv_lviv_R6",
+   "kharkiv_lviv_R7",
+   "kharkiv_lviv_R8"
+  ],
+  "static_criteria": [
+   [
+    3.0,
+    583.0,
+    164.985,
+    114.0,
+    40.78316402407046
+   ],
+   [
+    12.0,
+    582.0,
+    201.93,
+    87.0,
+    127.99361177117764
+   ],
+   [
+    8.0,
+    519.0,
+    168.285,
+    119.0,
+    103.02569789039428
+   ],
+   [
+    7.0,
+    544.0,
+    202.445,
+    100.0,
+    126.8216015811972
+   ],
+   [
+    4.0,
+    542.0,
+    158.46,
+    115.0,
+    161.47534864582798
+   ],
+   [
+    3.0,
+    558.0,
+    178.95,
+    117.0,
+    34.05896838475727
+   ],
+   [
+    12.0,
+    569.0,
+    194.095,
+    85.0,
+    128.14379309591322
+   ],
+   [
+    8.0,
+    579.0,
+    201.36,
+    99.0,
+    125.64180199469088
+   ]
+  ],
+  "static_km": "kharkiv_lviv_R1",
+  "gS0.0": {
+   "static_mc_route": "kharkiv_lviv_R1",
+   "static_mc": {
+    "KUA": 306.6653164098528,
+    "T_h": 14.434055555555553,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "kharkiv_lviv_R1"
+    ],
+    "rail": 3.0,
+    "junction": 583.0,
+    "settle_km": 164.98500000000007,
+    "bridges": 114.0,
+    "poor_km": 40.783164024070444
+   },
+   "dynamic_mc": {
+    "KUA": 289.0231652709179,
+    "T_h": 15.348172862256197,
+    "impr_vs_base_pct": 5.7529007014788895,
+    "ci": [
+     3.840724213710358,
+     7.848102534861613
+    ],
+    "churn": 850,
+    "routes_used": [
+     "kharkiv_lviv_R1",
+     "kharkiv_lviv_R2",
+     "kharkiv_lviv_R3",
+     "kharkiv_lviv_R6",
+     "kharkiv_lviv_R7"
+    ],
+    "rail": 6.070434070434071,
+    "junction": 569.3549003549003,
+    "settle_km": 174.51151651651654,
+    "bridges": 106.91373191373191,
+    "poor_km": 71.69427200932407
+   },
+   "dynamic_mc_vs_static_km": 5.7529007014788895
+  },
+  "gS0.1": {
+   "static_mc_route": "kharkiv_lviv_R1",
+   "static_mc": {
+    "KUA": 306.6653164098528,
+    "T_h": 14.434055555555553,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "kharkiv_lviv_R1"
+    ],
+    "rail": 3.0,
+    "junction": 583.0,
+    "settle_km": 164.98500000000007,
+    "bridges": 114.0,
+    "poor_km": 40.783164024070444
+   },
+   "dynamic_mc": {
+    "KUA": 293.52192325529103,
+    "T_h": 14.999597552097551,
+    "impr_vs_base_pct": 4.285907943041018,
+    "ci": [
+     2.717282432810666,
+     6.0074603024921105
+    ],
+    "churn": 826,
+    "routes_used": [
+     "kharkiv_lviv_R1",
+     "kharkiv_lviv_R3",
+     "kharkiv_lviv_R6",
+     "kharkiv_lviv_R7"
+    ],
+    "rail": 4.512148512148512,
+    "junction": 569.4589134589135,
+    "settle_km": 169.50188916188918,
+    "bridges": 112.61916461916462,
+    "poor_km": 56.76495943081031
+   },
+   "dynamic_mc_vs_static_km": 4.285907943041018
+  },
+  "gS0.2": {
+   "static_mc_route": "kharkiv_lviv_R1",
+   "static_mc": {
+    "KUA": 306.6653164098528,
+    "T_h": 14.434055555555553,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "kharkiv_lviv_R1"
+    ],
+    "rail": 3.0,
+    "junction": 583.0,
+    "settle_km": 164.98500000000007,
+    "bridges": 114.0,
+    "poor_km": 40.783164024070444
+   },
+   "dynamic_mc": {
+    "KUA": 299.09798184001164,
+    "T_h": 14.700009600509599,
+    "impr_vs_base_pct": 2.4676199638199474,
+    "ci": [
+     1.401872249793231,
+     3.6596018994764705
+    ],
+    "churn": 692,
+    "routes_used": [
+     "kharkiv_lviv_R1",
+     "kharkiv_lviv_R3",
+     "kharkiv_lviv_R6",
+     "kharkiv_lviv_R7"
+    ],
+    "rail": 3.5233415233415233,
+    "junction": 573.0739830739831,
+    "settle_km": 167.19841932841933,
+    "bridges": 114.8894348894349,
+    "poor_km": 46.38745689975133
+   },
+   "dynamic_mc_vs_static_km": 2.4676199638199474
+  },
+  "gS0.3": {
+   "static_mc_route": "kharkiv_lviv_R1",
+   "static_mc": {
+    "KUA": 306.6653164098528,
+    "T_h": 14.434055555555553,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "kharkiv_lviv_R1"
+    ],
+    "rail": 3.0,
+    "junction": 583.0,
+    "settle_km": 164.98500000000007,
+    "bridges": 114.0,
+    "poor_km": 40.783164024070444
+   },
+   "dynamic_mc": {
+    "KUA": 304.0854394653437,
+    "T_h": 14.530465124215123,
+    "impr_vs_base_pct": 0.8412679251477878,
+    "ci": [
+     0.3322324826700858,
+     1.3999764216989807
+    ],
+    "churn": 608,
+    "routes_used": [
+     "kharkiv_lviv_R1",
+     "kharkiv_lviv_R3",
+     "kharkiv_lviv_R6"
+    ],
+    "rail": 3.1747201747201745,
+    "junction": 577.4398034398034,
+    "settle_km": 166.95697788697794,
+    "bridges": 114.57357357357357,
+    "poor_km": 42.06417987406879
+   },
+   "dynamic_mc_vs_static_km": 0.8412679251477878
+  },
+  "gS0.4": {
+   "static_mc_route": "kharkiv_lviv_R1",
+   "static_mc": {
+    "KUA": 306.6653164098528,
+    "T_h": 14.434055555555553,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "kharkiv_lviv_R1"
+    ],
+    "rail": 3.0,
+    "junction": 583.0,
+    "settle_km": 164.98500000000007,
+    "bridges": 114.0,
+    "poor_km": 40.783164024070444
+   },
+   "dynamic_mc": {
+    "KUA": 306.32662911565717,
+    "T_h": 14.447216147966147,
+    "impr_vs_base_pct": 0.11044199525418744,
+    "ci": [
+     0.04042132865821006,
+     0.20322588846252188
+    ],
+    "churn": 456,
+    "routes_used": [
+     "kharkiv_lviv_R1",
+     "kharkiv_lviv_R3",
+     "kharkiv_lviv_R6"
+    ],
+    "rail": 3.0095550095550094,
+    "junction": 580.2022932022932,
+    "settle_km": 166.4857862407863,
+    "bridges": 114.33060333060332,
+    "poor_km": 40.182512385100615
+   },
+   "dynamic_mc_vs_static_km": 0.11044199525418744
+  },
+  "exposure_only": {
+   "KUA": 286.57116037059427,
+   "T_h": 15.638978349561684,
+   "impr_vs_base_pct": 6.552471037319076,
+   "ci": [
+    4.410230665254899,
+    8.854417712073854
+   ],
+   "churn": 893,
+   "routes_used": [
+    "kharkiv_lviv_R1",
+    "kharkiv_lviv_R2",
+    "kharkiv_lviv_R3",
+    "kharkiv_lviv_R6",
+    "kharkiv_lviv_R7",
+    "kharkiv_lviv_R8"
+   ],
+   "rail": 7.1624351624351625,
+   "junction": 566.8244608244609,
+   "settle_km": 177.80986213486213,
+   "bridges": 103.74228774228774,
+   "poor_km": 82.55211416731109
+  },
+  "static_km_baseline": {
+   "KUA": 306.6653164098528,
+   "T_h": 14.434055555555553,
+   "impr_vs_base_pct": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "churn": 0,
+   "routes_used": [
+    "kharkiv_lviv_R1"
+   ],
+   "rail": 3.0,
+   "junction": 583.0,
+   "settle_km": 164.98500000000007,
+   "bridges": 114.0,
+   "poor_km": 40.783164024070444
+  }
+ },
+ "dnipro_kyiv": {
+  "routes": [
+   "dnipro_kyiv_R1",
+   "dnipro_kyiv_R2",
+   "dnipro_kyiv_R3",
+   "dnipro_kyiv_R4",
+   "dnipro_kyiv_R5",
+   "dnipro_kyiv_R6",
+   "dnipro_kyiv_R7",
+   "dnipro_kyiv_R8"
+  ],
+  "static_criteria": [
+   [
+    6.0,
+    200.0,
+    66.535,
+    32.0,
+    84.78006827012817
+   ],
+   [
+    2.0,
+    198.0,
+    66.005,
+    68.0,
+    24.250544332609994
+   ],
+   [
+    6.0,
+    224.0,
+    77.705,
+    36.0,
+    146.16306186665105
+   ],
+   [
+    6.0,
+    191.0,
+    65.235,
+    49.0,
+    69.95969861049397
+   ],
+   [
+    6.0,
+    200.0,
+    66.515,
+    32.0,
+    84.89843569957401
+   ],
+   [
+    13.0,
+    297.0,
+    111.82,
+    52.0,
+    77.83845610213757
+   ],
+   [
+    2.0,
+    198.0,
+    65.935,
+    68.0,
+    24.36891176205584
+   ],
+   [
+    8.0,
+    249.0,
+    106.065,
+    52.0,
+    68.245096272748
+   ]
+  ],
+  "static_km": "dnipro_kyiv_R1",
+  "gS0.0": {
+   "static_mc_route": "dnipro_kyiv_R1",
+   "static_mc": {
+    "KUA": 167.24596267652873,
+    "T_h": 7.486444444444444,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "dnipro_kyiv_R1"
+    ],
+    "rail": 6.0,
+    "junction": 200.0,
+    "settle_km": 66.53499999999998,
+    "bridges": 32.0,
+    "poor_km": 84.78006827012815
+   },
+   "dynamic_mc": {
+    "KUA": 167.24596267652873,
+    "T_h": 7.486444444444444,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "dnipro_kyiv_R1"
+    ],
+    "rail": 6.0,
+    "junction": 200.0,
+    "settle_km": 66.53499999999998,
+    "bridges": 32.0,
+    "poor_km": 84.78006827012815
+   },
+   "dynamic_mc_vs_static_km": 0.0
+  },
+  "gS0.1": {
+   "static_mc_route": "dnipro_kyiv_R1",
+   "static_mc": {
+    "KUA": 167.24596267652873,
+    "T_h": 7.486444444444444,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "dnipro_kyiv_R1"
+    ],
+    "rail": 6.0,
+    "junction": 200.0,
+    "settle_km": 66.53499999999998,
+    "bridges": 32.0,
+    "poor_km": 84.78006827012815
+   },
+   "dynamic_mc": {
+    "KUA": 167.24596267652873,
+    "T_h": 7.486444444444444,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "dnipro_kyiv_R1"
+    ],
+    "rail": 6.0,
+    "junction": 200.0,
+    "settle_km": 66.53499999999998,
+    "bridges": 32.0,
+    "poor_km": 84.78006827012815
+   },
+   "dynamic_mc_vs_static_km": 0.0
+  },
+  "gS0.2": {
+   "static_mc_route": "dnipro_kyiv_R1",
+   "static_mc": {
+    "KUA": 167.24596267652873,
+    "T_h": 7.486444444444444,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "dnipro_kyiv_R1"
+    ],
+    "rail": 6.0,
+    "junction": 200.0,
+    "settle_km": 66.53499999999998,
+    "bridges": 32.0,
+    "poor_km": 84.78006827012815
+   },
+   "dynamic_mc": {
+    "KUA": 167.24596267652873,
+    "T_h": 7.486444444444444,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "dnipro_kyiv_R1"
+    ],
+    "rail": 6.0,
+    "junction": 200.0,
+    "settle_km": 66.53499999999998,
+    "bridges": 32.0,
+    "poor_km": 84.78006827012815
+   },
+   "dynamic_mc_vs_static_km": 0.0
+  },
+  "gS0.3": {
+   "static_mc_route": "dnipro_kyiv_R1",
+   "static_mc": {
+    "KUA": 167.24596267652873,
+    "T_h": 7.486444444444444,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "dnipro_kyiv_R1"
+    ],
+    "rail": 6.0,
+    "junction": 200.0,
+    "settle_km": 66.53499999999998,
+    "bridges": 32.0,
+    "poor_km": 84.78006827012815
+   },
+   "dynamic_mc": {
+    "KUA": 167.24596267652873,
+    "T_h": 7.486444444444444,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "dnipro_kyiv_R1"
+    ],
+    "rail": 6.0,
+    "junction": 200.0,
+    "settle_km": 66.53499999999998,
+    "bridges": 32.0,
+    "poor_km": 84.78006827012815
+   },
+   "dynamic_mc_vs_static_km": 0.0
+  },
+  "gS0.4": {
+   "static_mc_route": "dnipro_kyiv_R1",
+   "static_mc": {
+    "KUA": 167.24596267652873,
+    "T_h": 7.486444444444444,
+    "impr_vs_base_pct": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "churn": 0,
+    "routes_used": [
+     "dnipro_kyiv_R1"
+    ],
+    "rail": 6.0,
+    "junction": 200.0,
+    "settle_km": 66.53499999999998,
+    "bridges": 32.0,
+    "poor_km": 84.78006827012815
+   },
+   "dynamic_mc": {
+    "KUA": 167.40400968313574,
+    "T_h": 7.484478690812024,
+    "impr_vs_base_pct": -0.09449974401635383,
+    "ci": [
+     -0.22455041752844188,
+     0.004555197901735024
+    ],
+    "churn": 22,
+    "routes_used": [
+     "dnipro_kyiv_R1",
+     "dnipro_kyiv_R2"
+    ],
+    "rail": 5.985803985803986,
+    "junction": 199.992901992902,
+    "settle_km": 66.53311902811902,
+    "bridges": 32.12776412776413,
+    "poor_km": 84.56524877485442
+   },
+   "dynamic_mc_vs_static_km": -0.09449974401635383
+  },
+  "exposure_only": {
+   "KUA": 167.2464508155162,
+   "T_h": 7.486790184123517,
+   "impr_vs_base_pct": -0.0002918689214687582,
+   "ci": [
+    -0.0009449593215719029,
+    0.0002717224847009865
+   ],
+   "churn": 237,
+   "routes_used": [
+    "dnipro_kyiv_R1",
+    "dnipro_kyiv_R5"
+   ],
+   "rail": 6.0,
+   "junction": 200.0,
+   "settle_km": 66.53410455910453,
+   "bridges": 32.0,
+   "poor_km": 84.78536782197885
+  },
+  "static_km_baseline": {
+   "KUA": 167.24596267652873,
+   "T_h": 7.486444444444444,
+   "impr_vs_base_pct": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "churn": 0,
+   "routes_used": [
+    "dnipro_kyiv_R1"
+   ],
+   "rail": 6.0,
+   "junction": 200.0,
+   "settle_km": 66.53499999999998,
+   "bridges": 32.0,
+   "poor_km": 84.78006827012815
+  }
+ }
+}

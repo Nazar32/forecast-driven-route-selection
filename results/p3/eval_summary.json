@@ -1,0 +1,1767 @@
+{
+  "n_hours": 4692,
+  "hours": [
+    "2025-03-31 18:00:00+00:00",
+    "2025-10-13 05:00:00+00:00"
+  ],
+  "corridors": {
+    "lviv_kyiv": {
+      "routes": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R8",
+        "R9",
+        "R10"
+      ],
+      "duplicates_removed": {
+        "R7": "R1"
+      },
+      "oblasts": [
+        "Волинська область",
+        "Вінницька область",
+        "Житомирська область",
+        "Київська область",
+        "Львівська область",
+        "Рівненська область",
+        "Тернопільська область",
+        "Хмельницька область",
+        "м. Київ"
+      ],
+      "static_pretest": "R9",
+      "static_hindsight": "R5",
+      "static_pretest_aes": "R9",
+      "static_hindsight_aes": "R3",
+      "fastest": "R2",
+      "shortest": "R2",
+      "strategies": {
+        "fastest": {
+          "mean_DUA": 0.0862516542921307,
+          "mean_km_under_alert": 46.58808930166749,
+          "mean_AES8": 0.26092634625523364,
+          "impr_DUA_vs_static_pretest_pct": -0.6697591571111536,
+          "impr_DUA_vs_static_hindsight_pct": -7.5245755615889625,
+          "impr_AES8_vs_static_pretest_aes_pct": -0.17378024086220875,
+          "mean_D_km": 540.1414,
+          "mean_T_h": 8.113833333333334,
+          "dT_vs_static_min": -19.954999999999927,
+          "dD_vs_static_km": -11.080299999999966,
+          "pct_hours_off_static": 100.0,
+          "churn": 0,
+          "wilcoxon_p_vs_static": 0.06358296640020122,
+          "block_boot_ci_impr_pct": [
+            -1.9453967507475516,
+            0.7422405227457044
+          ]
+        },
+        "shortest": {
+          "mean_DUA": 0.0862516542921307,
+          "mean_km_under_alert": 46.58808930166749,
+          "mean_AES8": 0.26092634625523364,
+          "impr_DUA_vs_static_pretest_pct": -0.6697591571111536,
+          "impr_DUA_vs_static_hindsight_pct": -7.5245755615889625,
+          "impr_AES8_vs_static_pretest_aes_pct": -0.17378024086220875,
+          "mean_D_km": 540.1414,
+          "mean_T_h": 8.113833333333334,
+          "dT_vs_static_min": -19.954999999999927,
+          "dD_vs_static_km": -11.080299999999966,
+          "pct_hours_off_static": 100.0,
+          "churn": 0,
+          "wilcoxon_p_vs_static": 0.06358296640020122,
+          "block_boot_ci_impr_pct": [
+            -1.9453967507475516,
+            0.7422405227457044
+          ]
+        },
+        "static_pretest": {
+          "mean_DUA": 0.08567781925207678,
+          "mean_km_under_alert": 47.227473180422486,
+          "mean_AES8": 0.26047369444165025,
+          "impr_DUA_vs_static_pretest_pct": 0.0,
+          "impr_DUA_vs_static_hindsight_pct": -6.809211089677665,
+          "impr_AES8_vs_static_pretest_aes_pct": 0.0,
+          "mean_D_km": 551.2216999999999,
+          "mean_T_h": 8.446416666666666,
+          "dT_vs_static_min": 0.0,
+          "dD_vs_static_km": 0.0,
+          "pct_hours_off_static": 0.0,
+          "churn": 0
+        },
+        "static_hindsight": {
+          "mean_DUA": 0.08021575890130034,
+          "mean_km_under_alert": 50.178270103605996,
+          "mean_AES8": 0.2527558948345021,
+          "impr_DUA_vs_static_pretest_pct": 6.37511598504422,
+          "impr_DUA_vs_static_hindsight_pct": 0.0,
+          "impr_AES8_vs_static_pretest_aes_pct": 2.9629861947065175,
+          "mean_D_km": 625.5413,
+          "mean_T_h": 9.424388888888888,
+          "dT_vs_static_min": 58.678333333333335,
+          "dD_vs_static_km": 74.31960000000004,
+          "pct_hours_off_static": 100.0,
+          "churn": 0,
+          "wilcoxon_p_vs_static": 0.001323235964811907,
+          "block_boot_ci_impr_pct": [
+            2.3775479839634572,
+            9.989400436489921
+          ]
+        },
+        "reactive": {
+          "mean_DUA": 0.08161057968095724,
+          "mean_km_under_alert": 46.31717955992336,
+          "mean_AES8": 0.2490616485655691,
+          "impr_DUA_vs_static_pretest_pct": 4.747132462782605,
+          "impr_DUA_vs_static_hindsight_pct": -1.7388363567975778,
+          "impr_AES8_vs_static_pretest_aes_pct": 4.381266177586166,
+          "mean_D_km": 561.6209453537937,
+          "mean_T_h": 8.589732683290705,
+          "dT_vs_static_min": 8.598960997442369,
+          "dD_vs_static_km": 10.39924535379373,
+          "pct_hours_off_static": 19.202898550724637,
+          "churn": 725,
+          "wilcoxon_p_vs_static": 3.0683076914185274e-13,
+          "block_boot_ci_impr_pct": [
+            2.421591846979595,
+            7.131944875464919
+          ]
+        },
+        "climatology": {
+          "mean_DUA": 0.08344687698576432,
+          "mean_km_under_alert": 46.83888999792525,
+          "mean_AES8": 0.2587243570945814,
+          "impr_DUA_vs_static_pretest_pct": 2.603873774784926,
+          "impr_DUA_vs_static_hindsight_pct": -4.028034053058874,
+          "impr_AES8_vs_static_pretest_aes_pct": 0.6715984701713177,
+          "mean_D_km": 566.4135723572037,
+          "mean_T_h": 8.705356345315904,
+          "dT_vs_static_min": 15.536380718954277,
+          "dD_vs_static_km": 15.191872357203806,
+          "pct_hours_off_static": 74.95737425404944,
+          "churn": 2458,
+          "wilcoxon_p_vs_static": 3.455814952085504e-09,
+          "block_boot_ci_impr_pct": [
+            1.6237734255803986,
+            3.6367567851476967
+          ]
+        },
+        "pred_h6_retro": {
+          "mean_DUA": 0.07597699912235123,
+          "mean_km_under_alert": 44.607915549191226,
+          "mean_AES8": 0.23986580850532704,
+          "impr_DUA_vs_static_pretest_pct": 11.32244052709174,
+          "impr_DUA_vs_static_hindsight_pct": 5.284198313406963,
+          "impr_AES8_vs_static_pretest_aes_pct": 7.91169564377629,
+          "mean_D_km": 590.366353878943,
+          "mean_T_h": 8.950483216112533,
+          "dT_vs_static_min": 30.24399296675199,
+          "dD_vs_static_km": 39.14465387894302,
+          "pct_hours_off_static": 84.80392156862744,
+          "churn": 2351,
+          "wilcoxon_p_vs_static": 1.8105151456565162e-24,
+          "block_boot_ci_impr_pct": [
+            7.928176309467293,
+            14.710587841014865
+          ]
+        },
+        "pred_h6": {
+          "mean_DUA": 0.0801862920086173,
+          "mean_km_under_alert": 45.76049628147471,
+          "mean_AES8": 0.24568365245861587,
+          "impr_DUA_vs_static_pretest_pct": 6.409508658597625,
+          "impr_DUA_vs_static_hindsight_pct": 0.03673454329504161,
+          "impr_AES8_vs_static_pretest_aes_pct": 5.678132686196285,
+          "mean_D_km": 572.6845408354646,
+          "mean_T_h": 8.705635739319883,
+          "dT_vs_static_min": 15.553144359192999,
+          "dD_vs_static_km": 21.462840835464704,
+          "pct_hours_off_static": 66.53878942881501,
+          "churn": 1902,
+          "wilcoxon_p_vs_static": 7.103022590436432e-13,
+          "block_boot_ci_impr_pct": [
+            3.7000847448102094,
+            9.121639397943852
+          ]
+        },
+        "pred_sched": {
+          "mean_DUA": 0.07774450086229262,
+          "mean_km_under_alert": 44.53660298394792,
+          "mean_AES8": 0.24628050216363861,
+          "impr_DUA_vs_static_pretest_pct": 9.259477492585527,
+          "impr_DUA_vs_static_hindsight_pct": 3.0807637711792033,
+          "impr_AES8_vs_static_pretest_aes_pct": 5.4489925780935655,
+          "mean_D_km": 573.329355882353,
+          "mean_T_h": 8.722528648053425,
+          "dT_vs_static_min": 16.566718883205525,
+          "dD_vs_static_km": 22.107655882353015,
+          "pct_hours_off_static": 89.23699914748508,
+          "churn": 2254,
+          "wilcoxon_p_vs_static": 8.834468450466321e-35,
+          "block_boot_ci_impr_pct": [
+            6.6349169880946715,
+            11.769858844893081
+          ]
+        },
+        "oracle": {
+          "mean_DUA": 0.05917230493580682,
+          "mean_km_under_alert": 34.92306575790324,
+          "mean_AES8": 0.2444463800121287,
+          "impr_DUA_vs_static_pretest_pct": 30.936261622493944,
+          "impr_DUA_vs_static_hindsight_pct": 26.23356588994683,
+          "impr_AES8_vs_static_pretest_aes_pct": 6.15314128510274,
+          "mean_D_km": 578.273475682012,
+          "mean_T_h": 8.70763855735531,
+          "dT_vs_static_min": 15.67331344131862,
+          "dD_vs_static_km": 27.05177568201202,
+          "pct_hours_off_static": 99.19011082693947,
+          "churn": 1406,
+          "wilcoxon_p_vs_static": 2.753575453808985e-282,
+          "block_boot_ci_impr_pct": [
+            27.64488183829411,
+            34.25471157882187
+          ]
+        }
+      },
+      "epsilon": [
+        {
+          "eps": 0.0,
+          "n_allowed": 1,
+          "static_in_set": "R2",
+          "static_DUA": 0.0862516542921307,
+          "pred_DUA": 0.0862516542921307,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 8.113833333333334,
+          "mean_D_km": 540.1414
+        },
+        {
+          "eps": 0.02,
+          "n_allowed": 1,
+          "static_in_set": "R2",
+          "static_DUA": 0.0862516542921307,
+          "pred_DUA": 0.0862516542921307,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 8.113833333333334,
+          "mean_D_km": 540.1414
+        },
+        {
+          "eps": 0.05,
+          "n_allowed": 2,
+          "static_in_set": "R9",
+          "static_DUA": 0.08567781925207678,
+          "pred_DUA": 0.08442611961635027,
+          "impr_vs_same_set_static_pct": 1.460937786060851,
+          "mean_T_h": 8.253614734299516,
+          "mean_D_km": 544.7983376811594
+        },
+        {
+          "eps": 0.1,
+          "n_allowed": 5,
+          "static_in_set": "R9",
+          "static_DUA": 0.08567781925207678,
+          "pred_DUA": 0.08157547243181654,
+          "impr_vs_same_set_static_pct": 4.7881083529805215,
+          "mean_T_h": 8.457559066259355,
+          "mean_D_km": 562.2284428388747
+        },
+        {
+          "eps": 0.2,
+          "n_allowed": 9,
+          "static_in_set": "R9",
+          "static_DUA": 0.08567781925207678,
+          "pred_DUA": 0.07774450086229262,
+          "impr_vs_same_set_static_pct": 9.259477492585527,
+          "mean_T_h": 8.722528648053425,
+          "mean_D_km": 573.329355882353
+        },
+        {
+          "eps": 0.5,
+          "n_allowed": 9,
+          "static_in_set": "R9",
+          "static_DUA": 0.08567781925207678,
+          "pred_DUA": 0.07774450086229262,
+          "impr_vs_same_set_static_pct": 9.259477492585527,
+          "mean_T_h": 8.722528648053425,
+          "mean_D_km": 573.329355882353
+        },
+        {
+          "eps": "inf",
+          "n_allowed": 9,
+          "static_in_set": "R9",
+          "static_DUA": 0.08567781925207678,
+          "pred_DUA": 0.07774450086229262,
+          "impr_vs_same_set_static_pct": 9.259477492585527,
+          "mean_T_h": 8.722528648053425,
+          "mean_D_km": 573.329355882353
+        }
+      ],
+      "lambda": [
+        {
+          "lambda": 0,
+          "DUA": 0.07774450086229262,
+          "T_h": 8.722528648053425,
+          "D_km": 573.329355882353
+        },
+        {
+          "lambda": 0.005,
+          "DUA": 0.07805473346358822,
+          "T_h": 8.692380872880554,
+          "D_km": 571.7747767689685
+        },
+        {
+          "lambda": 0.01,
+          "DUA": 0.07812371289429579,
+          "T_h": 8.659533330965235,
+          "D_km": 570.0948849531118
+        },
+        {
+          "lambda": 0.02,
+          "DUA": 0.07818621337153019,
+          "T_h": 8.605219102254427,
+          "D_km": 567.276672826087
+        },
+        {
+          "lambda": 0.05,
+          "DUA": 0.07896934945868786,
+          "T_h": 8.465595309983897,
+          "D_km": 559.9167857630008
+        },
+        {
+          "lambda": 0.1,
+          "DUA": 0.08108899512451094,
+          "T_h": 8.329734263995451,
+          "D_km": 552.4287982310316
+        },
+        {
+          "lambda": 0.2,
+          "DUA": 0.08294366565453455,
+          "T_h": 8.199535888509992,
+          "D_km": 544.9317585464621
+        },
+        {
+          "lambda": 0.5,
+          "DUA": 0.08495835679316684,
+          "T_h": 8.12828965970446,
+          "D_km": 540.8603290494459
+        },
+        {
+          "lambda": 1.0,
+          "DUA": 0.08597297520264302,
+          "T_h": 8.115809409633417,
+          "D_km": 540.2258170502985
+        },
+        {
+          "lambda": 2.0,
+          "DUA": 0.0862516542921307,
+          "T_h": 8.113833333333334,
+          "D_km": 540.1414
+        },
+        {
+          "lambda": 5.0,
+          "DUA": 0.0862516542921307,
+          "T_h": 8.113833333333334,
+          "D_km": 540.1414
+        }
+      ],
+      "fixed_routes": [
+        {
+          "route": "R1",
+          "DUA": 0.08361206908366034,
+          "AES8": 0.25494041570093795,
+          "DUA_pretest": 0.09197164504396588,
+          "T_h": 8.571333333333333,
+          "D_km": 572.8211
+        },
+        {
+          "route": "R2",
+          "DUA": 0.0862516542921307,
+          "AES8": 0.26092634625523364,
+          "DUA_pretest": 0.08979125341939788,
+          "T_h": 8.113833333333332,
+          "D_km": 540.1414
+        },
+        {
+          "route": "R3",
+          "DUA": 0.08259897898785964,
+          "AES8": 0.2516031977822994,
+          "DUA_pretest": 0.09316985844612831,
+          "T_h": 8.73338888888889,
+          "D_km": 586.978
+        },
+        {
+          "route": "R4",
+          "DUA": 0.0885598335773669,
+          "AES8": 0.26654361735347554,
+          "DUA_pretest": 0.09232951317423009,
+          "T_h": 8.976999999999999,
+          "D_km": 561.1118
+        },
+        {
+          "route": "R5",
+          "DUA": 0.08021575890130034,
+          "AES8": 0.2527558948345021,
+          "DUA_pretest": 0.09468442987300701,
+          "T_h": 9.42438888888889,
+          "D_km": 625.5413000000001
+        },
+        {
+          "route": "R6",
+          "DUA": 0.08551522405842273,
+          "AES8": 0.26086453400656134,
+          "DUA_pretest": 0.09902251681589536,
+          "T_h": 9.196694444444447,
+          "D_km": 593.9054
+        },
+        {
+          "route": "R8",
+          "DUA": 0.08396497457674097,
+          "AES8": 0.2560605883371107,
+          "DUA_pretest": 0.09199530385211584,
+          "T_h": 8.750833333333333,
+          "D_km": 562.0361
+        },
+        {
+          "route": "R9",
+          "DUA": 0.08567781925207678,
+          "AES8": 0.26047369444165025,
+          "DUA_pretest": 0.08773292607175612,
+          "T_h": 8.446416666666666,
+          "D_km": 551.2216999999999
+        },
+        {
+          "route": "R10",
+          "DUA": 0.08796233089145714,
+          "AES8": 0.26599877579498554,
+          "DUA_pretest": 0.09029786415722674,
+          "T_h": 9.309583333333334,
+          "D_km": 572.1921
+        }
+      ],
+      "monthly_impr_pred_sched_pct": {
+        "2025-03": NaN,
+        "2025-04": 1.4421871227488925,
+        "2025-05": 1.3099565671062767,
+        "2025-06": 4.582428713297665,
+        "2025-07": 5.359943741943326,
+        "2025-08": 13.543725486519625,
+        "2025-09": 30.233934464931224,
+        "2025-10": 26.641967750333208
+      },
+      "share_hours_static_zero_DUA": 0.6274509803921569
+    },
+    "odesa_kyiv": {
+      "routes": [
+        "odesa_kyiv_R1",
+        "odesa_kyiv_R2",
+        "odesa_kyiv_R3",
+        "odesa_kyiv_R4",
+        "odesa_kyiv_R5",
+        "odesa_kyiv_R6",
+        "odesa_kyiv_R7",
+        "odesa_kyiv_R8"
+      ],
+      "duplicates_removed": {},
+      "oblasts": [
+        "Вінницька область",
+        "Житомирська область",
+        "Київська область",
+        "Кіровоградська область",
+        "Миколаївська область",
+        "Одеська область",
+        "Полтавська область",
+        "Черкаська область",
+        "м. Київ"
+      ],
+      "static_pretest": "odesa_kyiv_R2",
+      "static_hindsight": "odesa_kyiv_R2",
+      "static_pretest_aes": "odesa_kyiv_R2",
+      "static_hindsight_aes": "odesa_kyiv_R2",
+      "fastest": "odesa_kyiv_R1",
+      "shortest": "odesa_kyiv_R1",
+      "strategies": {
+        "fastest": {
+          "mean_DUA": 0.1492028386886392,
+          "mean_km_under_alert": 72.83849828351012,
+          "mean_AES8": 0.4956187685263276,
+          "impr_DUA_vs_static_pretest_pct": -13.16242112071919,
+          "impr_DUA_vs_static_hindsight_pct": -13.16242112071919,
+          "impr_AES8_vs_static_pretest_aes_pct": -13.684456226377506,
+          "mean_D_km": 488.1844000000001,
+          "mean_T_h": 5.695805555555556,
+          "dT_vs_static_min": -223.40166666666678,
+          "dD_vs_static_km": -187.70659999999987,
+          "pct_hours_off_static": 100.0,
+          "churn": 0,
+          "wilcoxon_p_vs_static": 1.4652184793793003e-33,
+          "block_boot_ci_impr_pct": [
+            -16.746041516377353,
+            -9.718917567626278
+          ]
+        },
+        "shortest": {
+          "mean_DUA": 0.1492028386886392,
+          "mean_km_under_alert": 72.83849828351012,
+          "mean_AES8": 0.4956187685263276,
+          "impr_DUA_vs_static_pretest_pct": -13.16242112071919,
+          "impr_DUA_vs_static_hindsight_pct": -13.16242112071919,
+          "impr_AES8_vs_static_pretest_aes_pct": -13.684456226377506,
+          "mean_D_km": 488.1844000000001,
+          "mean_T_h": 5.695805555555556,
+          "dT_vs_static_min": -223.40166666666678,
+          "dD_vs_static_km": -187.70659999999987,
+          "pct_hours_off_static": 100.0,
+          "churn": 0,
+          "wilcoxon_p_vs_static": 1.4652184793793003e-33,
+          "block_boot_ci_impr_pct": [
+            -16.746041516377353,
+            -9.718917567626278
+          ]
+        },
+        "static_pretest": {
+          "mean_DUA": 0.13184839738403342,
+          "mean_km_under_alert": 89.11514515629172,
+          "mean_AES8": 0.435960011577495,
+          "impr_DUA_vs_static_pretest_pct": 0.0,
+          "impr_DUA_vs_static_hindsight_pct": 0.0,
+          "impr_AES8_vs_static_pretest_aes_pct": 0.0,
+          "mean_D_km": 675.891,
+          "mean_T_h": 9.41916666666667,
+          "dT_vs_static_min": 0.0,
+          "dD_vs_static_km": 0.0,
+          "pct_hours_off_static": 0.0,
+          "churn": 0
+        },
+        "static_hindsight": {
+          "mean_DUA": 0.13184839738403342,
+          "mean_km_under_alert": 89.11514515629172,
+          "mean_AES8": 0.435960011577495,
+          "impr_DUA_vs_static_pretest_pct": 0.0,
+          "impr_DUA_vs_static_hindsight_pct": 0.0,
+          "impr_AES8_vs_static_pretest_aes_pct": 0.0,
+          "mean_D_km": 675.891,
+          "mean_T_h": 9.41916666666667,
+          "dT_vs_static_min": 0.0,
+          "dD_vs_static_km": 0.0,
+          "pct_hours_off_static": 0.0,
+          "churn": 0,
+          "block_boot_ci_impr_pct": [
+            0.0,
+            0.0
+          ]
+        },
+        "reactive": {
+          "mean_DUA": 0.1258315879155655,
+          "mean_km_under_alert": 86.25980039333734,
+          "mean_AES8": 0.41793781719410517,
+          "impr_DUA_vs_static_pretest_pct": 4.563430112042104,
+          "impr_DUA_vs_static_hindsight_pct": 4.563430112042104,
+          "impr_AES8_vs_static_pretest_aes_pct": 4.133909969902421,
+          "mean_D_km": 683.695736551577,
+          "mean_T_h": 9.622926944207636,
+          "dT_vs_static_min": 12.225616652458022,
+          "dD_vs_static_km": 7.8047365515770935,
+          "pct_hours_off_static": 23.508098891730604,
+          "churn": 946,
+          "wilcoxon_p_vs_static": 3.366110293430417e-11,
+          "block_boot_ci_impr_pct": [
+            2.7322856626362135,
+            6.381972910330348
+          ]
+        },
+        "climatology": {
+          "mean_DUA": 0.12502686723540749,
+          "mean_km_under_alert": 83.3697470951683,
+          "mean_AES8": 0.4543874110017539,
+          "impr_DUA_vs_static_pretest_pct": 5.173767966824003,
+          "impr_DUA_vs_static_hindsight_pct": 5.173767966824003,
+          "impr_AES8_vs_static_pretest_aes_pct": -4.226855430519988,
+          "mean_D_km": 662.3444188405797,
+          "mean_T_h": 9.253666867954912,
+          "dT_vs_static_min": -9.929987922705408,
+          "dD_vs_static_km": -13.54658115942027,
+          "pct_hours_off_static": 46.3768115942029,
+          "churn": 976,
+          "wilcoxon_p_vs_static": 1.7732393995361555e-10,
+          "block_boot_ci_impr_pct": [
+            2.6791201975597105,
+            7.728401841414973
+          ]
+        },
+        "pred_h6_retro": {
+          "mean_DUA": 0.11684195322733457,
+          "mean_km_under_alert": 80.64154926240377,
+          "mean_AES8": 0.41120150933552185,
+          "impr_DUA_vs_static_pretest_pct": 11.38159010988184,
+          "impr_DUA_vs_static_hindsight_pct": 11.38159010988184,
+          "impr_AES8_vs_static_pretest_aes_pct": 5.679076425469845,
+          "mean_D_km": 692.6781374893435,
+          "mean_T_h": 9.85995798995927,
+          "dT_vs_static_min": 26.447479397556037,
+          "dD_vs_static_km": 16.787137489343536,
+          "pct_hours_off_static": 47.35720375106565,
+          "churn": 1798,
+          "wilcoxon_p_vs_static": 8.434489669752991e-27,
+          "block_boot_ci_impr_pct": [
+            8.931352567418507,
+            13.89342717464329
+          ]
+        },
+        "pred_h6": {
+          "mean_DUA": 0.12998085189290728,
+          "mean_km_under_alert": 89.64950030333459,
+          "mean_AES8": 0.4353571589778667,
+          "impr_DUA_vs_static_pretest_pct": 1.4164339712727476,
+          "impr_DUA_vs_static_hindsight_pct": 1.4164339712727476,
+          "impr_AES8_vs_static_pretest_aes_pct": 0.13828162758480825,
+          "mean_D_km": 688.9369970161977,
+          "mean_T_h": 9.767820516008335,
+          "dT_vs_static_min": 20.91923096049996,
+          "dD_vs_static_km": 13.045997016197703,
+          "pct_hours_off_static": 47.61295822676897,
+          "churn": 1440,
+          "wilcoxon_p_vs_static": 0.4403365875715246,
+          "block_boot_ci_impr_pct": [
+            -0.8195759472301678,
+            3.8099412597310054
+          ]
+        },
+        "pred_sched": {
+          "mean_DUA": 0.11791638578315497,
+          "mean_km_under_alert": 74.7790082188607,
+          "mean_AES8": 0.4658914741221663,
+          "impr_DUA_vs_static_pretest_pct": 10.5666901360195,
+          "impr_DUA_vs_static_hindsight_pct": 10.5666901360195,
+          "impr_AES8_vs_static_pretest_aes_pct": -6.8656440383984165,
+          "mean_D_km": 586.0602645566923,
+          "mean_T_h": 7.712002670029365,
+          "dT_vs_static_min": -102.42983979823822,
+          "dD_vs_static_km": -89.83073544330762,
+          "pct_hours_off_static": 81.18073316283035,
+          "churn": 1557,
+          "wilcoxon_p_vs_static": 6.0586071784325686e-24,
+          "block_boot_ci_impr_pct": [
+            7.633740457483889,
+            13.42778696588211
+          ]
+        },
+        "oracle": {
+          "mean_DUA": 0.07013349155988698,
+          "mean_km_under_alert": 48.35043616353737,
+          "mean_AES8": 0.4450009778220447,
+          "impr_DUA_vs_static_pretest_pct": 46.80747513706223,
+          "impr_DUA_vs_static_hindsight_pct": 46.80747513706223,
+          "impr_AES8_vs_static_pretest_aes_pct": -2.0738063135275886,
+          "mean_D_km": 602.0794037084398,
+          "mean_T_h": 8.045221369707305,
+          "dT_vs_static_min": -82.43671781756188,
+          "dD_vs_static_km": -73.81159629156014,
+          "pct_hours_off_static": 85.80562659846548,
+          "churn": 1635,
+          "wilcoxon_p_vs_static": 0.0,
+          "block_boot_ci_impr_pct": [
+            44.73488246064364,
+            48.94526549665089
+          ]
+        }
+      },
+      "epsilon": [
+        {
+          "eps": 0.0,
+          "n_allowed": 1,
+          "static_in_set": "odesa_kyiv_R1",
+          "static_DUA": 0.1492028386886392,
+          "pred_DUA": 0.1492028386886392,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 5.695805555555556,
+          "mean_D_km": 488.1844000000001
+        },
+        {
+          "eps": 0.02,
+          "n_allowed": 1,
+          "static_in_set": "odesa_kyiv_R1",
+          "static_DUA": 0.1492028386886392,
+          "pred_DUA": 0.1492028386886392,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 5.695805555555556,
+          "mean_D_km": 488.1844000000001
+        },
+        {
+          "eps": 0.05,
+          "n_allowed": 1,
+          "static_in_set": "odesa_kyiv_R1",
+          "static_DUA": 0.1492028386886392,
+          "pred_DUA": 0.1492028386886392,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 5.695805555555556,
+          "mean_D_km": 488.1844000000001
+        },
+        {
+          "eps": 0.1,
+          "n_allowed": 1,
+          "static_in_set": "odesa_kyiv_R1",
+          "static_DUA": 0.1492028386886392,
+          "pred_DUA": 0.1492028386886392,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 5.695805555555556,
+          "mean_D_km": 488.1844000000001
+        },
+        {
+          "eps": 0.2,
+          "n_allowed": 1,
+          "static_in_set": "odesa_kyiv_R1",
+          "static_DUA": 0.1492028386886392,
+          "pred_DUA": 0.1492028386886392,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 5.695805555555556,
+          "mean_D_km": 488.1844000000001
+        },
+        {
+          "eps": 0.5,
+          "n_allowed": 1,
+          "static_in_set": "odesa_kyiv_R1",
+          "static_DUA": 0.1492028386886392,
+          "pred_DUA": 0.1492028386886392,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 5.695805555555556,
+          "mean_D_km": 488.1844000000001
+        },
+        {
+          "eps": "inf",
+          "n_allowed": 8,
+          "static_in_set": "odesa_kyiv_R2",
+          "static_DUA": 0.13184839738403342,
+          "pred_DUA": 0.11791638578315497,
+          "impr_vs_same_set_static_pct": 10.5666901360195,
+          "mean_T_h": 7.712002670029365,
+          "mean_D_km": 586.0602645566923
+        }
+      ],
+      "lambda": [
+        {
+          "lambda": 0,
+          "DUA": 0.11791638578315497,
+          "T_h": 7.712002670029365,
+          "D_km": 586.0602645566923
+        },
+        {
+          "lambda": 0.005,
+          "DUA": 0.11751928622003181,
+          "T_h": 7.522471121057119,
+          "D_km": 576.6293657502131
+        },
+        {
+          "lambda": 0.01,
+          "DUA": 0.1178124851313103,
+          "T_h": 7.3653365184237956,
+          "D_km": 568.7423695439045
+        },
+        {
+          "lambda": 0.02,
+          "DUA": 0.11850076175953353,
+          "T_h": 7.124567206592784,
+          "D_km": 556.7282121909634
+        },
+        {
+          "lambda": 0.05,
+          "DUA": 0.11980546338930269,
+          "T_h": 6.720106795254335,
+          "D_km": 536.5569287723786
+        },
+        {
+          "lambda": 0.1,
+          "DUA": 0.12404058794375555,
+          "T_h": 6.412062014540117,
+          "D_km": 521.6168492753623
+        },
+        {
+          "lambda": 0.2,
+          "DUA": 0.13894616246633587,
+          "T_h": 5.922395608364121,
+          "D_km": 498.8442310315431
+        },
+        {
+          "lambda": 0.5,
+          "DUA": 0.1492028386886392,
+          "T_h": 5.695805555555556,
+          "D_km": 488.1844000000001
+        },
+        {
+          "lambda": 1.0,
+          "DUA": 0.1492028386886392,
+          "T_h": 5.695805555555556,
+          "D_km": 488.1844000000001
+        },
+        {
+          "lambda": 2.0,
+          "DUA": 0.1492028386886392,
+          "T_h": 5.695805555555556,
+          "D_km": 488.1844000000001
+        },
+        {
+          "lambda": 5.0,
+          "DUA": 0.1492028386886392,
+          "T_h": 5.695805555555556,
+          "D_km": 488.1844000000001
+        }
+      ],
+      "fixed_routes": [
+        {
+          "route": "odesa_kyiv_R1",
+          "DUA": 0.1492028386886392,
+          "AES8": 0.4956187685263276,
+          "DUA_pretest": 0.16589418404283843,
+          "T_h": 5.695805555555556,
+          "D_km": 488.18440000000004
+        },
+        {
+          "route": "odesa_kyiv_R2",
+          "DUA": 0.13184839738403342,
+          "AES8": 0.435960011577495,
+          "DUA_pretest": 0.1475959027164263,
+          "T_h": 9.41916666666667,
+          "D_km": 675.891
+        },
+        {
+          "route": "odesa_kyiv_R3",
+          "DUA": 0.1646867911702241,
+          "AES8": 0.5184936059435616,
+          "DUA_pretest": 0.1952638686382884,
+          "T_h": 9.565527777777778,
+          "D_km": 688.4265
+        },
+        {
+          "route": "odesa_kyiv_R4",
+          "DUA": 0.16277039868934084,
+          "AES8": 0.5212422332478376,
+          "DUA_pretest": 0.19905276026953314,
+          "T_h": 9.470416666666667,
+          "D_km": 630.9033000000001
+        },
+        {
+          "route": "odesa_kyiv_R5",
+          "DUA": 0.16846440025692822,
+          "AES8": 0.5244076769008887,
+          "DUA_pretest": 0.205990054144697,
+          "T_h": 11.85813888888889,
+          "D_km": 774.5327
+        },
+        {
+          "route": "odesa_kyiv_R6",
+          "DUA": 0.1400690445375979,
+          "AES8": 0.4497705515797891,
+          "DUA_pretest": 0.1581780230339393,
+          "T_h": 11.518944444444443,
+          "D_km": 762.341
+        },
+        {
+          "route": "odesa_kyiv_R7",
+          "DUA": 0.13358282797275894,
+          "AES8": 0.4812916518693723,
+          "DUA_pretest": 0.16752555583707357,
+          "T_h": 8.704,
+          "D_km": 643.8699
+        },
+        {
+          "route": "odesa_kyiv_R8",
+          "DUA": 0.1543806862888468,
+          "AES8": 0.5034337370411638,
+          "DUA_pretest": 0.18222781121675724,
+          "T_h": 10.087277777777778,
+          "D_km": 729.2259
+        }
+      ],
+      "monthly_impr_pred_sched_pct": {
+        "2025-03": 40.875400787107914,
+        "2025-04": 11.997262200615735,
+        "2025-05": 15.603001791773089,
+        "2025-06": 13.24178424874377,
+        "2025-07": 8.719607720762225,
+        "2025-08": -2.6428553392457443,
+        "2025-09": 13.597930071440102,
+        "2025-10": 0.40637791675116425
+      },
+      "share_hours_static_zero_DUA": 0.36295822676896844
+    },
+    "kharkiv_lviv": {
+      "routes": [
+        "kharkiv_lviv_R1",
+        "kharkiv_lviv_R2",
+        "kharkiv_lviv_R3",
+        "kharkiv_lviv_R4",
+        "kharkiv_lviv_R5",
+        "kharkiv_lviv_R6",
+        "kharkiv_lviv_R7",
+        "kharkiv_lviv_R8"
+      ],
+      "duplicates_removed": {},
+      "oblasts": [
+        "Вінницька область",
+        "Дніпропетровська область",
+        "Житомирська область",
+        "Київська область",
+        "Кіровоградська область",
+        "Львівська область",
+        "Полтавська область",
+        "Рівненська область",
+        "Тернопільська область",
+        "Харківська область",
+        "Хмельницька область",
+        "Черкаська область",
+        "м. Київ"
+      ],
+      "static_pretest": "kharkiv_lviv_R5",
+      "static_hindsight": "kharkiv_lviv_R4",
+      "static_pretest_aes": "kharkiv_lviv_R5",
+      "static_hindsight_aes": "kharkiv_lviv_R4",
+      "fastest": "kharkiv_lviv_R1",
+      "shortest": "kharkiv_lviv_R6",
+      "strategies": {
+        "fastest": {
+          "mean_DUA": 0.17013477606072797,
+          "mean_km_under_alert": 175.25591788754392,
+          "mean_AES8": 0.39473927056741587,
+          "impr_DUA_vs_static_pretest_pct": -3.61968861475974,
+          "impr_DUA_vs_static_hindsight_pct": -20.541999909061232,
+          "impr_AES8_vs_static_pretest_aes_pct": -2.9906124903313502,
+          "mean_D_km": 1030.1005000000002,
+          "mean_T_h": 14.434055555555558,
+          "dT_vs_static_min": -44.5666666666666,
+          "dD_vs_static_km": -48.284999999999854,
+          "pct_hours_off_static": 100.0,
+          "churn": 0,
+          "wilcoxon_p_vs_static": 5.3136257991780066e-276,
+          "block_boot_ci_impr_pct": [
+            -4.339730931840314,
+            -2.8499384587402794
+          ]
+        },
+        "shortest": {
+          "mean_DUA": 0.1707169747539749,
+          "mean_km_under_alert": 175.50036195639646,
+          "mean_AES8": 0.3955612117726932,
+          "impr_DUA_vs_static_pretest_pct": -3.9742736602335387,
+          "impr_DUA_vs_static_hindsight_pct": -20.954492854086055,
+          "impr_AES8_vs_static_pretest_aes_pct": -3.2050634823516573,
+          "mean_D_km": 1028.0194000000004,
+          "mean_T_h": 14.513138888888887,
+          "dT_vs_static_min": -39.82166666666682,
+          "dD_vs_static_km": -50.36609999999973,
+          "pct_hours_off_static": 100.0,
+          "churn": 0,
+          "wilcoxon_p_vs_static": 2.798393255034328e-187,
+          "block_boot_ci_impr_pct": [
+            -4.695841235274712,
+            -3.228217069490306
+          ]
+        },
+        "static_pretest": {
+          "mean_DUA": 0.16419155310653358,
+          "mean_km_under_alert": 177.0617900925658,
+          "mean_AES8": 0.3832769424538315,
+          "impr_DUA_vs_static_pretest_pct": 0.0,
+          "impr_DUA_vs_static_hindsight_pct": -16.331173660650293,
+          "impr_AES8_vs_static_pretest_aes_pct": 0.0,
+          "mean_D_km": 1078.3854999999999,
+          "mean_T_h": 15.176833333333335,
+          "dT_vs_static_min": 0.0,
+          "dD_vs_static_km": -2.2737367544323206e-13,
+          "pct_hours_off_static": 0.0,
+          "churn": 0
+        },
+        "static_hindsight": {
+          "mean_DUA": 0.14114149108947943,
+          "mean_km_under_alert": 154.34097276542204,
+          "mean_AES8": 0.37502123939773213,
+          "impr_DUA_vs_static_pretest_pct": 14.038518779402988,
+          "impr_DUA_vs_static_hindsight_pct": 0.0,
+          "impr_AES8_vs_static_pretest_aes_pct": 2.153978531357599,
+          "mean_D_km": 1093.5195,
+          "mean_T_h": 17.073388888888893,
+          "dT_vs_static_min": 113.79333333333349,
+          "dD_vs_static_km": 15.134000000000015,
+          "pct_hours_off_static": 100.0,
+          "churn": 0,
+          "wilcoxon_p_vs_static": 1.5540217544372684e-42,
+          "block_boot_ci_impr_pct": [
+            10.956794512571419,
+            16.969327911846147
+          ]
+        },
+        "reactive": {
+          "mean_DUA": 0.14680774672419494,
+          "mean_km_under_alert": 160.88181015372328,
+          "mean_AES8": 0.3597654083075294,
+          "impr_DUA_vs_static_pretest_pct": 10.587515650734709,
+          "impr_DUA_vs_static_hindsight_pct": -4.0145924426455695,
+          "impr_AES8_vs_static_pretest_aes_pct": 6.134346093395436,
+          "mean_D_km": 1090.6151428815006,
+          "mean_T_h": 16.017578111679455,
+          "dT_vs_static_min": 50.44468670076725,
+          "dD_vs_static_km": 12.229642881500467,
+          "pct_hours_off_static": 47.78346121057119,
+          "churn": 1442,
+          "wilcoxon_p_vs_static": 5.790821586667227e-45,
+          "block_boot_ci_impr_pct": [
+            8.379271222656659,
+            12.751832919604048
+          ]
+        },
+        "climatology": {
+          "mean_DUA": 0.14502598339021378,
+          "mean_km_under_alert": 155.70482849367204,
+          "mean_AES8": 0.3756996434276408,
+          "impr_DUA_vs_static_pretest_pct": 11.672689217991907,
+          "impr_DUA_vs_static_hindsight_pct": -2.7521972956001246,
+          "impr_AES8_vs_static_pretest_aes_pct": 1.9769775290104854,
+          "mean_D_km": 1074.4937340579713,
+          "mean_T_h": 15.915986075589657,
+          "dT_vs_static_min": 44.34916453537937,
+          "dD_vs_static_km": -3.891765942028769,
+          "pct_hours_off_static": 72.03751065643648,
+          "churn": 1116,
+          "wilcoxon_p_vs_static": 7.766322977842497e-31,
+          "block_boot_ci_impr_pct": [
+            9.301991757239115,
+            14.10234604344258
+          ]
+        },
+        "pred_h6_retro": {
+          "mean_DUA": 0.13524436420919497,
+          "mean_km_under_alert": 148.58090294339826,
+          "mean_AES8": 0.3588105828213093,
+          "impr_DUA_vs_static_pretest_pct": 17.630132823310706,
+          "impr_DUA_vs_static_hindsight_pct": 4.178166770638592,
+          "impr_AES8_vs_static_pretest_aes_pct": 6.383467650279888,
+          "mean_D_km": 1093.176105029838,
+          "mean_T_h": 16.437559451075114,
+          "dT_vs_static_min": 75.64356706450674,
+          "dD_vs_static_km": 14.790605029837934,
+          "pct_hours_off_static": 77.21653878942881,
+          "churn": 2161,
+          "wilcoxon_p_vs_static": 7.204836375807806e-78,
+          "block_boot_ci_impr_pct": [
+            15.035134298442713,
+            20.221114190682428
+          ]
+        },
+        "pred_h6": {
+          "mean_DUA": 0.14956068701601802,
+          "mean_km_under_alert": 162.03925849169295,
+          "mean_AES8": 0.3701125909702977,
+          "impr_DUA_vs_static_pretest_pct": 8.910851876175695,
+          "impr_DUA_vs_static_hindsight_pct": -5.965075089933031,
+          "impr_AES8_vs_static_pretest_aes_pct": 3.4346839126957214,
+          "mean_D_km": 1081.990514428815,
+          "mean_T_h": 16.125053820924506,
+          "dT_vs_static_min": 56.89322925547032,
+          "dD_vs_static_km": 3.6050144288149113,
+          "pct_hours_off_static": 70.65217391304348,
+          "churn": 1563,
+          "wilcoxon_p_vs_static": 7.08408098694928e-19,
+          "block_boot_ci_impr_pct": [
+            6.539764169921397,
+            11.181208890919876
+          ]
+        },
+        "pred_sched": {
+          "mean_DUA": 0.14373101170915484,
+          "mean_km_under_alert": 156.30104980794854,
+          "mean_AES8": 0.3673090168628972,
+          "impr_DUA_vs_static_pretest_pct": 12.461384894814401,
+          "impr_DUA_vs_static_hindsight_pct": -1.8346983581417093,
+          "impr_AES8_vs_static_pretest_aes_pct": 4.1661586759442875,
+          "mean_D_km": 1080.2580415601024,
+          "mean_T_h": 15.977579757506868,
+          "dT_vs_static_min": 48.04478545041203,
+          "dD_vs_static_km": 1.8725415601022632,
+          "pct_hours_off_static": 73.16709292412618,
+          "churn": 1894,
+          "wilcoxon_p_vs_static": 1.4595563601960517e-38,
+          "block_boot_ci_impr_pct": [
+            9.95531018734337,
+            14.92786313589493
+          ]
+        },
+        "oracle": {
+          "mean_DUA": 0.10814120333161073,
+          "mean_km_under_alert": 118.76041813976927,
+          "mean_AES8": 0.3515806066218044,
+          "impr_DUA_vs_static_pretest_pct": 34.137170100678254,
+          "impr_DUA_vs_static_hindsight_pct": 23.38099697200132,
+          "impr_AES8_vs_static_pretest_aes_pct": 8.269825893803965,
+          "mean_D_km": 1078.5658842710998,
+          "mean_T_h": 15.906358364118596,
+          "dT_vs_static_min": 43.77150184711567,
+          "dD_vs_static_km": 0.18038427109968325,
+          "pct_hours_off_static": 89.8763853367434,
+          "churn": 1620,
+          "wilcoxon_p_vs_static": 0.0,
+          "block_boot_ci_impr_pct": [
+            31.932354750526827,
+            36.378421316572
+          ]
+        }
+      },
+      "epsilon": [
+        {
+          "eps": 0.0,
+          "n_allowed": 1,
+          "static_in_set": "kharkiv_lviv_R1",
+          "static_DUA": 0.17013477606072797,
+          "pred_DUA": 0.17013477606072797,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 14.434055555555558,
+          "mean_D_km": 1030.1005000000002
+        },
+        {
+          "eps": 0.02,
+          "n_allowed": 2,
+          "static_in_set": "kharkiv_lviv_R1",
+          "static_DUA": 0.17013477606072797,
+          "pred_DUA": 0.16987062286175747,
+          "impr_vs_same_set_static_pct": 0.1552611435984193,
+          "mean_T_h": 14.459405370843989,
+          "mean_D_km": 1029.4334125319697
+        },
+        {
+          "eps": 0.05,
+          "n_allowed": 2,
+          "static_in_set": "kharkiv_lviv_R1",
+          "static_DUA": 0.17013477606072797,
+          "pred_DUA": 0.16987062286175747,
+          "impr_vs_same_set_static_pct": 0.1552611435984193,
+          "mean_T_h": 14.459405370843989,
+          "mean_D_km": 1029.4334125319697
+        },
+        {
+          "eps": 0.1,
+          "n_allowed": 3,
+          "static_in_set": "kharkiv_lviv_R5",
+          "static_DUA": 0.16419155310653358,
+          "pred_DUA": 0.1646133649650619,
+          "impr_vs_same_set_static_pct": -0.2569022891540826,
+          "mean_T_h": 14.973248070000949,
+          "mean_D_km": 1064.630985549872
+        },
+        {
+          "eps": 0.2,
+          "n_allowed": 8,
+          "static_in_set": "kharkiv_lviv_R5",
+          "static_DUA": 0.16419155310653358,
+          "pred_DUA": 0.14373101170915484,
+          "impr_vs_same_set_static_pct": 12.461384894814401,
+          "mean_T_h": 15.977579757506868,
+          "mean_D_km": 1080.2580415601024
+        },
+        {
+          "eps": 0.5,
+          "n_allowed": 8,
+          "static_in_set": "kharkiv_lviv_R5",
+          "static_DUA": 0.16419155310653358,
+          "pred_DUA": 0.14373101170915484,
+          "impr_vs_same_set_static_pct": 12.461384894814401,
+          "mean_T_h": 15.977579757506868,
+          "mean_D_km": 1080.2580415601024
+        },
+        {
+          "eps": "inf",
+          "n_allowed": 8,
+          "static_in_set": "kharkiv_lviv_R5",
+          "static_DUA": 0.16419155310653358,
+          "pred_DUA": 0.14373101170915484,
+          "impr_vs_same_set_static_pct": 12.461384894814401,
+          "mean_T_h": 15.977579757506868,
+          "mean_D_km": 1080.2580415601024
+        }
+      ],
+      "lambda": [
+        {
+          "lambda": 0,
+          "DUA": 0.14373101170915484,
+          "T_h": 15.977579757506868,
+          "D_km": 1080.2580415601024
+        },
+        {
+          "lambda": 0.005,
+          "DUA": 0.14380315063802188,
+          "T_h": 15.944548995926873,
+          "D_km": 1079.4040020886619
+        },
+        {
+          "lambda": 0.01,
+          "DUA": 0.1438498907855106,
+          "T_h": 15.90935865421048,
+          "D_km": 1078.5799241048594
+        },
+        {
+          "lambda": 0.02,
+          "DUA": 0.14429428964101076,
+          "T_h": 15.838716219096337,
+          "D_km": 1076.670424168798
+        },
+        {
+          "lambda": 0.05,
+          "DUA": 0.14566538817912839,
+          "T_h": 15.632461737472768,
+          "D_km": 1071.2203552642795
+        },
+        {
+          "lambda": 0.1,
+          "DUA": 0.14983498167636417,
+          "T_h": 15.308793099365351,
+          "D_km": 1061.4326863171357
+        },
+        {
+          "lambda": 0.2,
+          "DUA": 0.15849630189087494,
+          "T_h": 14.80470119944113,
+          "D_km": 1043.747482630009
+        },
+        {
+          "lambda": 0.5,
+          "DUA": 0.16951181867573795,
+          "T_h": 14.450209831154686,
+          "D_km": 1030.645764812447
+        },
+        {
+          "lambda": 1.0,
+          "DUA": 0.17012786253854922,
+          "T_h": 14.434156685137827,
+          "D_km": 1030.0978387468033
+        },
+        {
+          "lambda": 2.0,
+          "DUA": 0.17013477606072797,
+          "T_h": 14.434055555555558,
+          "D_km": 1030.1005000000002
+        },
+        {
+          "lambda": 5.0,
+          "DUA": 0.17013477606072797,
+          "T_h": 14.434055555555558,
+          "D_km": 1030.1005000000002
+        }
+      ],
+      "fixed_routes": [
+        {
+          "route": "kharkiv_lviv_R1",
+          "DUA": 0.17013477606072797,
+          "AES8": 0.39473927056741587,
+          "DUA_pretest": 0.18125347256047647,
+          "T_h": 14.434055555555558,
+          "D_km": 1030.1005
+        },
+        {
+          "route": "kharkiv_lviv_R2",
+          "DUA": 0.15677710509832266,
+          "AES8": 0.3968706143438327,
+          "DUA_pretest": 0.18845800345046973,
+          "T_h": 16.765694444444446,
+          "D_km": 1089.311
+        },
+        {
+          "route": "kharkiv_lviv_R3",
+          "DUA": 0.16546760163887667,
+          "AES8": 0.42041831148250697,
+          "DUA_pretest": 0.2134425821515436,
+          "T_h": 16.892138888888887,
+          "D_km": 1160.8862
+        },
+        {
+          "route": "kharkiv_lviv_R4",
+          "DUA": 0.14114149108947943,
+          "AES8": 0.37502123939773213,
+          "DUA_pretest": 0.17909851383091585,
+          "T_h": 17.07338888888889,
+          "D_km": 1093.5195
+        },
+        {
+          "route": "kharkiv_lviv_R5",
+          "DUA": 0.16419155310653358,
+          "AES8": 0.3832769424538315,
+          "DUA_pretest": 0.17889954923850657,
+          "T_h": 15.176833333333335,
+          "D_km": 1078.3855
+        },
+        {
+          "route": "kharkiv_lviv_R6",
+          "DUA": 0.1707169747539749,
+          "AES8": 0.3955612117726932,
+          "DUA_pretest": 0.1820438055542072,
+          "T_h": 14.51313888888889,
+          "D_km": 1028.0194000000001
+        },
+        {
+          "route": "kharkiv_lviv_R7",
+          "DUA": 0.1561714287143349,
+          "AES8": 0.3958658165486916,
+          "DUA_pretest": 0.1878516206723767,
+          "T_h": 16.660305555555556,
+          "D_km": 1082.495
+        },
+        {
+          "route": "kharkiv_lviv_R8",
+          "DUA": 0.1419047043615268,
+          "AES8": 0.375577728016007,
+          "DUA_pretest": 0.17981713314871886,
+          "T_h": 16.975777777777775,
+          "D_km": 1078.0919
+        }
+      ],
+      "monthly_impr_pred_sched_pct": {
+        "2025-03": 1.384006978308932,
+        "2025-04": 9.105475712264754,
+        "2025-05": 18.22565066931729,
+        "2025-06": 13.34405687247538,
+        "2025-07": 13.560877210724538,
+        "2025-08": -7.570002195017205,
+        "2025-09": 18.70304772786086,
+        "2025-10": -4.116369997280831
+      },
+      "share_hours_static_zero_DUA": 0.27131287297527706
+    },
+    "dnipro_kyiv": {
+      "routes": [
+        "dnipro_kyiv_R1",
+        "dnipro_kyiv_R2",
+        "dnipro_kyiv_R3",
+        "dnipro_kyiv_R4",
+        "dnipro_kyiv_R5",
+        "dnipro_kyiv_R6",
+        "dnipro_kyiv_R7",
+        "dnipro_kyiv_R8"
+      ],
+      "duplicates_removed": {},
+      "oblasts": [
+        "Вінницька область",
+        "Дніпропетровська область",
+        "Київська область",
+        "Кіровоградська область",
+        "Полтавська область",
+        "Харківська область",
+        "Черкаська область",
+        "м. Київ"
+      ],
+      "static_pretest": "dnipro_kyiv_R6",
+      "static_hindsight": "dnipro_kyiv_R6",
+      "static_pretest_aes": "dnipro_kyiv_R6",
+      "static_hindsight_aes": "dnipro_kyiv_R6",
+      "fastest": "dnipro_kyiv_R2",
+      "shortest": "dnipro_kyiv_R1",
+      "strategies": {
+        "fastest": {
+          "mean_DUA": 0.2439886984462075,
+          "mean_km_under_alert": 132.15703968739473,
+          "mean_AES8": 0.5438418950965235,
+          "impr_DUA_vs_static_pretest_pct": -63.690197081868455,
+          "impr_DUA_vs_static_hindsight_pct": -63.690197081868455,
+          "impr_AES8_vs_static_pretest_aes_pct": -19.115597025181067,
+          "mean_D_km": 541.6523,
+          "mean_T_h": 6.932555555555554,
+          "dT_vs_static_min": -322.90500000000014,
+          "dD_vs_static_km": -282.72530000000006,
+          "pct_hours_off_static": 100.0,
+          "churn": 0,
+          "wilcoxon_p_vs_static": 5.2292085373493445e-186,
+          "block_boot_ci_impr_pct": [
+            -73.44884538315202,
+            -53.667483290466535
+          ]
+        },
+        "shortest": {
+          "mean_DUA": 0.1603263286037144,
+          "mean_km_under_alert": 77.44282732127368,
+          "mean_AES8": 0.4959565641729215,
+          "impr_DUA_vs_static_pretest_pct": -7.561737464411411,
+          "impr_DUA_vs_static_hindsight_pct": -7.561737464411411,
+          "impr_AES8_vs_static_pretest_aes_pct": -8.62745730453512,
+          "mean_D_km": 483.03250000000025,
+          "mean_T_h": 7.486444444444443,
+          "dT_vs_static_min": -289.6716666666668,
+          "dD_vs_static_km": -341.3450999999998,
+          "pct_hours_off_static": 100.0,
+          "churn": 0,
+          "wilcoxon_p_vs_static": 5.444722361288908e-20,
+          "block_boot_ci_impr_pct": [
+            -11.367516292157294,
+            -3.9587933521502365
+          ]
+        },
+        "static_pretest": {
+          "mean_DUA": 0.14905516811381095,
+          "mean_km_under_alert": 122.87774175726,
+          "mean_AES8": 0.45656648556406526,
+          "impr_DUA_vs_static_pretest_pct": 0.0,
+          "impr_DUA_vs_static_hindsight_pct": 0.0,
+          "impr_AES8_vs_static_pretest_aes_pct": 0.0,
+          "mean_D_km": 824.3775999999999,
+          "mean_T_h": 12.314305555555558,
+          "dT_vs_static_min": 1.0658141036401503e-13,
+          "dD_vs_static_km": -1.1368683772161603e-13,
+          "pct_hours_off_static": 0.0,
+          "churn": 0
+        },
+        "static_hindsight": {
+          "mean_DUA": 0.14905516811381095,
+          "mean_km_under_alert": 122.87774175726,
+          "mean_AES8": 0.45656648556406526,
+          "impr_DUA_vs_static_pretest_pct": 0.0,
+          "impr_DUA_vs_static_hindsight_pct": 0.0,
+          "impr_AES8_vs_static_pretest_aes_pct": 0.0,
+          "mean_D_km": 824.3775999999999,
+          "mean_T_h": 12.314305555555558,
+          "dT_vs_static_min": 1.0658141036401503e-13,
+          "dD_vs_static_km": -1.1368683772161603e-13,
+          "pct_hours_off_static": 0.0,
+          "churn": 0,
+          "block_boot_ci_impr_pct": [
+            0.0,
+            0.0
+          ]
+        },
+        "reactive": {
+          "mean_DUA": 0.1518286107474084,
+          "mean_km_under_alert": 112.78621919566066,
+          "mean_AES8": 0.4326619660086944,
+          "impr_DUA_vs_static_pretest_pct": -1.8606819667465535,
+          "impr_DUA_vs_static_hindsight_pct": -1.8606819667465535,
+          "impr_AES8_vs_static_pretest_aes_pct": 5.235714909261906,
+          "mean_D_km": 772.8570708653026,
+          "mean_T_h": 11.474005274936065,
+          "dT_vs_static_min": -50.418016837169475,
+          "dD_vs_static_km": -51.520529134697426,
+          "pct_hours_off_static": 18.00937766410912,
+          "churn": 724,
+          "wilcoxon_p_vs_static": 3.54424984135075e-05,
+          "block_boot_ci_impr_pct": [
+            -3.6757114796612163,
+            0.09611149422017633
+          ]
+        },
+        "climatology": {
+          "mean_DUA": 0.14600109937063746,
+          "mean_km_under_alert": 111.59443299623108,
+          "mean_AES8": 0.46698555901721567,
+          "impr_DUA_vs_static_pretest_pct": 2.048951929557757,
+          "impr_DUA_vs_static_hindsight_pct": 2.048951929557757,
+          "impr_AES8_vs_static_pretest_aes_pct": -2.2820495552314046,
+          "mean_D_km": 759.9535662190963,
+          "mean_T_h": 11.4236798510467,
+          "dT_vs_static_min": -53.437542270531395,
+          "dD_vs_static_km": -64.42403378090376,
+          "pct_hours_off_static": 20.737425404944588,
+          "churn": 611,
+          "wilcoxon_p_vs_static": 0.0008057122406342534,
+          "block_boot_ci_impr_pct": [
+            0.4263910435305209,
+            3.627522229136282
+          ]
+        },
+        "pred_h6_retro": {
+          "mean_DUA": 0.1362817621353127,
+          "mean_km_under_alert": 97.64679721150254,
+          "mean_AES8": 0.4130942503951094,
+          "impr_DUA_vs_static_pretest_pct": 8.569582752571932,
+          "impr_DUA_vs_static_hindsight_pct": 8.569582752571932,
+          "impr_AES8_vs_static_pretest_aes_pct": 9.521556343595408,
+          "mean_D_km": 715.3350565856776,
+          "mean_T_h": 10.453138610637493,
+          "dT_vs_static_min": -111.67001669508377,
+          "dD_vs_static_km": -109.04254341432238,
+          "pct_hours_off_static": 39.02387041773231,
+          "churn": 1243,
+          "wilcoxon_p_vs_static": 1.8866499404636775e-38,
+          "block_boot_ci_impr_pct": [
+            5.883298795297881,
+            11.47890291572211
+          ]
+        },
+        "pred_h6": {
+          "mean_DUA": 0.14245498297898146,
+          "mean_km_under_alert": 107.69266974192948,
+          "mean_AES8": 0.42598842827168015,
+          "impr_DUA_vs_static_pretest_pct": 4.428014954697796,
+          "impr_DUA_vs_static_hindsight_pct": 4.428014954697796,
+          "impr_AES8_vs_static_pretest_aes_pct": 6.697394193226301,
+          "mean_D_km": 709.3634086317135,
+          "mean_T_h": 10.302837175570712,
+          "dT_vs_static_min": -120.68810279909066,
+          "dD_vs_static_km": -115.01419136828656,
+          "pct_hours_off_static": 41.368286445012785,
+          "churn": 946,
+          "wilcoxon_p_vs_static": 5.138192031194314e-12,
+          "block_boot_ci_impr_pct": [
+            2.0033795357731314,
+            7.242842358627111
+          ]
+        },
+        "pred_sched": {
+          "mean_DUA": 0.13444858990573677,
+          "mean_km_under_alert": 93.81122689698712,
+          "mean_AES8": 0.43336273530682307,
+          "impr_DUA_vs_static_pretest_pct": 9.79944432179724,
+          "impr_DUA_vs_static_hindsight_pct": 9.79944432179724,
+          "impr_AES8_vs_static_pretest_aes_pct": 5.082228107167155,
+          "mean_D_km": 621.3515224424552,
+          "mean_T_h": 8.989451542815194,
+          "dT_vs_static_min": -199.49124076442172,
+          "dD_vs_static_km": -203.0260775575448,
+          "pct_hours_off_static": 67.13554987212275,
+          "churn": 1550,
+          "wilcoxon_p_vs_static": 3.153577994037803e-30,
+          "block_boot_ci_impr_pct": [
+            6.764668571827053,
+            13.175772494597503
+          ]
+        },
+        "oracle": {
+          "mean_DUA": 0.10211081600200735,
+          "mean_km_under_alert": 69.4805784419212,
+          "mean_AES8": 0.435009327362799,
+          "impr_DUA_vs_static_pretest_pct": 31.49461552111986,
+          "impr_DUA_vs_static_hindsight_pct": 31.49461552111986,
+          "impr_AES8_vs_static_pretest_aes_pct": 4.7215813869109216,
+          "mean_D_km": 604.0025831841433,
+          "mean_T_h": 8.965926127214171,
+          "dT_vs_static_min": -200.9027657004831,
+          "dD_vs_static_km": -220.37501681585672,
+          "pct_hours_off_static": 72.52770673486786,
+          "churn": 1635,
+          "wilcoxon_p_vs_static": 0.0,
+          "block_boot_ci_impr_pct": [
+            28.686505513491408,
+            34.4818182676628
+          ]
+        }
+      },
+      "epsilon": [
+        {
+          "eps": 0.0,
+          "n_allowed": 1,
+          "static_in_set": "dnipro_kyiv_R2",
+          "static_DUA": 0.2439886984462075,
+          "pred_DUA": 0.2439886984462075,
+          "impr_vs_same_set_static_pct": 0.0,
+          "mean_T_h": 6.932555555555554,
+          "mean_D_km": 541.6523
+        },
+        {
+          "eps": 0.02,
+          "n_allowed": 2,
+          "static_in_set": "dnipro_kyiv_R7",
+          "static_DUA": 0.24396902068443935,
+          "pred_DUA": 0.2439680939525437,
+          "impr_vs_same_set_static_pct": 0.0003798563821913723,
+          "mean_T_h": 6.93756055224022,
+          "mean_D_km": 541.7275592497869
+        },
+        {
+          "eps": 0.05,
+          "n_allowed": 2,
+          "static_in_set": "dnipro_kyiv_R7",
+          "static_DUA": 0.24396902068443935,
+          "pred_DUA": 0.2439680939525437,
+          "impr_vs_same_set_static_pct": 0.0003798563821913723,
+          "mean_T_h": 6.93756055224022,
+          "mean_D_km": 541.7275592497869
+        },
+        {
+          "eps": 0.1,
+          "n_allowed": 4,
+          "static_in_set": "dnipro_kyiv_R5",
+          "static_DUA": 0.16032427647398037,
+          "pred_DUA": 0.1463640368511841,
+          "impr_vs_same_set_static_pct": 8.70750202640829,
+          "mean_T_h": 7.302520324192479,
+          "mean_D_km": 502.8967721867008
+        },
+        {
+          "eps": 0.2,
+          "n_allowed": 4,
+          "static_in_set": "dnipro_kyiv_R5",
+          "static_DUA": 0.16032427647398037,
+          "pred_DUA": 0.1463640368511841,
+          "impr_vs_same_set_static_pct": 8.70750202640829,
+          "mean_T_h": 7.302520324192479,
+          "mean_D_km": 502.8967721867008
+        },
+        {
+          "eps": 0.5,
+          "n_allowed": 7,
+          "static_in_set": "dnipro_kyiv_R3",
+          "static_DUA": 0.15689600847526064,
+          "pred_DUA": 0.14306639639704827,
+          "impr_vs_same_set_static_pct": 8.814508547802237,
+          "mean_T_h": 7.775824589135171,
+          "mean_D_km": 539.0031411764706
+        },
+        {
+          "eps": "inf",
+          "n_allowed": 8,
+          "static_in_set": "dnipro_kyiv_R6",
+          "static_DUA": 0.14905516811381095,
+          "pred_DUA": 0.13444858990573677,
+          "impr_vs_same_set_static_pct": 9.79944432179724,
+          "mean_T_h": 8.989451542815194,
+          "mean_D_km": 621.3515224424552
+        }
+      ],
+      "lambda": [
+        {
+          "lambda": 0,
+          "DUA": 0.13444858990573677,
+          "T_h": 8.989451542815194,
+          "D_km": 621.3515224424552
+        },
+        {
+          "lambda": 0.005,
+          "DUA": 0.13413198886335073,
+          "T_h": 8.896319663493417,
+          "D_km": 615.3159363384484
+        },
+        {
+          "lambda": 0.01,
+          "DUA": 0.13439900750626552,
+          "T_h": 8.777884869044236,
+          "D_km": 607.4321998081841
+        },
+        {
+          "lambda": 0.02,
+          "DUA": 0.135193936463736,
+          "T_h": 8.577885111774178,
+          "D_km": 593.8391513000854
+        },
+        {
+          "lambda": 0.05,
+          "DUA": 0.13620354689141526,
+          "T_h": 8.171214875201288,
+          "D_km": 566.1004589727196
+        },
+        {
+          "lambda": 0.1,
+          "DUA": 0.1393271099033588,
+          "T_h": 7.687562748650186,
+          "D_km": 534.0736958653027
+        },
+        {
+          "lambda": 0.2,
+          "DUA": 0.14503034409515436,
+          "T_h": 7.3422353473998285,
+          "D_km": 509.91031361892595
+        },
+        {
+          "lambda": 0.5,
+          "DUA": 0.1478855844478084,
+          "T_h": 7.270649012503551,
+          "D_km": 505.92846600596766
+        },
+        {
+          "lambda": 1.0,
+          "DUA": 0.15753678288349068,
+          "T_h": 7.2104443970825045,
+          "D_km": 512.2424514919012
+        },
+        {
+          "lambda": 2.0,
+          "DUA": 0.21726668066498184,
+          "T_h": 7.010822463768115,
+          "D_km": 533.3690673913045
+        },
+        {
+          "lambda": 5.0,
+          "DUA": 0.2439886984462075,
+          "T_h": 6.932555555555554,
+          "D_km": 541.6523
+        }
+      ],
+      "fixed_routes": [
+        {
+          "route": "dnipro_kyiv_R1",
+          "DUA": 0.1603263286037144,
+          "AES8": 0.4959565641729215,
+          "DUA_pretest": 0.2253035458487834,
+          "T_h": 7.4864444444444445,
+          "D_km": 483.0325
+        },
+        {
+          "route": "dnipro_kyiv_R2",
+          "DUA": 0.2439886984462075,
+          "AES8": 0.5438418950965235,
+          "DUA_pretest": 0.28049040944162806,
+          "T_h": 6.932555555555556,
+          "D_km": 541.6523000000001
+        },
+        {
+          "route": "dnipro_kyiv_R3",
+          "DUA": 0.15689600847526064,
+          "AES8": 0.4845468814344622,
+          "DUA_pretest": 0.21763287238681292,
+          "T_h": 8.918722222222222,
+          "D_km": 565.4858
+        },
+        {
+          "route": "dnipro_kyiv_R4",
+          "DUA": 0.1674356173293652,
+          "AES8": 0.5083880862754088,
+          "DUA_pretest": 0.22703659165741347,
+          "T_h": 8.590944444444444,
+          "D_km": 636.671
+        },
+        {
+          "route": "dnipro_kyiv_R5",
+          "DUA": 0.16032427647398037,
+          "AES8": 0.4959383617494386,
+          "DUA_pretest": 0.22528912153554964,
+          "T_h": 7.494166666666667,
+          "D_km": 483.1481
+        },
+        {
+          "route": "dnipro_kyiv_R6",
+          "DUA": 0.14905516811381095,
+          "AES8": 0.45656648556406526,
+          "DUA_pretest": 0.19809357227874266,
+          "T_h": 12.314305555555556,
+          "D_km": 824.3776
+        },
+        {
+          "route": "dnipro_kyiv_R7",
+          "DUA": 0.24396902068443935,
+          "AES8": 0.5438154468330758,
+          "DUA_pretest": 0.28046577285729685,
+          "T_h": 6.940250000000001,
+          "D_km": 541.768
+        },
+        {
+          "route": "dnipro_kyiv_R8",
+          "DUA": 0.16708051738025936,
+          "AES8": 0.5071520432843051,
+          "DUA_pretest": 0.22697818604764214,
+          "T_h": 9.300416666666667,
+          "D_km": 614.8629
+        }
+      ],
+      "monthly_impr_pred_sched_pct": {
+        "2025-03": 0.0,
+        "2025-04": -1.5943905638953233,
+        "2025-05": 10.20371432093636,
+        "2025-06": 6.324769447909647,
+        "2025-07": 2.7323665787768294,
+        "2025-08": 33.97907379810934,
+        "2025-09": 37.32603032636973,
+        "2025-10": 45.2686043759319
+      },
+      "share_hours_static_zero_DUA": 0.312233589087809
+    }
+  },
+  "holm_adjusted_p": {
+    "kharkiv_lviv:pred_sched": 1.1676450881568414e-37,
+    "lviv_kyiv:pred_sched": 6.184127915326424e-34,
+    "dnipro_kyiv:pred_sched": 1.8921467964226817e-29,
+    "odesa_kyiv:pred_sched": 3.0293035892162846e-23,
+    "kharkiv_lviv:pred_h6": 2.833632394779712e-18,
+    "lviv_kyiv:pred_h6": 2.1309067771309296e-12,
+    "dnipro_kyiv:pred_h6": 1.0276384062388628e-11,
+    "odesa_kyiv:pred_h6": 0.4403365875715246
+  }
+}

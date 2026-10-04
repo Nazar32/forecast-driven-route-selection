@@ -1,0 +1,596 @@
+{
+ "lviv_kyiv": [
+  {
+   "id": "R1",
+   "seq": [
+    "Lviv",
+    "Ternopil",
+    "Khmelnytskyi",
+    "Zhytomyr",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 8.571333333333333,
+   "D": 572.8211,
+   "pre": 9.197164504396588,
+   "test": 8.361206908366034,
+   "static": false,
+   "fast": false
+  },
+  {
+   "id": "R2",
+   "seq": [
+    "Lviv",
+    "Rivne",
+    "Zhytomyr",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 8.113833333333332,
+   "D": 540.1414,
+   "pre": 8.979125341939788,
+   "test": 8.625165429213071,
+   "static": false,
+   "fast": true
+  },
+  {
+   "id": "R3",
+   "seq": [
+    "Lviv",
+    "Ternopil",
+    "Khmelnytskyi",
+    "Zhytomyr",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 8.73338888888889,
+   "D": 586.978,
+   "pre": 9.31698584461283,
+   "test": 8.259897898785965,
+   "static": false,
+   "fast": false
+  },
+  {
+   "id": "R4",
+   "seq": [
+    "Lviv",
+    "Rivne",
+    "Zhytomyr",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 8.976999999999999,
+   "D": 561.1118,
+   "pre": 9.232951317423009,
+   "test": 8.85598335773669,
+   "static": false,
+   "fast": false
+  },
+  {
+   "id": "R5",
+   "seq": [
+    "Lviv",
+    "Ternopil",
+    "Khmelnytskyi",
+    "Vinnytsia",
+    "Zhytomyr",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 9.42438888888889,
+   "D": 625.5413000000001,
+   "pre": 9.468442987300701,
+   "test": 8.021575890130034,
+   "static": false,
+   "fast": false
+  },
+  {
+   "id": "R6",
+   "seq": [
+    "Lviv",
+    "Ternopil",
+    "Khmelnytskyi",
+    "Zhytomyr",
+    "Vinnytsia",
+    "Zhytomyr",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 9.196694444444447,
+   "D": 593.9054,
+   "pre": 9.902251681589537,
+   "test": 8.551522405842272,
+   "static": false,
+   "fast": false
+  },
+  {
+   "id": "R8",
+   "seq": [
+    "Lviv",
+    "Ternopil",
+    "Khmelnytskyi",
+    "Zhytomyr",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 8.750833333333333,
+   "D": 562.0361,
+   "pre": 9.199530385211583,
+   "test": 8.396497457674098,
+   "static": false,
+   "fast": false
+  },
+  {
+   "id": "R9",
+   "seq": [
+    "Lviv",
+    "Volyn",
+    "Rivne",
+    "Zhytomyr",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 8.446416666666666,
+   "D": 551.2216999999999,
+   "pre": 8.773292607175613,
+   "test": 8.567781925207678,
+   "static": true,
+   "fast": false
+  },
+  {
+   "id": "R10",
+   "seq": [
+    "Lviv",
+    "Volyn",
+    "Rivne",
+    "Zhytomyr",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 9.309583333333334,
+   "D": 572.1921,
+   "pre": 9.029786415722674,
+   "test": 8.796233089145714,
+   "static": false,
+   "fast": false
+  }
+ ],
+ "odesa_kyiv": [
+  {
+   "id": "R1",
+   "seq": [
+    "Odesa",
+    "Mykolaiv",
+    "Odesa",
+    "Kirovohrad",
+    "Cherkasy",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 5.695805555555556,
+   "D": 488.18440000000004,
+   "pre": 16.589418404283844,
+   "test": 14.92028386886392,
+   "static": false,
+   "fast": true
+  },
+  {
+   "id": "R2",
+   "seq": [
+    "Odesa",
+    "Mykolaiv",
+    "Odesa",
+    "Kirovohrad",
+    "Cherkasy",
+    "Vinnytsia",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 9.41916666666667,
+   "D": 675.891,
+   "pre": 14.759590271642631,
+   "test": 13.184839738403342,
+   "static": true,
+   "fast": false
+  },
+  {
+   "id": "R3",
+   "seq": [
+    "Odesa",
+    "Mykolaiv",
+    "Kirovohrad",
+    "Cherkasy",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 9.565527777777778,
+   "D": 688.4265,
+   "pre": 19.52638686382884,
+   "test": 16.46867911702241,
+   "static": false,
+   "fast": false
+  },
+  {
+   "id": "R4",
+   "seq": [
+    "Odesa",
+    "Mykolaiv",
+    "Kirovohrad",
+    "Cherkasy",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 9.470416666666667,
+   "D": 630.9033000000001,
+   "pre": 19.905276026953313,
+   "test": 16.277039868934086,
+   "static": false,
+   "fast": false
+  },
+  {
+   "id": "R5",
+   "seq": [
+    "Odesa",
+    "Mykolaiv",
+    "Kirovohrad",
+    "Poltava",
+    "Kirovohrad",
+    "Cherkasy",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 11.85813888888889,
+   "D": 774.5327,
+   "pre": 20.5990054144697,
+   "test": 16.84644002569282,
+   "static": false,
+   "fast": false
+  },
+  {
+   "id": "R6",
+   "seq": [
+    "Odesa",
+    "Mykolaiv",
+    "Kirovohrad",
+    "Cherkasy",
+    "Vinnytsia",
+    "Zhytomyr",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 11.518944444444443,
+   "D": 762.341,
+   "pre": 15.817802303393929,
+   "test": 14.00690445375979,
+   "static": false,
+   "fast": false
+  },
+  {
+   "id": "R7",
+   "seq": [
+    "Odesa",
+    "Mykolaiv",
+    "Odesa",
+    "Kirovohrad",
+    "Cherkasy",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 8.704,
+   "D": 643.8699,
+   "pre": 16.752555583707355,
+   "test": 13.358282797275894,
+   "static": false,
+   "fast": false
+  },
+  {
+   "id": "R8",
+   "seq": [
+    "Odesa",
+    "Mykolaiv",
+    "Kirovohrad",
+    "Cherkasy",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 10.087277777777778,
+   "D": 729.2259,
+   "pre": 18.222781121675723,
+   "test": 15.438068628884679,
+   "static": false,
+   "fast": false
+  }
+ ],
+ "kharkiv_lviv": [
+  {
+   "id": "R1",
+   "seq": [
+    "Kharkiv",
+    "Poltava",
+    "Kyiv obl.",
+    "Kyiv",
+    "Kyiv obl.",
+    "Zhytomyr",
+    "Rivne",
+    "Lviv"
+   ],
+   "T": 14.434055555555558,
+   "D": 1030.1005,
+   "pre": 18.125347256047647,
+   "test": 17.013477606072797,
+   "static": false,
+   "fast": true
+  },
+  {
+   "id": "R2",
+   "seq": [
+    "Kharkiv",
+    "Poltava",
+    "Kirovohrad",
+    "Cherkasy",
+    "Vinnytsia",
+    "Khmelnytskyi",
+    "Ternopil",
+    "Lviv"
+   ],
+   "T": 16.765694444444446,
+   "D": 1089.311,
+   "pre": 18.845800345046975,
+   "test": 15.677710509832266,
+   "static": false,
+   "fast": false
+  },
+  {
+   "id": "R3",
+   "seq": [
+    "Kharkiv",
+    "Dnipropetrovsk",
+    "Kirovohrad",
+    "Cherkasy",
+    "Vinnytsia",
+    "Khmelnytskyi",
+    "Ternopil",
+    "Lviv"
+   ],
+   "T": 16.892138888888887,
+   "D": 1160.8862,
+   "pre": 21.344258215154362,
+   "test": 16.546760163887665,
+   "static": false,
+   "fast": false
+  },
+  {
+   "id": "R4",
+   "seq": [
+    "Kharkiv",
+    "Poltava",
+    "Cherkasy",
+    "Vinnytsia",
+    "Khmelnytskyi",
+    "Ternopil",
+    "Lviv"
+   ],
+   "T": 17.07338888888889,
+   "D": 1093.5195,
+   "pre": 17.909851383091585,
+   "test": 14.114149108947943,
+   "static": false,
+   "fast": false
+  },
+  {
+   "id": "R5",
+   "seq": [
+    "Kharkiv",
+    "Poltava",
+    "Kyiv obl.",
+    "Kyiv",
+    "Kyiv obl.",
+    "Zhytomyr",
+    "Khmelnytskyi",
+    "Ternopil",
+    "Lviv"
+   ],
+   "T": 15.176833333333335,
+   "D": 1078.3855,
+   "pre": 17.889954923850656,
+   "test": 16.41915531065336,
+   "static": true,
+   "fast": false
+  },
+  {
+   "id": "R6",
+   "seq": [
+    "Kharkiv",
+    "Poltava",
+    "Kyiv obl.",
+    "Kyiv",
+    "Kyiv obl.",
+    "Zhytomyr",
+    "Rivne",
+    "Lviv"
+   ],
+   "T": 14.51313888888889,
+   "D": 1028.0194000000001,
+   "pre": 18.20438055542072,
+   "test": 17.07169747539749,
+   "static": false,
+   "fast": false
+  },
+  {
+   "id": "R7",
+   "seq": [
+    "Kharkiv",
+    "Poltava",
+    "Kirovohrad",
+    "Cherkasy",
+    "Vinnytsia",
+    "Khmelnytskyi",
+    "Ternopil",
+    "Lviv"
+   ],
+   "T": 16.660305555555556,
+   "D": 1082.495,
+   "pre": 18.78516206723767,
+   "test": 15.61714287143349,
+   "static": false,
+   "fast": false
+  },
+  {
+   "id": "R8",
+   "seq": [
+    "Kharkiv",
+    "Poltava",
+    "Cherkasy",
+    "Vinnytsia",
+    "Khmelnytskyi",
+    "Ternopil",
+    "Lviv"
+   ],
+   "T": 16.975777777777775,
+   "D": 1078.0919,
+   "pre": 17.981713314871886,
+   "test": 14.19047043615268,
+   "static": false,
+   "fast": false
+  }
+ ],
+ "dnipro_kyiv": [
+  {
+   "id": "R1",
+   "seq": [
+    "Dnipropetrovsk",
+    "Kirovohrad",
+    "Poltava",
+    "Kirovohrad",
+    "Cherkasy",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 7.4864444444444445,
+   "D": 483.0325,
+   "pre": 22.53035458487834,
+   "test": 16.03263286037144,
+   "static": false,
+   "fast": false
+  },
+  {
+   "id": "R2",
+   "seq": [
+    "Dnipropetrovsk",
+    "Kharkiv",
+    "Poltava",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 6.932555555555556,
+   "D": 541.6523000000001,
+   "pre": 28.049040944162805,
+   "test": 24.398869844620748,
+   "static": false,
+   "fast": true
+  },
+  {
+   "id": "R3",
+   "seq": [
+    "Dnipropetrovsk",
+    "Kirovohrad",
+    "Poltava",
+    "Kirovohrad",
+    "Cherkasy",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 8.918722222222222,
+   "D": 565.4858,
+   "pre": 21.763287238681293,
+   "test": 15.689600847526064,
+   "static": false,
+   "fast": false
+  },
+  {
+   "id": "R4",
+   "seq": [
+    "Dnipropetrovsk",
+    "Kirovohrad",
+    "Cherkasy",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 8.590944444444444,
+   "D": 636.671,
+   "pre": 22.703659165741346,
+   "test": 16.74356173293652,
+   "static": false,
+   "fast": false
+  },
+  {
+   "id": "R5",
+   "seq": [
+    "Dnipropetrovsk",
+    "Kirovohrad",
+    "Poltava",
+    "Kirovohrad",
+    "Cherkasy",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 7.494166666666667,
+   "D": 483.1481,
+   "pre": 22.528912153554963,
+   "test": 16.032427647398038,
+   "static": false,
+   "fast": false
+  },
+  {
+   "id": "R6",
+   "seq": [
+    "Dnipropetrovsk",
+    "Kirovohrad",
+    "Cherkasy",
+    "Vinnytsia",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 12.314305555555556,
+   "D": 824.3776,
+   "pre": 19.809357227874266,
+   "test": 14.905516811381094,
+   "static": true,
+   "fast": false
+  },
+  {
+   "id": "R7",
+   "seq": [
+    "Dnipropetrovsk",
+    "Kharkiv",
+    "Poltava",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 6.940250000000001,
+   "D": 541.768,
+   "pre": 28.046577285729686,
+   "test": 24.396902068443936,
+   "static": false,
+   "fast": false
+  },
+  {
+   "id": "R8",
+   "seq": [
+    "Dnipropetrovsk",
+    "Kirovohrad",
+    "Poltava",
+    "Kirovohrad",
+    "Cherkasy",
+    "Kyiv obl.",
+    "Kyiv"
+   ],
+   "T": 9.300416666666667,
+   "D": 614.8629,
+   "pre": 22.697818604764215,
+   "test": 16.708051738025937,
+   "static": false,
+   "fast": false
+  }
+ ]
+}

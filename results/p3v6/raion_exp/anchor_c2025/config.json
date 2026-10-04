@@ -1,0 +1,18 @@
+{
+ "cfg": {
+  "feats": [
+   "base",
+   "inst",
+   "anchor",
+   "no_region"
+  ],
+  "truth": "oblast_any",
+  "win": "c2025",
+  "train_units": "one_per_oblast"
+ },
+ "win": {
+  "T_CAL": "2024-12-01 00:00",
+  "T_EVAL": "2025-01-01 00:00",
+  "T_END": "2025-04-30 23:00"
+ }
+}
