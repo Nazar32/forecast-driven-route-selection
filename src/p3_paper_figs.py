@@ -142,7 +142,7 @@ def fig_graph():
     ax.set_xscale("log"); ax.set_xticks(Ks); ax.set_xticklabels(Ks); ax.minorticks_off()
     ax.set_xlabel("candidate paths $K$"); ax.set_ylabel("reduction of km under alert (%)")
     ax.set_title("(a) OSM primary, 78 OD pairs", pad=3)
-    ax.legend(loc="upper left", handlelength=1.6)
+    ax.legend(loc="upper left", handlelength=1.6, frameon=True, facecolor="white", edgecolor="none", framealpha=0.9)
     ax = axs[1]
     for f, col, ls, lab in [("graph_eval_per_od.csv", MUTED, ":", "corridor"),
                             ("graph_eval_per_od_osm_primary.csv", BLUE, "-", "OSM primary"),
@@ -155,7 +155,8 @@ def fig_graph():
     ax.set_xlabel("per-OD reduction (%)"); ax.set_ylabel("share of OD pairs")
     ax.set_title("(b) $K=10$, by network", pad=3)
     ax.set_xlim(-12, 20); ax.set_xticks([-10, -5, 0, 5, 10, 15, 20])
-    ax.legend(loc="lower right", handlelength=1.4, fontsize=6.5, borderaxespad=0.1)
+    ax.legend(loc="lower right", handlelength=1.4, fontsize=6.5, borderaxespad=0.1, frameon=True, facecolor="white",
+              edgecolor="none", framealpha=0.9)
     fig.tight_layout(w_pad=0.8)
     save(fig, "fig_graph")
 
@@ -190,7 +191,7 @@ def fig_backends():
             q = R[R.backend == b].sort_values("edges")
             ax.plot(range(3), q[sc].values, color=col, marker=mk, ms=3.5, lw=1.1, ls=ls, label=lab)
         ax.set_yscale("log")
-        ax.set_xticks(range(3)); ax.set_xticklabels(["corridor\n126 edges", "OSM primary\n17 100", "OSM + secondary\n29 114"])
+        ax.set_xticks(range(3)); ax.set_xticklabels(["corridor\n126 edges", "OSM primary\n17 100", "OSM secondary\n29 114"])
         ax.set_xlim(-0.25, 2.25); ax.grid(axis="x", visible=False)
         ax.set_title(titles[sc], pad=3)
     axs[0].set_ylabel("median latency per call (ms)")
@@ -264,7 +265,7 @@ def fig_rolling4():
         ax.annotate(f"{v:.1f}", (xi - 1.5 * wd, v), xytext=(0, 1.5), textcoords="offset points", ha="center",
                     fontsize=6, color=INK)
     ax.set_ylabel("reduction, %"); ax.set_title("(a) national OSM network, 78 OD pairs (pooled)", pad=3)
-    ax.set_ylim(-2, 9)
+    ax.set_ylim(-2, 13.5)
     ax.legend(loc="upper left", ncol=2, fontsize=6); ax.grid(axis="x", visible=False)
     ax = axs[1]
     mk = {"lviv_kyiv": "o", "odesa_kyiv": "s", "kharkiv_lviv": "^", "dnipro_kyiv": "D"}
@@ -289,7 +290,9 @@ def fig_rolling4():
 RED = "#e34948"
 SH = {"Дніпропетровська область": "Dnipr.", "Кіровоградська область": "Kirov.",
       "Черкаська область": "Cherkasy", "Вінницька область": "Vinnytsia", "Київська область": "Kyiv obl.",
-      "м. Київ": "city", "Полтавська область": "Poltava", "Харківська область": "Khark."}
+      "м. Київ": "city", "Полтавська область": "Poltava", "Харківська область": "Khark.",
+      "Хмельницька область": "Khmeln.", "Львівська область": "Lviv", "Житомирська область": "Zhyt.",
+      "Тернопільська область": "Tern.", "Рівненська область": "Rivne"}
 EN = {"Дніпропетровська область": "Dnipropetrovsk", "Кіровоградська область": "Kirovohrad",
       "Черкаська область": "Cherkasy", "Вінницька область": "Vinnytsia", "Київська область": "Kyiv obl.",
       "м. Київ": "Kyiv city", "Полтавська область": "Poltava", "Запорізька область": "Zaporizhzhia",
@@ -427,7 +430,7 @@ def fig_case():
         ax.text(T + 0.15, y, f"{kua:.0f} km under alert, {T:.1f} h", va="center", fontsize=6.5, color=INK)
     ax.set_yticks([1, 0]); ax.set_yticklabels([r[0] for r in rows]); ax.set_ylim(-0.75, 1.75)
     ax.set_xlim(0, 1.55 * max(c["static_T_h"], c["chosen_T_h"])); ax.set_xlabel("hours after departure"); ax.grid(axis="y", visible=False)
-    ax.set_title("(a) realized alerts along the two routes (red)", pad=3)
+    ax.set_title("(a) realised alerts along the two routes (red)", pad=3)
     ax = axs[1]
     obl = []
     for tr in (c["static_trav"], c["chosen_trav"]):
@@ -443,7 +446,7 @@ def fig_case():
                 ax.plot(j, i, marker="s", ms=2.2, color=RED, lw=0)
     ax.set_yticks(range(len(obl))); ax.set_yticklabels([EN[o] for o in obl], fontsize=6.5)
     ax.set_xticks(range(0, nj, 2 if nj <= 13 else 3)); ax.set_xlabel("lead (h)"); ax.grid(False)
-    ax.set_title("(b) forecast at departure; red: realized alert", pad=3)
+    ax.set_title("(b) forecast at departure; red: realised alert", pad=3)
     cb = fig.colorbar(im, ax=ax, fraction=0.04, pad=0.02); cb.ax.tick_params(labelsize=6); cb.outline.set_linewidth(0.4)
     fig.tight_layout(w_pad=0.8)
     save(fig, "fig_case")

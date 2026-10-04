@@ -87,7 +87,7 @@ def main():
         rows.append(f"{j} & {u['auc']:.3f} & {u['auc_markov']:.3f} & {u['bss']:.2f} & {u['ece']:.3f} & "
                     f"{s['auc']:.3f} & {s['auc_markov']:.3f} & {s['bss']:.2f} & {s['ece']:.3f} \\\\")
     tex = ("\\begin{tabular}{@{}rcccccccc@{}}\\toprule\n"
-           " & \\multicolumn{4}{c}{\\textbf{Air alerts, Ukraine}} & \\multicolumn{4}{c}{\\textbf{Severe weather, USA}} \\\\\n"
+           " & \\multicolumn{4}{c}{\\textbf{Air alerts, Ukraine}} & \\multicolumn{4}{c}{\\textbf{Severe weather, US}} \\\\\n"
            "\\cmidrule(lr){2-5}\\cmidrule(l){6-9}\n"
            "$j$ (h) & AUC & AUC$_{\\mathrm{M}}$ & BSS & ECE & AUC & AUC$_{\\mathrm{M}}$ & BSS & ECE \\\\\\midrule\n"
            + "\n".join(rows) + "\n\\bottomrule\\end{tabular}\n")

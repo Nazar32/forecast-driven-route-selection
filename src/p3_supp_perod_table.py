@@ -23,10 +23,10 @@ d["dyn"] = 100 * (d["dyn_mu64.0_static_KUA"] - d["dyn_mu64.0_KUA"]) / d["dyn_mu6
 d = d.sort_values("od").reset_index(drop=True)
 
 def row(r):
-    s = "$^{\\ast}$" if (r.pred_K10_p < 0.05 and r.pred > 0) else ("$^{-}$" if (r.pred_K10_p < 0.05 and r.pred < 0) else "")
+    s = "^{\\ast}" if (r.pred_K10_p < 0.05 and r.pred > 0) else ("^{-}" if (r.pred_K10_p < 0.05 and r.pred < 0) else "")
     od = r.od.replace("-", "--")
-    return (f"{od} & {r.T_fast_h:.1f} & {r.static10_KUA:.1f} & {r.pred:+.1f}{s} & {r.mk:+.1f} & {r.react:+.1f} & "
-            f"{r.dyn:+.1f} & {r.orc:.1f} \\\\")
+    return (f"{od} & {r.T_fast_h:.1f} & {r.static10_KUA:.1f} & ${r.pred:+.1f}{s}$ & ${r.mk:+.1f}$ & ${r.react:+.1f}$ & "
+            f"${r.dyn:+.1f}$ & {r.orc:.1f} \\\\")
 
 head = ("\\begin{tabular}{@{}lrrrrrrr@{}}\\toprule\n"
         "\\textbf{OD pair} & $T$ & static & pred. & " + ("roll.\\ Mk." if MKR else "Markov") + " & react. & Dijk. & oracle \\\\\\midrule\n")
